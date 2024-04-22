@@ -1,0 +1,44 @@
+2024-04-19	21:00:05		Started validating training data files...
+2024-04-19	21:00:05		Fetched JSON training schema details.
+2024-04-19	21:00:05		Validated training data file name format.
+2024-04-19	21:00:05		Validated training data file columns.
+2024-04-19	21:00:05		Raw Data Validation Complete!!
+2024-04-19	21:00:05		Started dB operations...
+2024-04-19	21:00:05		Created table in dB.
+2024-04-19	21:00:06		Inserted Good Raw Data in dB.
+2024-04-19	21:00:06		Moved Bad Data files to archive.
+2024-04-19	21:00:06		Deleted Good and Bad Raw Data folders.
+2024-04-19	21:00:06		Fetched training data from dB.
+2024-04-19	21:02:09		Started validating training data files...
+2024-04-19	21:02:09		Fetched JSON training schema details.
+2024-04-19	21:02:09		Validated training data file name format.
+2024-04-19	21:02:09		Validated training data file columns.
+2024-04-19	21:02:09		Raw Data Validation Complete!!
+2024-04-19	21:02:09		Started dB operations...
+2024-04-19	21:02:09		Created table in dB.
+2024-04-19	21:02:10		Inserted Good Raw Data in dB.
+2024-04-19	21:02:10		Error while validating training data::
+2024-04-19	21:05:25		Started validating training data files...
+2024-04-19	21:05:25		Fetched JSON training schema details.
+2024-04-19	21:05:25		Validated training data file name format.
+2024-04-19	21:05:25		Validated training data file columns.
+2024-04-19	21:05:25		Raw Data Validation Complete!!
+2024-04-19	21:05:25		Started dB operations...
+2024-04-19	21:05:25		Created table in dB.
+2024-04-19	21:05:25		Inserted Good Raw Data in dB.
+2024-04-19	21:05:25		Moved Bad Data files to archive.
+2024-04-19	21:05:25		Deleted Good and Bad Raw Data folders.
+2024-04-19	21:05:25		Fetched training data from dB.
+2024-04-19	21:05:25		All operations of Train_Validation are completed !!
+2024-04-19	21:06:07		Started validating training data files...
+2024-04-19	21:06:07		Fetched JSON training schema details.
+2024-04-19	21:06:07		Validated training data file name format.
+2024-04-19	21:06:07		Validated training data file columns.
+2024-04-19	21:06:07		Raw Data Validation Complete!!
+2024-04-19	21:06:07		Started dB operations...
+2024-04-19	21:06:07		Created table in dB.
+2024-04-19	21:06:07		Inserted Good Raw Data in dB.
+2024-04-19	21:06:07		Moved Bad Data files to archive.
+2024-04-19	21:06:07		Deleted Good and Bad Raw Data folders.
+2024-04-19	21:06:07		Fetched training data from dB.
+2024-04-19	21:06:07		All operations of Train_Validation are completed !!

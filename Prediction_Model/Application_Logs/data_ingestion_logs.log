@@ -1,0 +1,54 @@
+2024-04-19	21:00:05		JSON Schema loaded.
+2024-04-19	21:00:05		Removed Good and Bad data folders.
+2024-04-19	21:00:05		Created Good, Bad and Archive Data folders.
+2024-04-19	21:00:05		Invalid file name! File moved to Bad Raw folder::cement_strength_08012020_1200.csv
+2024-04-19	21:00:05		Valid file name! File moved to Good Raw folder::cement_strength_08012020_120000.csv
+2024-04-19	21:00:05		Valid file name! File moved to Good Raw folder::cement_strength_08012020_120021.csv
+2024-04-19	21:00:05		Invalid number of columns! File moved to Bad Raw folder::cement_strength_08012020_120000.csv
+2024-04-19	21:00:05		Connected to MySQL database successfully.
+2024-04-19	21:00:05		Created Table successfully.
+2024-04-19	21:00:05		Connected to MySQL database successfully.
+2024-04-19	21:00:06		Inserted good raw data into dB successfully.
+2024-04-19	21:00:06		Removed Good and Bad data folders.
+2024-04-19	21:00:06		Connected to MySQL database successfully.
+2024-04-19	21:00:06		Fetched data from good_raw_data table.
+2024-04-19	21:02:09		JSON Schema loaded.
+2024-04-19	21:02:09		Removed Good and Bad data folders.
+2024-04-19	21:02:09		Created Good, Bad and Archive Data folders.
+2024-04-19	21:02:09		Invalid file name! File moved to Bad Raw folder::cement_strength_08012020_1200.csv
+2024-04-19	21:02:09		Valid file name! File moved to Good Raw folder::cement_strength_08012020_120000.csv
+2024-04-19	21:02:09		Valid file name! File moved to Good Raw folder::cement_strength_08012020_120021.csv
+2024-04-19	21:02:09		Invalid number of columns! File moved to Bad Raw folder::cement_strength_08012020_120000.csv
+2024-04-19	21:02:09		Connected to MySQL database successfully.
+2024-04-19	21:02:09		Created Table successfully.
+2024-04-19	21:02:09		Connected to MySQL database successfully.
+2024-04-19	21:02:10		Inserted good raw data into dB successfully.
+2024-04-19	21:02:10		Error occurred while moving bad files to archive folder :: Destination path '/home/sahil/WorkSpace/WorkBooks/Projects/CemenetStrength/Prediction_Model/DATA/Raw_Training_Validated/Archive/cement_strength_08012020_1200.csv' already exists
+2024-04-19	21:05:25		JSON Schema loaded.
+2024-04-19	21:05:25		Removed Good and Bad data folders.
+2024-04-19	21:05:25		Created Good, Bad and Archive Data folders.
+2024-04-19	21:05:25		Invalid file name! File moved to Bad Raw folder::cement_strength_08012020_1200.csv
+2024-04-19	21:05:25		Valid file name! File moved to Good Raw folder::cement_strength_08012020_120000.csv
+2024-04-19	21:05:25		Valid file name! File moved to Good Raw folder::cement_strength_08012020_120021.csv
+2024-04-19	21:05:25		Invalid number of columns! File moved to Bad Raw folder::cement_strength_08012020_120000.csv
+2024-04-19	21:05:25		Connected to MySQL database successfully.
+2024-04-19	21:05:25		Created Table successfully.
+2024-04-19	21:05:25		Connected to MySQL database successfully.
+2024-04-19	21:05:25		Inserted good raw data into dB successfully.
+2024-04-19	21:05:25		Removed Good and Bad data folders.
+2024-04-19	21:05:25		Connected to MySQL database successfully.
+2024-04-19	21:05:25		Fetched data from good_raw_data table.
+2024-04-19	21:06:07		JSON Schema loaded.
+2024-04-19	21:06:07		Removed Good and Bad data folders.
+2024-04-19	21:06:07		Created Good, Bad and Archive Data folders.
+2024-04-19	21:06:07		Invalid file name! File moved to Bad Raw folder::cement_strength_08012020_1200.csv
+2024-04-19	21:06:07		Valid file name! File moved to Good Raw folder::cement_strength_08012020_120000.csv
+2024-04-19	21:06:07		Valid file name! File moved to Good Raw folder::cement_strength_08012020_120021.csv
+2024-04-19	21:06:07		Invalid number of columns! File moved to Bad Raw folder::cement_strength_08012020_120000.csv
+2024-04-19	21:06:07		Connected to MySQL database successfully.
+2024-04-19	21:06:07		Created Table successfully.
+2024-04-19	21:06:07		Connected to MySQL database successfully.
+2024-04-19	21:06:07		Inserted good raw data into dB successfully.
+2024-04-19	21:06:07		Removed Good and Bad data folders.
+2024-04-19	21:06:07		Connected to MySQL database successfully.
+2024-04-19	21:06:07		Fetched data from good_raw_data table.
