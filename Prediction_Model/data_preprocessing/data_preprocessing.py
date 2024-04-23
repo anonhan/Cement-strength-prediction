@@ -149,7 +149,7 @@ class Preprocessor:
             df_transformed = dataframe.copy()
 
             for col in numeric_cols:
-                df_transformed[col] = np.add_log(df_transformed[col] + 1)
+                df_transformed[col] = np.log(df_transformed[col] + 1)
             self.logger.add_log(self.log_file, "Log transformed the data.")
             return df_transformed
         except Exception as e:
