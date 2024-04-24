@@ -380,3 +380,51 @@
 2024-04-23	18:24:59		Optimization process completed successfully.
 2024-04-23	18:24:59		Best model is xgboost
 2024-04-23	18:24:59		Successful End of Training
+2024-04-23	23:09:28		Started training the model...
+2024-04-23	23:09:28		Entered into get_data function of Data_Loader class for training data.
+2024-04-23	23:09:28		Training data read successfully.
+2024-04-23	23:09:28		Entered into the is_null_present function of Preprocessor class.
+2024-04-23	23:09:28		Entered into the separate_features_label function of Preprocessor class.
+2024-04-23	23:09:28		Separated label column: Concrete_compressive _strength from the dataframe into X and y.
+2024-04-23	23:09:28		Entered into the log_transform function of Preprocessor class.
+2024-04-23	23:09:28		Log transformed the data.
+2024-04-23	23:09:28		Entered the elbow_plot method of the KMeansClustering class
+2024-04-23	23:09:29		Created Elbow plot and saved it.
+2024-04-23	23:09:29		Found optimal number of clusters which is 4
+2024-04-23	23:09:29		Entered the create_clusters method of the KMeansClustering class
+2024-04-23	23:09:29		Entered the save_model method of the FileOperations class.
+2024-04-23	23:09:29		Model saved successfully.
+2024-04-23	23:09:29		Trained clustering model and saved it.
+2024-04-23	23:09:29		Training on the cluster number 1
+2024-04-23	23:09:29		Entered into the standardize_data function of Preprocessor class.
+2024-04-23	23:09:29		Standardized the data.
+2024-04-23	23:09:29		Entered into the standardize_data function of Preprocessor class.
+2024-04-23	23:09:29		Standardized the data.
+2024-04-23	23:09:29		Starting optimization process.
+2024-04-23	23:10:14		Optimization process completed successfully.
+2024-04-23	23:10:14		Best model is random_forest
+2024-04-23	23:10:15		Training on the cluster number 0
+2024-04-23	23:10:15		Entered into the standardize_data function of Preprocessor class.
+2024-04-23	23:10:15		Standardized the data.
+2024-04-23	23:10:15		Entered into the standardize_data function of Preprocessor class.
+2024-04-23	23:10:15		Standardized the data.
+2024-04-23	23:10:15		Starting optimization process.
+2024-04-23	23:10:57		Optimization process completed successfully.
+2024-04-23	23:10:57		Best model is random_forest
+2024-04-23	23:10:57		Training on the cluster number 2
+2024-04-23	23:10:57		Entered into the standardize_data function of Preprocessor class.
+2024-04-23	23:10:57		Standardized the data.
+2024-04-23	23:10:57		Entered into the standardize_data function of Preprocessor class.
+2024-04-23	23:10:57		Standardized the data.
+2024-04-23	23:10:57		Starting optimization process.
+2024-04-23	23:11:44		Optimization process completed successfully.
+2024-04-23	23:11:44		Best model is random_forest
+2024-04-23	23:11:45		Training on the cluster number 3
+2024-04-23	23:11:45		Entered into the standardize_data function of Preprocessor class.
+2024-04-23	23:11:45		Standardized the data.
+2024-04-23	23:11:45		Entered into the standardize_data function of Preprocessor class.
+2024-04-23	23:11:45		Standardized the data.
+2024-04-23	23:11:45		Starting optimization process.
+2024-04-23	23:12:43		Optimization process completed successfully.
+2024-04-23	23:12:43		Best model is random_forest
+2024-04-23	23:12:44		Successful End of Training

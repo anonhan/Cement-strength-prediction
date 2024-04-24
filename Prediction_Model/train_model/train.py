@@ -72,6 +72,3 @@ class TrainModel:
             error_message = f"Error occurred while training model::{str(e)}"
             self.logger.add_log(self.log_file, error_message)
             raise Exception(error_message)
-        
-cl = TrainModel()
-print(cl.start_training())

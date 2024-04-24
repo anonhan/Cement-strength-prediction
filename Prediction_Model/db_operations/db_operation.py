@@ -5,14 +5,8 @@ import mysql.connector
 import configparser
 from Prediction_Model.app_logging.app_logger import App_Logger
 from Prediction_Model.config.config import (PACAKAGE_ROOT, 
-                                            GOOD_RAW_DIR, 
-                                            BAD_RAW_DIR, 
-                                            DATA_INGESTION_LOGS_FILE, 
                                             GOOD_RAW_TABLE,
-                                            TRAINING_DATA_DIR,
-                                            TRAINING_DATA_FILE,
                                             CHUNK_SIZE,
-                                            DATA_DIR
                                             )
 
 # Create the conig object
@@ -40,17 +34,17 @@ class dBOperations:
                 user = username,
                 password = password
             )
-            logs_file = open(f"{DATA_INGESTION_LOGS_FILE}", 'a+')
-            self.logger.add_log(logs_file ,"Connected to MySQL database successfully.")
-            logs_file.close()
+            # logs_file = open(f"{data_ingestion_logs_path}", 'a+')
+            # self.logger.add_log(logs_file ,"Connected to MySQL database successfully.")
+            # logs_file.close()
             return connection
         except mysql.connector.Error as e:
-            logs_file = open(f"{DATA_INGESTION_LOGS_FILE}", 'a+')
-            self.logger.add_log(logs_file ,"Error while connecting to MySQL database::"+str(e))
-            logs_file.close()
+            # logs_file = open(f"{data_ingestion_logs_path}", 'a+')
+            # self.logger.add_log(logs_file ,"Error while connecting to MySQL database::"+str(e))
+            # logs_file.close()
             return None
     
-    def create_table(self, column_names):
+    def create_table(self, column_names, data_ingestion_logs_path):
         """
         Description: Method to create the table in the db.
         """
@@ -58,7 +52,7 @@ class dBOperations:
             table_name = GOOD_RAW_TABLE
             conn = self.connect_to_db()
             cursor = conn.cursor()
-            logs_file = open(f"{DATA_INGESTION_LOGS_FILE}", 'a+')
+            logs_file = open(f"{data_ingestion_logs_path}", 'a+')
             column_definitions = ", ".join([f"`{name}` {data_type}" for name, data_type in column_names.items()])
             # Construct the CREATE TABLE statement
             create_table_query = f"CREATE TABLE IF NOT EXISTS `{table_name}` ({column_definitions})"
@@ -70,7 +64,7 @@ class dBOperations:
             logs_file.close()
 
         except Exception as e:
-            logs_file = open(f"{DATA_INGESTION_LOGS_FILE}", 'a+')
+            logs_file = open(f"{data_ingestion_logs_path}", 'a+')
             self.logger.add_log(logs_file ,"Error while table creation in dB::"+str(e))
             logs_file.close()
             conn.rollback()
@@ -81,29 +75,29 @@ class dBOperations:
                 cursor.close()
                 conn.close()
 
-    def insert_good_data_into_db(self):
+    def insert_good_data_into_db(self, data_ingestion_logs_path, good_raw_dir):
         """
         Description: Insert the good raw data into Db by reading the files from good data folder.
         """   
         try:
-            files = [file for file in os.listdir(GOOD_RAW_DIR)]
+            files = [file for file in os.listdir(good_raw_dir)]
             conn = self.connect_to_db()
             cursor = conn.cursor()
             table_name = GOOD_RAW_TABLE
             
             for filename in files:
-                with open(f"{GOOD_RAW_DIR}/{filename}", "r") as csv_file:
+                with open(f"{good_raw_dir}/{filename}", "r") as csv_file:
                     csv_reader = csv.reader(csv_file)
                     next(csv_reader)
                     for row in csv_reader:
                         insert_query = f"INSERT INTO {table_name} VALUES ({','.join(['%s'] * len(row))})"
                         cursor.execute(insert_query, row)
             conn.commit()
-            logs_file = open(f"{DATA_INGESTION_LOGS_FILE}", 'a+')
+            logs_file = open(f"{data_ingestion_logs_path}", 'a+')
             self.logger.add_log(logs_file ,"Inserted good raw data into dB successfully.")
 
         except Exception as e:
-            logs_file = open(f"{DATA_INGESTION_LOGS_FILE}", 'a+')
+            logs_file = open(f"{data_ingestion_logs_path}", 'a+')
             self.logger.add_log(logs_file ,"Error while inserting data into dB table::"+str(e))
             logs_file.close()
             conn.rollback()
@@ -114,7 +108,7 @@ class dBOperations:
                 cursor.close()
                 conn.close()
         
-    def select_data_from_table(self):
+    def select_data_from_table(self, data_ingestion_logs_path, data_dir, data_file):
         """
         Description: Method to select the data from the dB tables and returns as CSV
         """
@@ -122,9 +116,9 @@ class dBOperations:
             conn = self.connect_to_db()
             cursor = conn.cursor()
             chunk_size = CHUNK_SIZE
-            if not os.path.exists(TRAINING_DATA_DIR):
-                os.makedirs(TRAINING_DATA_DIR)
-            with open(f"{TRAINING_DATA_DIR}/{TRAINING_DATA_FILE}", "w", newline='') as csvfile:
+            if not os.path.exists(data_dir):
+                os.makedirs(data_dir)
+            with open(f"{data_dir}/{data_file}", "w", newline='') as csvfile:
                 csv_writer = csv.writer(csvfile)
                 # Get table columns
                 cursor.execute(f"SHOW COLUMNS FROM {GOOD_RAW_TABLE};")
@@ -141,12 +135,12 @@ class dBOperations:
                     csv_writer.writerows(rows)
                     offset += chunk_size
 
-            logs_file = open(f"{DATA_INGESTION_LOGS_FILE}", 'a+')
+            logs_file = open(f"{data_ingestion_logs_path}", 'a+')
             self.logger.add_log(logs_file ,f"Fetched data from {GOOD_RAW_TABLE} table.")
             logs_file.close()
 
         except Exception as e:
-            logs_file = open(f"{DATA_INGESTION_LOGS_FILE}", 'a+')
+            logs_file = open(f"{data_ingestion_logs_path}", 'a+')
             self.logger.add_log(logs_file ,"Error while selecting data from dB::"+str(e))
             logs_file.close()
             raise Exception()

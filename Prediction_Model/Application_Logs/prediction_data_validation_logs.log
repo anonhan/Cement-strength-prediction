@@ -1,0 +1,15 @@
+2024-04-24	15:42:41		Started validating prediction data files...
+2024-04-24	15:42:41		Fetched JSON prediction schema details.
+2024-04-24	15:42:41		Error occurred while validating  data: 
+2024-04-24	15:44:05		Started validating prediction data files...
+2024-04-24	15:44:05		Fetched JSON prediction schema details.
+2024-04-24	15:44:05		Validated prediction data file name format.
+2024-04-24	15:44:05		Validated prediction data file columns.
+2024-04-24	15:44:05		Raw Data Validation Complete!!
+2024-04-24	15:44:05		Started dB operations...
+2024-04-24	15:44:05		Created table in dB.
+2024-04-24	15:44:06		Inserted Good Raw Data in dB.
+2024-04-24	15:44:06		Moved Bad Data files to archive.
+2024-04-24	15:44:06		Deleted Good and Bad Raw Data folders.
+2024-04-24	15:44:06		Fetched prediction data from dB.
+2024-04-24	15:44:06		All operations of Prediction_Validation are completed !!
