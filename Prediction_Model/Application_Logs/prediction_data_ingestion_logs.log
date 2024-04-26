@@ -1,15 +1,11 @@
-2024-04-24	15:42:41		JSON Schema loaded.
-2024-04-24	15:42:41		Removed Good and Bad data folders.
-2024-04-24	15:42:41		Created Good, Bad and Archive Data folders.
-2024-04-24	15:42:41		Error occurred while validating training files name::[Errno 2] No such file or directory: '/home/sahil/WorkSpace/WorkBooks/Projects/CemenetStrength/Prediction_Model/DATA/Prediction_Batch_Files'
-2024-04-24	15:44:05		JSON Schema loaded.
-2024-04-24	15:44:05		Removed Good and Bad data folders.
-2024-04-24	15:44:05		Created Good, Bad and Archive Data folders.
-2024-04-24	15:44:05		Invalid file name! File moved to Bad Raw folder::cement_strength_08012020_1200.csv
-2024-04-24	15:44:05		Valid file name! File moved to Good Raw folder::cement_strength_08012020_120000.csv
-2024-04-24	15:44:05		Valid file name! File moved to Good Raw folder::cement_strength_08012020_120021.csv
-2024-04-24	15:44:05		Invalid number of columns! File moved to Bad Raw folder::cement_strength_08012020_120000.csv
-2024-04-24	15:44:05		Created Table successfully.
-2024-04-24	15:44:06		Inserted good raw data into dB successfully.
-2024-04-24	15:44:06		Removed Good and Bad data folders.
-2024-04-24	15:44:06		Fetched data from good_raw_data_pred table.
+2024-04-26	10:53:58		JSON Schema loaded.
+2024-04-26	10:53:58		Removed Good and Bad data folders.
+2024-04-26	10:53:58		Created Good, Bad and Archive Data folders.
+2024-04-26	10:53:58		Invalid file name! File moved to Bad Raw folder::cement_strength_08012020_1200.csv
+2024-04-26	10:53:58		Valid file name! File moved to Good Raw folder::cement_strength_08012020_120000.csv
+2024-04-26	10:53:58		Valid file name! File moved to Good Raw folder::cement_strength_08012020_120021.csv
+2024-04-26	10:53:58		Invalid number of columns! File moved to Bad Raw folder::cement_strength_08012020_120000.csv
+2024-04-26	10:53:58		Created Table successfully.
+2024-04-26	10:53:58		Inserted good raw data into dB successfully.
+2024-04-26	10:53:58		Removed Good and Bad data folders.
+2024-04-26	10:53:58		Fetched data from good_prediction_data table.

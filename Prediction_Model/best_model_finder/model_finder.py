@@ -6,7 +6,7 @@ from sklearn.metrics import r2_score
 from sklearn.model_selection import KFold
 from sklearn.linear_model import LinearRegression
 import xgboost as xgb
-from Prediction_Model.config.config import MLFLOW_URI
+from Prediction_Model.config.config import MLFLOW_URI, N_TRIALS
 
 class BestModelFinder:
     def __init__(self, log_file, logger, X_train, y_train, X_test, y_test):
@@ -97,7 +97,7 @@ class BestModelFinder:
             self.logger.add_log(self.log_file, 'Starting optimization process.')
             study = optuna.create_study(direction='maximize')
             partial_objective = partial(self.objective,cluster_number=cluster_number)
-            study.optimize(partial_objective, n_trials=50)
+            study.optimize(partial_objective, n_trials=N_TRIALS)
             best_params = study.best_params
             best_model = None
             mlflow.set_experiment('Cement-strength-best-models')

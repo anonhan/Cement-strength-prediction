@@ -1,0 +1,29 @@
+2024-04-26	10:53:58		Recived prediction request.
+2024-04-26	10:53:58		Entered into get_data function of Data_Loader class for Prediction data.
+2024-04-26	10:53:58		Prediction data read successfully.
+2024-04-26	10:53:58		Entered into the is_null_present function of Preprocessor class.
+2024-04-26	10:53:58		Entered into the log_transform function of Preprocessor class.
+2024-04-26	10:53:58		Log transformed the data.
+2024-04-26	10:53:58		Entered the load_model method of the FileOperations class.
+2024-04-26	10:53:58		Loaded model Kmeans
+2024-04-26	10:53:58		Entered into the standardize_data function of Preprocessor class.
+2024-04-26	10:53:58		Standardized the data.
+2024-04-26	10:53:58		Entered the find_correct_model method of the FileOperations class.
+2024-04-26	10:53:58		Entered the load_model method of the FileOperations class.
+2024-04-26	10:53:58		Loaded model random_forest2
+2024-04-26	10:54:01		Entered into the standardize_data function of Preprocessor class.
+2024-04-26	10:54:01		Standardized the data.
+2024-04-26	10:54:01		Entered the find_correct_model method of the FileOperations class.
+2024-04-26	10:54:01		Entered the load_model method of the FileOperations class.
+2024-04-26	10:54:01		Loaded model xgboost1
+2024-04-26	10:54:03		Entered into the standardize_data function of Preprocessor class.
+2024-04-26	10:54:03		Standardized the data.
+2024-04-26	10:54:03		Entered the find_correct_model method of the FileOperations class.
+2024-04-26	10:54:03		Entered the load_model method of the FileOperations class.
+2024-04-26	10:54:03		Loaded model linear3
+2024-04-26	10:54:03		Entered into the standardize_data function of Preprocessor class.
+2024-04-26	10:54:03		Standardized the data.
+2024-04-26	10:54:03		Entered the find_correct_model method of the FileOperations class.
+2024-04-26	10:54:03		Entered the load_model method of the FileOperations class.
+2024-04-26	10:54:03		Loaded model random_forest0
+2024-04-26	10:54:05		Successful End of Prediction

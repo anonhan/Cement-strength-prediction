@@ -3,7 +3,7 @@ import os
 import shutil
 import re
 import pandas as pd
-from Prediction_Model.config.config import PACAKAGE_ROOT
+from Prediction_Model.config.config import PACKAGE_ROOT
 from Prediction_Model.app_logging.app_logger import App_Logger
 
 class Raw_Data_Validation:
@@ -11,7 +11,7 @@ class Raw_Data_Validation:
         self.raw_files_path = raw_files_path
         self.logger = App_Logger()
         # self.json_schema = "schema_training.json"
-        self.json_schema = os.path.join(PACAKAGE_ROOT, json_schema_file)
+        self.json_schema = os.path.join(PACKAGE_ROOT, json_schema_file)
     
     def get_values_from_schema(self, data_ingestion_logs_path):
         """

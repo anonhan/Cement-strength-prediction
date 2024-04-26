@@ -4,14 +4,13 @@ import mysql
 import mysql.connector
 import configparser
 from Prediction_Model.app_logging.app_logger import App_Logger
-from Prediction_Model.config.config import (PACAKAGE_ROOT, 
-                                            GOOD_RAW_TABLE,
+from Prediction_Model.config.config import (PACKAGE_ROOT, 
                                             CHUNK_SIZE,
                                             )
 
 # Create the conig object
 config = configparser.ConfigParser()
-config.read(f"{PACAKAGE_ROOT}/user_password.ini")
+config.read(f"{PACKAGE_ROOT}/user_password.ini")
 
 # Access configuration data
 host = config['Database']['Host']
@@ -44,12 +43,12 @@ class dBOperations:
             # logs_file.close()
             return None
     
-    def create_table(self, column_names, data_ingestion_logs_path):
+    def create_table(self, column_names, data_ingestion_logs_path, good_data_table):
         """
         Description: Method to create the table in the db.
         """
         try:
-            table_name = GOOD_RAW_TABLE
+            table_name = good_data_table
             conn = self.connect_to_db()
             cursor = conn.cursor()
             logs_file = open(f"{data_ingestion_logs_path}", 'a+')
@@ -75,7 +74,7 @@ class dBOperations:
                 cursor.close()
                 conn.close()
 
-    def insert_good_data_into_db(self, data_ingestion_logs_path, good_raw_dir):
+    def insert_good_data_into_db(self, data_ingestion_logs_path, good_raw_dir, good_data_table):
         """
         Description: Insert the good raw data into Db by reading the files from good data folder.
         """   
@@ -83,7 +82,7 @@ class dBOperations:
             files = [file for file in os.listdir(good_raw_dir)]
             conn = self.connect_to_db()
             cursor = conn.cursor()
-            table_name = GOOD_RAW_TABLE
+            table_name = good_data_table
             
             for filename in files:
                 with open(f"{good_raw_dir}/{filename}", "r") as csv_file:
@@ -108,7 +107,7 @@ class dBOperations:
                 cursor.close()
                 conn.close()
         
-    def select_data_from_table(self, data_ingestion_logs_path, data_dir, data_file):
+    def select_data_from_table(self, data_ingestion_logs_path, data_dir, data_file, good_data_table):
         """
         Description: Method to select the data from the dB tables and returns as CSV
         """
@@ -121,14 +120,14 @@ class dBOperations:
             with open(f"{data_dir}/{data_file}", "w", newline='') as csvfile:
                 csv_writer = csv.writer(csvfile)
                 # Get table columns
-                cursor.execute(f"SHOW COLUMNS FROM {GOOD_RAW_TABLE};")
+                cursor.execute(f"SHOW COLUMNS FROM {good_data_table};")
                 headers = [column[0] for column in cursor.fetchall()]
                 csv_writer.writerow(headers)
 
                 # Fetch data in chunks and write to CSV
                 offset = 0
                 while True:
-                    cursor.execute(f"SELECT * FROM {GOOD_RAW_TABLE} LIMIT {chunk_size} OFFSET {offset}")
+                    cursor.execute(f"SELECT * FROM {good_data_table} LIMIT {chunk_size} OFFSET {offset}")
                     rows = cursor.fetchall()
                     if not rows:
                         break
@@ -136,7 +135,7 @@ class dBOperations:
                     offset += chunk_size
 
             logs_file = open(f"{data_ingestion_logs_path}", 'a+')
-            self.logger.add_log(logs_file ,f"Fetched data from {GOOD_RAW_TABLE} table.")
+            self.logger.add_log(logs_file ,f"Fetched data from {good_data_table} table.")
             logs_file.close()
 
         except Exception as e:

@@ -2,7 +2,8 @@ import matplotlib.pyplot as plt
 from kneed import KneeLocator
 from sklearn.cluster import KMeans
 from Prediction_Model.file_operations.file_methods import FileOperations
-from Prediction_Model.config.config import PACAKAGE_ROOT, RANDOM_SEED
+from Prediction_Model.data_preprocessing.data_preprocessing import Preprocessor
+from Prediction_Model.config.config import PACKAGE_ROOT, RANDOM_SEED, CLUSTERING_MODEL_NAME, MODELS_DIR
 
 class KMeansClustering:
     def __init__(self, logger_file, logger):
@@ -43,7 +44,7 @@ class KMeansClustering:
             plt.title('Elbow Plot')
             plt.xticks(range(1, max_clusters + 1))
             plt.grid(True)
-            plt.savefig(f'{PACAKAGE_ROOT}/clustering/K-Means_Elbow.PNG')
+            plt.savefig(f'{PACKAGE_ROOT}/clustering/K-Means_Elbow.PNG')
             self.logger.add_log(self.log_file, 'Created Elbow plot and saved it.')
 
             # Find the optimal number of clusters using the KneeLocator
@@ -73,7 +74,7 @@ class KMeansClustering:
             kmeans = KMeans(n_clusters=optimal_clusters, init='k-means++', random_state=RANDOM_SEED)
             y_pred = kmeans.fit_predict(data)
             # Save the model
-            file_operations.save_model(kmeans, "Kmeans")
+            file_operations.save_model(kmeans, CLUSTERING_MODEL_NAME, MODELS_DIR)
 
             data['cluster'] = y_pred
             self.logger.add_log(self.log_file, 'Trained clustering model and saved it.')

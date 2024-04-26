@@ -49,21 +49,37 @@ PREDICTION_DATA_FILE = 'prediction_input_file.csv'
 PREDICTION_DATA_INGESTION_LOGS_FILE = os.path.join(APP_LOGS_DIR, "prediction_data_ingestion_logs.log")
 # Logs for prediction data validation
 PREDICTION_DATA_VALIDATION_LOGS_FILE = os.path.join(APP_LOGS_DIR, "prediction_data_validation_logs.log")
+# Logs for training process
+PREDICTION_LOGS = os.path.join(APP_LOGS_DIR, 'prediction_logs.log')
 # Directories for good, bad, and archived prediction data
 GOOD_RAW_DIR_PRED = os.path.join(PACKAGE_ROOT, PREDICTION_VALIDATED, "Good_Raw_Data")
 BAD_RAW_DIR_PRED = os.path.join(PACKAGE_ROOT, PREDICTION_VALIDATED, "Bad_Raw_Data")
 ARCHIVE_DIR_PRED = os.path.join(PACKAGE_ROOT, PREDICTION_VALIDATED, "Archive")
+# List of numeric columns in the training dataframe
+NUMERIC_COLS_PRED = ['Cement _component_1', 'Blast Furnace Slag _component_2',
+                'Fly Ash _component_3', 'Water_component_4',
+                'Superplasticizer_component_5', 'Coarse Aggregate_component_6',
+                'Fine Aggregate_component_7', 'Age_day',
+                ]
+PREDICTION_OUTPUT_DIR = os.path.join(PACKAGE_ROOT,DATA_DIR,'Prediction_output')
+PREDICTION_OUTPUT_FILE = os.path.join(PREDICTION_OUTPUT_DIR, 'prediction.csv')
+
 
 """Model Paths"""
 # Directory for storing trained models
 MODELS_DIR = os.path.join(PACKAGE_ROOT, "Models")
+PREDICTION_MODELS_DIR = os.path.join(MODELS_DIR, "Prediction_Models")
 # Random seed for reproducibility
 RANDOM_SEED = 42
+CLUSTERING_MODEL_NAME = 'Kmeans'
 
-"""MLFlow and MySQL Configs"""
+"""MLFlow, Optuna and MySQL Configs"""
 # URI for MLFlow tracking
 MLFLOW_URI = 'http://localhost:5000'
+# Number of trails to run for huperparameter
+N_TRIALS = 5
 # Table name for storing good raw data in the database
-GOOD_RAW_TABLE = "good_raw_data_pred"
+GOOD_RAW_TABLE_TRAIN = "good_training_data"
+GOOD_RAW_TABLE_PREDICTION = "good_prediction_data"
 # Chunk size for processing large datasets
 CHUNK_SIZE = 20000

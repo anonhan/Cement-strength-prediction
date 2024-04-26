@@ -1,430 +1,56 @@
-2024-04-23	16:55:57		Started training the model...
-2024-04-23	16:55:57		Entered into get_data function of Data_Loader class for training data.
-2024-04-23	16:55:57		Training data read successfully.
-2024-04-23	16:55:57		Entered into the is_null_present function of Preprocessor class.
-2024-04-23	16:55:57		Entered into the separate_features_label function of Preprocessor class.
-2024-04-23	16:55:57		Separated label column: Concrete_compressive _strength from the dataframe into X and y.
-2024-04-23	16:55:57		Entered into the log_transform function of Preprocessor class.
-2024-04-23	16:55:57		Log transformed the data.
-2024-04-23	16:55:57		Entered the elbow_plot method of the KMeansClustering class
-2024-04-23	16:55:58		Created Elbow plot and saved it.
-2024-04-23	16:55:58		Found optimal number of clusters which is 4
-2024-04-23	16:55:58		Entered the create_clusters method of the KMeansClustering class
-2024-04-23	16:55:58		Entered the save_model method of the FileOperations class.
-2024-04-23	16:55:58		Model saved successfully.
-2024-04-23	16:55:58		Trained clustering model and saved it.
-2024-04-23	16:55:58		Training on the cluster number 3
-2024-04-23	16:55:58		Entered into the standardize_data function of Preprocessor class.
-2024-04-23	16:55:58		Standardized the data.
-2024-04-23	16:55:58		Entered into the standardize_data function of Preprocessor class.
-2024-04-23	16:55:58		Standardized the data.
-2024-04-23	16:55:58		Starting optimization process.
-2024-04-23	16:55:58		Error occurred while creating the objective method: 'BestModelFinder' object has no attribute 'X'
-2024-04-23	16:55:58		Error occurred during model optimization: Error occurred while creating the objective method: 'BestModelFinder' object has no attribute 'X'
-2024-04-23	16:55:58		Error occurred while training model::Error occurred during model optimization: Error occurred while creating the objective method: 'BestModelFinder' object has no attribute 'X'
-2024-04-23	17:00:17		Started training the model...
-2024-04-23	17:00:17		Entered into get_data function of Data_Loader class for training data.
-2024-04-23	17:00:17		Training data read successfully.
-2024-04-23	17:00:17		Entered into the is_null_present function of Preprocessor class.
-2024-04-23	17:00:17		Entered into the separate_features_label function of Preprocessor class.
-2024-04-23	17:00:17		Separated label column: Concrete_compressive _strength from the dataframe into X and y.
-2024-04-23	17:00:17		Entered into the log_transform function of Preprocessor class.
-2024-04-23	17:00:17		Log transformed the data.
-2024-04-23	17:00:17		Entered the elbow_plot method of the KMeansClustering class
-2024-04-23	17:00:18		Created Elbow plot and saved it.
-2024-04-23	17:00:18		Found optimal number of clusters which is 4
-2024-04-23	17:00:18		Entered the create_clusters method of the KMeansClustering class
-2024-04-23	17:00:18		Entered the save_model method of the FileOperations class.
-2024-04-23	17:00:18		Model saved successfully.
-2024-04-23	17:00:18		Trained clustering model and saved it.
-2024-04-23	17:00:18		Training on the cluster number 3
-2024-04-23	17:00:18		Entered into the standardize_data function of Preprocessor class.
-2024-04-23	17:00:18		Standardized the data.
-2024-04-23	17:00:18		Entered into the standardize_data function of Preprocessor class.
-2024-04-23	17:00:18		Standardized the data.
-2024-04-23	17:00:18		Starting optimization process.
-2024-04-23	17:00:18		Error occurred while creating the objective method: name 'KFold' is not defined
-2024-04-23	17:00:18		Error occurred during model optimization: Error occurred while creating the objective method: name 'KFold' is not defined
-2024-04-23	17:00:18		Error occurred while training model::Error occurred during model optimization: Error occurred while creating the objective method: name 'KFold' is not defined
-2024-04-23	17:00:43		Started training the model...
-2024-04-23	17:00:43		Entered into get_data function of Data_Loader class for training data.
-2024-04-23	17:00:43		Training data read successfully.
-2024-04-23	17:00:43		Entered into the is_null_present function of Preprocessor class.
-2024-04-23	17:00:43		Entered into the separate_features_label function of Preprocessor class.
-2024-04-23	17:00:43		Separated label column: Concrete_compressive _strength from the dataframe into X and y.
-2024-04-23	17:00:43		Entered into the log_transform function of Preprocessor class.
-2024-04-23	17:00:43		Log transformed the data.
-2024-04-23	17:00:43		Entered the elbow_plot method of the KMeansClustering class
-2024-04-23	17:00:45		Created Elbow plot and saved it.
-2024-04-23	17:00:45		Found optimal number of clusters which is 4
-2024-04-23	17:00:45		Entered the create_clusters method of the KMeansClustering class
-2024-04-23	17:00:45		Entered the save_model method of the FileOperations class.
-2024-04-23	17:00:45		Model saved successfully.
-2024-04-23	17:00:45		Trained clustering model and saved it.
-2024-04-23	17:00:45		Training on the cluster number 3
-2024-04-23	17:00:45		Entered into the standardize_data function of Preprocessor class.
-2024-04-23	17:00:45		Standardized the data.
-2024-04-23	17:00:45		Entered into the standardize_data function of Preprocessor class.
-2024-04-23	17:00:45		Standardized the data.
-2024-04-23	17:00:45		Starting optimization process.
-2024-04-23	17:00:45		Error occurred while creating the objective method: "None of [Index([  0,   1,   3,   4,   5,   7,   8,   9,  11,  12,\n       ...\n       605, 607, 608, 609, 610, 611, 612, 615, 616, 617],\n      dtype='int64', length=494)] are in the [columns]"
-2024-04-23	17:00:45		Error occurred during model optimization: Error occurred while creating the objective method: "None of [Index([  0,   1,   3,   4,   5,   7,   8,   9,  11,  12,\n       ...\n       605, 607, 608, 609, 610, 611, 612, 615, 616, 617],\n      dtype='int64', length=494)] are in the [columns]"
-2024-04-23	17:00:45		Error occurred while training model::Error occurred during model optimization: Error occurred while creating the objective method: "None of [Index([  0,   1,   3,   4,   5,   7,   8,   9,  11,  12,\n       ...\n       605, 607, 608, 609, 610, 611, 612, 615, 616, 617],\n      dtype='int64', length=494)] are in the [columns]"
-2024-04-23	17:04:53		Started training the model...
-2024-04-23	17:04:53		Entered into get_data function of Data_Loader class for training data.
-2024-04-23	17:04:53		Training data read successfully.
-2024-04-23	17:04:53		Entered into the is_null_present function of Preprocessor class.
-2024-04-23	17:04:53		Entered into the separate_features_label function of Preprocessor class.
-2024-04-23	17:04:53		Separated label column: Concrete_compressive _strength from the dataframe into X and y.
-2024-04-23	17:04:53		Entered into the log_transform function of Preprocessor class.
-2024-04-23	17:04:53		Log transformed the data.
-2024-04-23	17:04:53		Entered the elbow_plot method of the KMeansClustering class
-2024-04-23	17:04:54		Created Elbow plot and saved it.
-2024-04-23	17:04:54		Found optimal number of clusters which is 4
-2024-04-23	17:04:54		Entered the create_clusters method of the KMeansClustering class
-2024-04-23	17:04:54		Entered the save_model method of the FileOperations class.
-2024-04-23	17:04:54		Model saved successfully.
-2024-04-23	17:04:54		Trained clustering model and saved it.
-2024-04-23	17:04:54		Training on the cluster number 3
-2024-04-23	17:04:54		Entered into the standardize_data function of Preprocessor class.
-2024-04-23	17:04:54		Standardized the data.
-2024-04-23	17:04:54		Entered into the standardize_data function of Preprocessor class.
-2024-04-23	17:04:54		Standardized the data.
-2024-04-23	17:04:54		Starting optimization process.
-2024-04-23	17:04:54		Error occurred while creating the objective method: name 'x_tr' is not defined
-2024-04-23	17:04:54		Error occurred during model optimization: Error occurred while creating the objective method: name 'x_tr' is not defined
-2024-04-23	17:04:54		Error occurred while training model::Error occurred during model optimization: Error occurred while creating the objective method: name 'x_tr' is not defined
-2024-04-23	17:07:01		Started training the model...
-2024-04-23	17:07:01		Entered into get_data function of Data_Loader class for training data.
-2024-04-23	17:07:01		Training data read successfully.
-2024-04-23	17:07:01		Entered into the is_null_present function of Preprocessor class.
-2024-04-23	17:07:01		Entered into the separate_features_label function of Preprocessor class.
-2024-04-23	17:07:01		Separated label column: Concrete_compressive _strength from the dataframe into X and y.
-2024-04-23	17:07:01		Entered into the log_transform function of Preprocessor class.
-2024-04-23	17:07:01		Log transformed the data.
-2024-04-23	17:07:01		Entered the elbow_plot method of the KMeansClustering class
-2024-04-23	17:07:02		Created Elbow plot and saved it.
-2024-04-23	17:07:02		Found optimal number of clusters which is 4
-2024-04-23	17:07:02		Entered the create_clusters method of the KMeansClustering class
-2024-04-23	17:07:02		Entered the save_model method of the FileOperations class.
-2024-04-23	17:07:02		Model saved successfully.
-2024-04-23	17:07:02		Trained clustering model and saved it.
-2024-04-23	17:07:02		Training on the cluster number 3
-2024-04-23	17:07:02		Entered into the standardize_data function of Preprocessor class.
-2024-04-23	17:07:02		Standardized the data.
-2024-04-23	17:07:02		Entered into the standardize_data function of Preprocessor class.
-2024-04-23	17:07:02		Standardized the data.
-2024-04-23	17:07:02		Starting optimization process.
-2024-04-23	17:07:02		Error occurred while creating the objective method: name 'x_tr' is not defined
-2024-04-23	17:07:02		Error occurred during model optimization: Error occurred while creating the objective method: name 'x_tr' is not defined
-2024-04-23	17:07:02		Error occurred while training model::Error occurred during model optimization: Error occurred while creating the objective method: name 'x_tr' is not defined
-2024-04-23	17:11:50		Started training the model...
-2024-04-23	17:11:50		Entered into get_data function of Data_Loader class for training data.
-2024-04-23	17:11:50		Training data read successfully.
-2024-04-23	17:11:50		Entered into the is_null_present function of Preprocessor class.
-2024-04-23	17:11:50		Entered into the separate_features_label function of Preprocessor class.
-2024-04-23	17:11:50		Separated label column: Concrete_compressive _strength from the dataframe into X and y.
-2024-04-23	17:11:50		Entered into the log_transform function of Preprocessor class.
-2024-04-23	17:11:50		Log transformed the data.
-2024-04-23	17:11:50		Entered the elbow_plot method of the KMeansClustering class
-2024-04-23	17:11:50		Created Elbow plot and saved it.
-2024-04-23	17:11:50		Found optimal number of clusters which is 4
-2024-04-23	17:11:50		Entered the create_clusters method of the KMeansClustering class
-2024-04-23	17:11:50		Entered the save_model method of the FileOperations class.
-2024-04-23	17:11:50		Model saved successfully.
-2024-04-23	17:11:50		Trained clustering model and saved it.
-2024-04-23	17:11:50		Training on the cluster number 3
-2024-04-23	17:11:50		Entered into the standardize_data function of Preprocessor class.
-2024-04-23	17:11:50		Standardized the data.
-2024-04-23	17:11:50		Entered into the standardize_data function of Preprocessor class.
-2024-04-23	17:11:50		Standardized the data.
-2024-04-23	17:11:50		Starting optimization process.
-2024-04-23	17:11:51		Error occurred while creating the objective method: name 'y_tr' is not defined
-2024-04-23	17:11:51		Error occurred during model optimization: Error occurred while creating the objective method: name 'y_tr' is not defined
-2024-04-23	17:11:51		Error occurred while training model::Error occurred during model optimization: Error occurred while creating the objective method: name 'y_tr' is not defined
-2024-04-23	17:13:27		Started training the model...
-2024-04-23	17:13:27		Entered into get_data function of Data_Loader class for training data.
-2024-04-23	17:13:27		Training data read successfully.
-2024-04-23	17:13:27		Entered into the is_null_present function of Preprocessor class.
-2024-04-23	17:13:27		Entered into the separate_features_label function of Preprocessor class.
-2024-04-23	17:13:27		Separated label column: Concrete_compressive _strength from the dataframe into X and y.
-2024-04-23	17:13:27		Entered into the log_transform function of Preprocessor class.
-2024-04-23	17:13:27		Log transformed the data.
-2024-04-23	17:13:27		Entered the elbow_plot method of the KMeansClustering class
-2024-04-23	17:13:28		Created Elbow plot and saved it.
-2024-04-23	17:13:28		Found optimal number of clusters which is 4
-2024-04-23	17:13:28		Entered the create_clusters method of the KMeansClustering class
-2024-04-23	17:13:28		Entered the save_model method of the FileOperations class.
-2024-04-23	17:13:28		Model saved successfully.
-2024-04-23	17:13:28		Trained clustering model and saved it.
-2024-04-23	17:13:28		Training on the cluster number 3
-2024-04-23	17:13:28		Entered into the standardize_data function of Preprocessor class.
-2024-04-23	17:13:28		Standardized the data.
-2024-04-23	17:13:28		Entered into the standardize_data function of Preprocessor class.
-2024-04-23	17:13:28		Standardized the data.
-2024-04-23	17:13:28		Starting optimization process.
-2024-04-23	17:13:30		Optimization process completed successfully.
-2024-04-23	17:13:30		Best model is random_forest
-2024-04-23	17:13:30		Training on the cluster number 1
-2024-04-23	17:13:30		Entered into the standardize_data function of Preprocessor class.
-2024-04-23	17:13:30		Standardized the data.
-2024-04-23	17:13:30		Entered into the standardize_data function of Preprocessor class.
-2024-04-23	17:13:30		Standardized the data.
-2024-04-23	17:13:30		Starting optimization process.
-2024-04-23	17:13:31		Optimization process completed successfully.
-2024-04-23	17:13:31		Best model is xgboost
-2024-04-23	17:13:31		Training on the cluster number 2
-2024-04-23	17:13:31		Entered into the standardize_data function of Preprocessor class.
-2024-04-23	17:13:31		Standardized the data.
-2024-04-23	17:13:31		Entered into the standardize_data function of Preprocessor class.
-2024-04-23	17:13:31		Standardized the data.
-2024-04-23	17:13:31		Starting optimization process.
-2024-04-23	17:13:31		Optimization process completed successfully.
-2024-04-23	17:13:31		Best model is random_forest
-2024-04-23	17:13:31		Training on the cluster number 0
-2024-04-23	17:13:31		Entered into the standardize_data function of Preprocessor class.
-2024-04-23	17:13:31		Standardized the data.
-2024-04-23	17:13:31		Entered into the standardize_data function of Preprocessor class.
-2024-04-23	17:13:31		Standardized the data.
-2024-04-23	17:13:31		Starting optimization process.
-2024-04-23	17:13:32		Optimization process completed successfully.
-2024-04-23	17:13:32		Best model is linear
-2024-04-23	17:13:32		Successful End of Training
-2024-04-23	17:32:30		Started training the model...
-2024-04-23	17:32:30		Entered into get_data function of Data_Loader class for training data.
-2024-04-23	17:32:30		Training data read successfully.
-2024-04-23	17:32:30		Entered into the is_null_present function of Preprocessor class.
-2024-04-23	17:32:30		Entered into the separate_features_label function of Preprocessor class.
-2024-04-23	17:32:30		Separated label column: Concrete_compressive _strength from the dataframe into X and y.
-2024-04-23	17:32:30		Entered into the log_transform function of Preprocessor class.
-2024-04-23	17:32:30		Log transformed the data.
-2024-04-23	17:32:30		Entered the elbow_plot method of the KMeansClustering class
-2024-04-23	17:32:30		Created Elbow plot and saved it.
-2024-04-23	17:32:30		Found optimal number of clusters which is 4
-2024-04-23	17:32:30		Entered the create_clusters method of the KMeansClustering class
-2024-04-23	17:32:31		Entered the save_model method of the FileOperations class.
-2024-04-23	17:32:31		Model saved successfully.
-2024-04-23	17:32:31		Trained clustering model and saved it.
-2024-04-23	17:32:31		Training on the cluster number 3
-2024-04-23	17:32:31		Entered into the standardize_data function of Preprocessor class.
-2024-04-23	17:32:31		Standardized the data.
-2024-04-23	17:32:31		Entered into the standardize_data function of Preprocessor class.
-2024-04-23	17:32:31		Standardized the data.
-2024-04-23	17:32:31		Starting optimization process.
-2024-04-23	17:32:31		Error occurred during model optimization: the first argument must be callable
-2024-04-23	17:32:31		Error occurred while training model::Error occurred during model optimization: the first argument must be callable
-2024-04-23	17:33:24		Started training the model...
-2024-04-23	17:33:24		Entered into get_data function of Data_Loader class for training data.
-2024-04-23	17:33:24		Training data read successfully.
-2024-04-23	17:33:24		Entered into the is_null_present function of Preprocessor class.
-2024-04-23	17:33:24		Entered into the separate_features_label function of Preprocessor class.
-2024-04-23	17:33:24		Separated label column: Concrete_compressive _strength from the dataframe into X and y.
-2024-04-23	17:33:24		Entered into the log_transform function of Preprocessor class.
-2024-04-23	17:33:24		Log transformed the data.
-2024-04-23	17:33:24		Entered the elbow_plot method of the KMeansClustering class
-2024-04-23	17:33:25		Created Elbow plot and saved it.
-2024-04-23	17:33:25		Found optimal number of clusters which is 4
-2024-04-23	17:33:25		Entered the create_clusters method of the KMeansClustering class
-2024-04-23	17:33:25		Entered the save_model method of the FileOperations class.
-2024-04-23	17:33:25		Model saved successfully.
-2024-04-23	17:33:25		Trained clustering model and saved it.
-2024-04-23	17:33:25		Training on the cluster number 3
-2024-04-23	17:33:25		Entered into the standardize_data function of Preprocessor class.
-2024-04-23	17:33:25		Standardized the data.
-2024-04-23	17:33:25		Entered into the standardize_data function of Preprocessor class.
-2024-04-23	17:33:25		Standardized the data.
-2024-04-23	17:33:25		Starting optimization process.
-2024-04-23	17:33:26		Optimization process completed successfully.
-2024-04-23	17:33:26		Best model is random_forest
-2024-04-23	17:33:26		Training on the cluster number 1
-2024-04-23	17:33:26		Entered into the standardize_data function of Preprocessor class.
-2024-04-23	17:33:26		Standardized the data.
-2024-04-23	17:33:26		Entered into the standardize_data function of Preprocessor class.
-2024-04-23	17:33:26		Standardized the data.
-2024-04-23	17:33:26		Starting optimization process.
-2024-04-23	17:33:27		Optimization process completed successfully.
-2024-04-23	17:33:27		Best model is random_forest
-2024-04-23	17:33:27		Training on the cluster number 2
-2024-04-23	17:33:27		Entered into the standardize_data function of Preprocessor class.
-2024-04-23	17:33:27		Standardized the data.
-2024-04-23	17:33:27		Entered into the standardize_data function of Preprocessor class.
-2024-04-23	17:33:27		Standardized the data.
-2024-04-23	17:33:27		Starting optimization process.
-2024-04-23	17:33:29		Optimization process completed successfully.
-2024-04-23	17:33:29		Best model is random_forest
-2024-04-23	17:33:29		Training on the cluster number 0
-2024-04-23	17:33:29		Entered into the standardize_data function of Preprocessor class.
-2024-04-23	17:33:29		Standardized the data.
-2024-04-23	17:33:29		Entered into the standardize_data function of Preprocessor class.
-2024-04-23	17:33:29		Standardized the data.
-2024-04-23	17:33:29		Starting optimization process.
-2024-04-23	17:33:30		Optimization process completed successfully.
-2024-04-23	17:33:30		Best model is random_forest
-2024-04-23	17:33:30		Successful End of Training
-2024-04-23	17:36:09		Started training the model...
-2024-04-23	17:36:09		Entered into get_data function of Data_Loader class for training data.
-2024-04-23	17:36:09		Training data read successfully.
-2024-04-23	17:36:09		Entered into the is_null_present function of Preprocessor class.
-2024-04-23	17:36:09		Entered into the separate_features_label function of Preprocessor class.
-2024-04-23	17:36:09		Separated label column: Concrete_compressive _strength from the dataframe into X and y.
-2024-04-23	17:36:09		Entered into the log_transform function of Preprocessor class.
-2024-04-23	17:36:09		Log transformed the data.
-2024-04-23	17:36:09		Entered the elbow_plot method of the KMeansClustering class
-2024-04-23	17:36:09		Created Elbow plot and saved it.
-2024-04-23	17:36:09		Found optimal number of clusters which is 4
-2024-04-23	17:36:09		Entered the create_clusters method of the KMeansClustering class
-2024-04-23	17:36:10		Entered the save_model method of the FileOperations class.
-2024-04-23	17:36:10		Model saved successfully.
-2024-04-23	17:36:10		Trained clustering model and saved it.
-2024-04-23	17:36:10		Training on the cluster number 3
-2024-04-23	17:36:10		Entered into the standardize_data function of Preprocessor class.
-2024-04-23	17:36:10		Standardized the data.
-2024-04-23	17:36:10		Entered into the standardize_data function of Preprocessor class.
-2024-04-23	17:36:10		Standardized the data.
-2024-04-23	17:36:10		Starting optimization process.
-2024-04-23	17:36:11		Optimization process completed successfully.
-2024-04-23	17:36:11		Best model is random_forest
-2024-04-23	17:36:11		Training on the cluster number 1
-2024-04-23	17:36:11		Entered into the standardize_data function of Preprocessor class.
-2024-04-23	17:36:11		Standardized the data.
-2024-04-23	17:36:11		Entered into the standardize_data function of Preprocessor class.
-2024-04-23	17:36:11		Standardized the data.
-2024-04-23	17:36:11		Starting optimization process.
-2024-04-23	17:36:11		Optimization process completed successfully.
-2024-04-23	17:36:11		Best model is xgboost
-2024-04-23	17:36:11		Training on the cluster number 2
-2024-04-23	17:36:11		Entered into the standardize_data function of Preprocessor class.
-2024-04-23	17:36:11		Standardized the data.
-2024-04-23	17:36:11		Entered into the standardize_data function of Preprocessor class.
-2024-04-23	17:36:11		Standardized the data.
-2024-04-23	17:36:11		Starting optimization process.
-2024-04-23	17:36:14		Optimization process completed successfully.
-2024-04-23	17:36:14		Best model is random_forest
-2024-04-23	17:36:14		Training on the cluster number 0
-2024-04-23	17:36:14		Entered into the standardize_data function of Preprocessor class.
-2024-04-23	17:36:14		Standardized the data.
-2024-04-23	17:36:14		Entered into the standardize_data function of Preprocessor class.
-2024-04-23	17:36:14		Standardized the data.
-2024-04-23	17:36:14		Starting optimization process.
-2024-04-23	17:36:14		Optimization process completed successfully.
-2024-04-23	17:36:14		Best model is linear
-2024-04-23	17:36:14		Successful End of Training
-2024-04-23	18:20:48		Started training the model...
-2024-04-23	18:20:48		Entered into get_data function of Data_Loader class for training data.
-2024-04-23	18:20:48		Training data read successfully.
-2024-04-23	18:20:48		Entered into the is_null_present function of Preprocessor class.
-2024-04-23	18:20:48		Entered into the separate_features_label function of Preprocessor class.
-2024-04-23	18:20:48		Separated label column: Concrete_compressive _strength from the dataframe into X and y.
-2024-04-23	18:20:48		Entered into the log_transform function of Preprocessor class.
-2024-04-23	18:20:48		Log transformed the data.
-2024-04-23	18:20:48		Entered the elbow_plot method of the KMeansClustering class
-2024-04-23	18:20:49		Created Elbow plot and saved it.
-2024-04-23	18:20:49		Found optimal number of clusters which is 4
-2024-04-23	18:20:49		Entered the create_clusters method of the KMeansClustering class
-2024-04-23	18:20:49		Entered the save_model method of the FileOperations class.
-2024-04-23	18:20:49		Model saved successfully.
-2024-04-23	18:20:49		Trained clustering model and saved it.
-2024-04-23	18:20:49		Training on the cluster number 3
-2024-04-23	18:20:49		Entered into the standardize_data function of Preprocessor class.
-2024-04-23	18:20:49		Standardized the data.
-2024-04-23	18:20:49		Entered into the standardize_data function of Preprocessor class.
-2024-04-23	18:20:49		Standardized the data.
-2024-04-23	18:20:49		Starting optimization process.
-2024-04-23	18:20:49		Error occurred during model optimization: 'Experiment' object does not support the context manager protocol
-2024-04-23	18:20:49		Error occurred while training model::Error occurred during model optimization: 'Experiment' object does not support the context manager protocol
-2024-04-23	18:22:48		Started training the model...
-2024-04-23	18:22:48		Entered into get_data function of Data_Loader class for training data.
-2024-04-23	18:22:48		Training data read successfully.
-2024-04-23	18:22:48		Entered into the is_null_present function of Preprocessor class.
-2024-04-23	18:22:48		Entered into the separate_features_label function of Preprocessor class.
-2024-04-23	18:22:48		Separated label column: Concrete_compressive _strength from the dataframe into X and y.
-2024-04-23	18:22:48		Entered into the log_transform function of Preprocessor class.
-2024-04-23	18:22:48		Log transformed the data.
-2024-04-23	18:22:48		Entered the elbow_plot method of the KMeansClustering class
-2024-04-23	18:22:49		Created Elbow plot and saved it.
-2024-04-23	18:22:49		Found optimal number of clusters which is 4
-2024-04-23	18:22:49		Entered the create_clusters method of the KMeansClustering class
-2024-04-23	18:22:49		Entered the save_model method of the FileOperations class.
-2024-04-23	18:22:49		Model saved successfully.
-2024-04-23	18:22:49		Trained clustering model and saved it.
-2024-04-23	18:22:49		Training on the cluster number 3
-2024-04-23	18:22:49		Entered into the standardize_data function of Preprocessor class.
-2024-04-23	18:22:49		Standardized the data.
-2024-04-23	18:22:49		Entered into the standardize_data function of Preprocessor class.
-2024-04-23	18:22:49		Standardized the data.
-2024-04-23	18:22:49		Starting optimization process.
-2024-04-23	18:23:14		Optimization process completed successfully.
-2024-04-23	18:23:14		Best model is random_forest
-2024-04-23	18:23:14		Training on the cluster number 1
-2024-04-23	18:23:14		Entered into the standardize_data function of Preprocessor class.
-2024-04-23	18:23:14		Standardized the data.
-2024-04-23	18:23:14		Entered into the standardize_data function of Preprocessor class.
-2024-04-23	18:23:14		Standardized the data.
-2024-04-23	18:23:14		Starting optimization process.
-2024-04-23	18:24:00		Optimization process completed successfully.
-2024-04-23	18:24:00		Best model is random_forest
-2024-04-23	18:24:01		Training on the cluster number 2
-2024-04-23	18:24:01		Entered into the standardize_data function of Preprocessor class.
-2024-04-23	18:24:01		Standardized the data.
-2024-04-23	18:24:01		Entered into the standardize_data function of Preprocessor class.
-2024-04-23	18:24:01		Standardized the data.
-2024-04-23	18:24:01		Starting optimization process.
-2024-04-23	18:24:37		Optimization process completed successfully.
-2024-04-23	18:24:37		Best model is random_forest
-2024-04-23	18:24:38		Training on the cluster number 0
-2024-04-23	18:24:38		Entered into the standardize_data function of Preprocessor class.
-2024-04-23	18:24:38		Standardized the data.
-2024-04-23	18:24:38		Entered into the standardize_data function of Preprocessor class.
-2024-04-23	18:24:38		Standardized the data.
-2024-04-23	18:24:38		Starting optimization process.
-2024-04-23	18:24:59		Optimization process completed successfully.
-2024-04-23	18:24:59		Best model is xgboost
-2024-04-23	18:24:59		Successful End of Training
-2024-04-23	23:09:28		Started training the model...
-2024-04-23	23:09:28		Entered into get_data function of Data_Loader class for training data.
-2024-04-23	23:09:28		Training data read successfully.
-2024-04-23	23:09:28		Entered into the is_null_present function of Preprocessor class.
-2024-04-23	23:09:28		Entered into the separate_features_label function of Preprocessor class.
-2024-04-23	23:09:28		Separated label column: Concrete_compressive _strength from the dataframe into X and y.
-2024-04-23	23:09:28		Entered into the log_transform function of Preprocessor class.
-2024-04-23	23:09:28		Log transformed the data.
-2024-04-23	23:09:28		Entered the elbow_plot method of the KMeansClustering class
-2024-04-23	23:09:29		Created Elbow plot and saved it.
-2024-04-23	23:09:29		Found optimal number of clusters which is 4
-2024-04-23	23:09:29		Entered the create_clusters method of the KMeansClustering class
-2024-04-23	23:09:29		Entered the save_model method of the FileOperations class.
-2024-04-23	23:09:29		Model saved successfully.
-2024-04-23	23:09:29		Trained clustering model and saved it.
-2024-04-23	23:09:29		Training on the cluster number 1
-2024-04-23	23:09:29		Entered into the standardize_data function of Preprocessor class.
-2024-04-23	23:09:29		Standardized the data.
-2024-04-23	23:09:29		Entered into the standardize_data function of Preprocessor class.
-2024-04-23	23:09:29		Standardized the data.
-2024-04-23	23:09:29		Starting optimization process.
-2024-04-23	23:10:14		Optimization process completed successfully.
-2024-04-23	23:10:14		Best model is random_forest
-2024-04-23	23:10:15		Training on the cluster number 0
-2024-04-23	23:10:15		Entered into the standardize_data function of Preprocessor class.
-2024-04-23	23:10:15		Standardized the data.
-2024-04-23	23:10:15		Entered into the standardize_data function of Preprocessor class.
-2024-04-23	23:10:15		Standardized the data.
-2024-04-23	23:10:15		Starting optimization process.
-2024-04-23	23:10:57		Optimization process completed successfully.
-2024-04-23	23:10:57		Best model is random_forest
-2024-04-23	23:10:57		Training on the cluster number 2
-2024-04-23	23:10:57		Entered into the standardize_data function of Preprocessor class.
-2024-04-23	23:10:57		Standardized the data.
-2024-04-23	23:10:57		Entered into the standardize_data function of Preprocessor class.
-2024-04-23	23:10:57		Standardized the data.
-2024-04-23	23:10:57		Starting optimization process.
-2024-04-23	23:11:44		Optimization process completed successfully.
-2024-04-23	23:11:44		Best model is random_forest
-2024-04-23	23:11:45		Training on the cluster number 3
-2024-04-23	23:11:45		Entered into the standardize_data function of Preprocessor class.
-2024-04-23	23:11:45		Standardized the data.
-2024-04-23	23:11:45		Entered into the standardize_data function of Preprocessor class.
-2024-04-23	23:11:45		Standardized the data.
-2024-04-23	23:11:45		Starting optimization process.
-2024-04-23	23:12:43		Optimization process completed successfully.
-2024-04-23	23:12:43		Best model is random_forest
-2024-04-23	23:12:44		Successful End of Training
+2024-04-26	10:53:31		Started training the model...
+2024-04-26	10:53:31		Entered into get_data function of Data_Loader class for training data.
+2024-04-26	10:53:31		Training data read successfully.
+2024-04-26	10:53:31		Entered into the is_null_present function of Preprocessor class.
+2024-04-26	10:53:31		Entered into the separate_features_label function of Preprocessor class.
+2024-04-26	10:53:31		Separated label column: Concrete_compressive _strength from the dataframe into X and y.
+2024-04-26	10:53:31		Entered into the log_transform function of Preprocessor class.
+2024-04-26	10:53:31		Log transformed the data.
+2024-04-26	10:53:31		Entered the elbow_plot method of the KMeansClustering class
+2024-04-26	10:53:31		Created Elbow plot and saved it.
+2024-04-26	10:53:31		Found optimal number of clusters which is 4
+2024-04-26	10:53:31		Entered the create_clusters method of the KMeansClustering class
+2024-04-26	10:53:31		Entered the save_model method of the FileOperations class.
+2024-04-26	10:53:31		Model saved successfully.
+2024-04-26	10:53:31		Trained clustering model and saved it.
+2024-04-26	10:53:31		Training on the cluster number 2
+2024-04-26	10:53:31		Entered into the standardize_data function of Preprocessor class.
+2024-04-26	10:53:32		Standardized the data.
+2024-04-26	10:53:32		Entered into the standardize_data function of Preprocessor class.
+2024-04-26	10:53:32		Standardized the data.
+2024-04-26	10:53:32		Starting optimization process.
+2024-04-26	10:53:38		Optimization process completed successfully.
+2024-04-26	10:53:38		Best model is random_forest
+2024-04-26	10:53:39		Entered the save_model method of the FileOperations class.
+2024-04-26	10:53:39		Model saved successfully.
+2024-04-26	10:53:39		Training on the cluster number 1
+2024-04-26	10:53:39		Entered into the standardize_data function of Preprocessor class.
+2024-04-26	10:53:39		Standardized the data.
+2024-04-26	10:53:39		Entered into the standardize_data function of Preprocessor class.
+2024-04-26	10:53:39		Standardized the data.
+2024-04-26	10:53:39		Starting optimization process.
+2024-04-26	10:53:42		Optimization process completed successfully.
+2024-04-26	10:53:42		Best model is xgboost
+2024-04-26	10:53:42		Entered the save_model method of the FileOperations class.
+2024-04-26	10:53:42		Model saved successfully.
+2024-04-26	10:53:42		Training on the cluster number 3
+2024-04-26	10:53:42		Entered into the standardize_data function of Preprocessor class.
+2024-04-26	10:53:42		Standardized the data.
+2024-04-26	10:53:42		Entered into the standardize_data function of Preprocessor class.
+2024-04-26	10:53:42		Standardized the data.
+2024-04-26	10:53:42		Starting optimization process.
+2024-04-26	10:53:43		Optimization process completed successfully.
+2024-04-26	10:53:43		Best model is linear
+2024-04-26	10:53:43		Entered the save_model method of the FileOperations class.
+2024-04-26	10:53:43		Model saved successfully.
+2024-04-26	10:53:43		Training on the cluster number 0
+2024-04-26	10:53:43		Entered into the standardize_data function of Preprocessor class.
+2024-04-26	10:53:43		Standardized the data.
+2024-04-26	10:53:43		Entered into the standardize_data function of Preprocessor class.
+2024-04-26	10:53:43		Standardized the data.
+2024-04-26	10:53:43		Starting optimization process.
+2024-04-26	10:53:46		Optimization process completed successfully.
+2024-04-26	10:53:46		Best model is random_forest
+2024-04-26	10:53:47		Entered the save_model method of the FileOperations class.
+2024-04-26	10:53:47		Model saved successfully.
+2024-04-26	10:53:47		Successful End of Training
