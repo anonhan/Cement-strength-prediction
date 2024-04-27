@@ -10,3 +10,686 @@
 2024-04-26	10:53:30		Deleted Good and Bad Raw Data folders.
 2024-04-26	10:53:31		Fetched training data from dB.
 2024-04-26	10:53:31		All operations of Train_Validation are completed !!
+2024-04-26	11:13:00		Started validating training data files...
+2024-04-26	11:13:00		Fetched JSON training schema details.
+2024-04-26	11:13:00		Validated training data file name format.
+2024-04-26	11:13:00		Validated training data file columns.
+2024-04-26	11:13:00		Raw Data Validation Complete!!
+2024-04-26	11:13:00		Started dB operations...
+2024-04-26	11:13:00		Created table in dB.
+2024-04-26	11:13:01		Inserted Good Raw Data in dB.
+2024-04-26	11:13:01		Moved Bad Data files to archive.
+2024-04-26	11:13:01		Deleted Good and Bad Raw Data folders.
+2024-04-26	11:13:01		Fetched training data from dB.
+2024-04-26	11:13:01		All operations of Train_Validation are completed !!
+2024-04-26	11:39:01		Started validating training data files...
+2024-04-26	11:39:01		Fetched JSON training schema details.
+2024-04-26	11:39:01		Validated training data file name format.
+2024-04-26	11:39:01		Validated training data file columns.
+2024-04-26	11:39:01		Raw Data Validation Complete!!
+2024-04-26	11:39:01		Started dB operations...
+2024-04-26	11:39:01		Created table in dB.
+2024-04-26	11:39:02		Inserted Good Raw Data in dB.
+2024-04-26	11:39:02		Moved Bad Data files to archive.
+2024-04-26	11:39:02		Deleted Good and Bad Raw Data folders.
+2024-04-26	11:39:02		Fetched training data from dB.
+2024-04-26	11:39:02		All operations of Train_Validation are completed !!
+2024-04-26	12:03:22		Started validating training data files...
+2024-04-26	12:03:22		Fetched JSON training schema details.
+2024-04-26	12:03:22		Validated training data file name format.
+2024-04-26	12:03:22		Validated training data file columns.
+2024-04-26	12:03:22		Raw Data Validation Complete!!
+2024-04-26	12:03:22		Started dB operations...
+2024-04-26	12:03:23		Created table in dB.
+2024-04-26	12:03:23		Inserted Good Raw Data in dB.
+2024-04-26	12:03:23		Moved Bad Data files to archive.
+2024-04-26	12:03:23		Deleted Good and Bad Raw Data folders.
+2024-04-26	12:03:23		Fetched training data from dB.
+2024-04-26	12:03:23		All operations of Train_Validation are completed !!
+2024-04-26	12:08:41		Started validating training data files...
+2024-04-26	12:08:41		Fetched JSON training schema details.
+2024-04-26	12:08:41		Validated training data file name format.
+2024-04-26	12:08:41		Validated training data file columns.
+2024-04-26	12:08:41		Raw Data Validation Complete!!
+2024-04-26	12:08:41		Started dB operations...
+2024-04-26	12:08:41		Created table in dB.
+2024-04-26	12:08:41		Inserted Good Raw Data in dB.
+2024-04-26	12:08:41		Moved Bad Data files to archive.
+2024-04-26	12:08:41		Deleted Good and Bad Raw Data folders.
+2024-04-26	12:08:41		Fetched training data from dB.
+2024-04-26	12:08:41		All operations of Train_Validation are completed !!
+2024-04-26	12:19:07		Started validating training data files...
+2024-04-26	12:19:07		Fetched JSON training schema details.
+2024-04-26	12:19:07		Validated training data file name format.
+2024-04-26	12:19:07		Validated training data file columns.
+2024-04-26	12:19:07		Raw Data Validation Complete!!
+2024-04-26	12:19:07		Started dB operations...
+2024-04-26	12:19:07		Created table in dB.
+2024-04-26	12:19:07		Inserted Good Raw Data in dB.
+2024-04-26	12:19:07		Moved Bad Data files to archive.
+2024-04-26	12:19:07		Deleted Good and Bad Raw Data folders.
+2024-04-26	12:19:07		Fetched training data from dB.
+2024-04-26	12:19:07		All operations of Train_Validation are completed !!
+2024-04-26	12:21:05		Started validating training data files...
+2024-04-26	12:21:05		Fetched JSON training schema details.
+2024-04-26	12:21:05		Validated training data file name format.
+2024-04-26	12:21:05		Validated training data file columns.
+2024-04-26	12:21:05		Raw Data Validation Complete!!
+2024-04-26	12:21:05		Started dB operations...
+2024-04-26	12:21:05		Created table in dB.
+2024-04-26	12:21:05		Inserted Good Raw Data in dB.
+2024-04-26	12:21:05		Moved Bad Data files to archive.
+2024-04-26	12:21:05		Deleted Good and Bad Raw Data folders.
+2024-04-26	12:21:05		Fetched training data from dB.
+2024-04-26	12:21:05		All operations of Train_Validation are completed !!
+2024-04-26	12:22:07		Started validating training data files...
+2024-04-26	12:22:07		Fetched JSON training schema details.
+2024-04-26	12:22:07		Validated training data file name format.
+2024-04-26	12:22:07		Validated training data file columns.
+2024-04-26	12:22:07		Raw Data Validation Complete!!
+2024-04-26	12:22:07		Started dB operations...
+2024-04-26	12:22:07		Created table in dB.
+2024-04-26	12:22:07		Inserted Good Raw Data in dB.
+2024-04-26	12:22:07		Moved Bad Data files to archive.
+2024-04-26	12:22:07		Deleted Good and Bad Raw Data folders.
+2024-04-26	12:22:07		Fetched training data from dB.
+2024-04-26	12:22:07		All operations of Train_Validation are completed !!
+2024-04-26	12:26:41		Started validating training data files...
+2024-04-26	12:26:41		Fetched JSON training schema details.
+2024-04-26	12:26:41		Validated training data file name format.
+2024-04-26	12:26:41		Validated training data file columns.
+2024-04-26	12:26:41		Raw Data Validation Complete!!
+2024-04-26	12:26:41		Started dB operations...
+2024-04-26	12:26:41		Created table in dB.
+2024-04-26	12:26:42		Inserted Good Raw Data in dB.
+2024-04-26	12:26:42		Moved Bad Data files to archive.
+2024-04-26	12:26:42		Deleted Good and Bad Raw Data folders.
+2024-04-26	12:26:42		Fetched training data from dB.
+2024-04-26	12:26:42		All operations of Train_Validation are completed !!
+2024-04-26	12:28:29		Started validating training data files...
+2024-04-26	12:28:29		Fetched JSON training schema details.
+2024-04-26	12:28:29		Validated training data file name format.
+2024-04-26	12:28:29		Validated training data file columns.
+2024-04-26	12:28:29		Raw Data Validation Complete!!
+2024-04-26	12:28:29		Started dB operations...
+2024-04-26	12:28:29		Created table in dB.
+2024-04-26	12:28:29		Inserted Good Raw Data in dB.
+2024-04-26	12:28:29		Moved Bad Data files to archive.
+2024-04-26	12:28:29		Deleted Good and Bad Raw Data folders.
+2024-04-26	12:28:29		Fetched training data from dB.
+2024-04-26	12:28:29		All operations of Train_Validation are completed !!
+2024-04-26	12:34:02		Started validating training data files...
+2024-04-26	12:34:02		Fetched JSON training schema details.
+2024-04-26	12:34:02		Validated training data file name format.
+2024-04-26	12:34:02		Validated training data file columns.
+2024-04-26	12:34:02		Raw Data Validation Complete!!
+2024-04-26	12:34:02		Started dB operations...
+2024-04-26	12:34:02		Created table in dB.
+2024-04-26	12:34:02		Inserted Good Raw Data in dB.
+2024-04-26	12:34:02		Moved Bad Data files to archive.
+2024-04-26	12:34:02		Deleted Good and Bad Raw Data folders.
+2024-04-26	12:34:02		Fetched training data from dB.
+2024-04-26	12:34:02		All operations of Train_Validation are completed !!
+2024-04-26	12:41:10		Started validating training data files...
+2024-04-26	12:41:10		Fetched JSON training schema details.
+2024-04-26	12:41:10		Validated training data file name format.
+2024-04-26	12:41:11		Validated training data file columns.
+2024-04-26	12:41:11		Raw Data Validation Complete!!
+2024-04-26	12:41:11		Started dB operations...
+2024-04-26	12:41:11		Created table in dB.
+2024-04-26	12:41:11		Inserted Good Raw Data in dB.
+2024-04-26	12:41:11		Moved Bad Data files to archive.
+2024-04-26	12:41:11		Deleted Good and Bad Raw Data folders.
+2024-04-26	12:41:11		Fetched training data from dB.
+2024-04-26	12:41:11		All operations of Train_Validation are completed !!
+2024-04-26	12:46:43		Started validating training data files...
+2024-04-26	12:46:43		Fetched JSON training schema details.
+2024-04-26	12:46:43		Validated training data file name format.
+2024-04-26	12:46:43		Validated training data file columns.
+2024-04-26	12:46:43		Raw Data Validation Complete!!
+2024-04-26	12:46:43		Started dB operations...
+2024-04-26	12:46:43		Created table in dB.
+2024-04-26	12:46:43		Inserted Good Raw Data in dB.
+2024-04-26	12:46:43		Moved Bad Data files to archive.
+2024-04-26	12:46:43		Deleted Good and Bad Raw Data folders.
+2024-04-26	12:46:43		Fetched training data from dB.
+2024-04-26	12:46:43		All operations of Train_Validation are completed !!
+2024-04-26	12:53:16		Started validating training data files...
+2024-04-26	12:53:16		Fetched JSON training schema details.
+2024-04-26	12:53:16		Validated training data file name format.
+2024-04-26	12:53:16		Validated training data file columns.
+2024-04-26	12:53:16		Raw Data Validation Complete!!
+2024-04-26	12:53:16		Started dB operations...
+2024-04-26	12:53:16		Created table in dB.
+2024-04-26	12:53:16		Inserted Good Raw Data in dB.
+2024-04-26	12:53:16		Error occurred while validating training data: 
+2024-04-26	12:54:25		Started validating training data files...
+2024-04-26	12:54:25		Fetched JSON training schema details.
+2024-04-26	12:54:25		Validated training data file name format.
+2024-04-26	12:54:25		Validated training data file columns.
+2024-04-26	12:54:25		Raw Data Validation Complete!!
+2024-04-26	12:54:25		Started dB operations...
+2024-04-26	12:54:26		Created table in dB.
+2024-04-26	12:54:26		Inserted Good Raw Data in dB.
+2024-04-26	12:54:26		Moved Bad Data files to archive.
+2024-04-26	12:54:26		Deleted Good and Bad Raw Data folders.
+2024-04-26	12:54:26		Fetched training data from dB.
+2024-04-26	12:54:26		All operations of Train_Validation are completed !!
+2024-04-26	13:13:19		Started validating training data files...
+2024-04-26	13:13:19		Fetched JSON training schema details.
+2024-04-26	13:13:19		Validated training data file name format.
+2024-04-26	13:13:19		Validated training data file columns.
+2024-04-26	13:13:19		Raw Data Validation Complete!!
+2024-04-26	13:13:19		Started dB operations...
+2024-04-26	13:13:19		Created table in dB.
+2024-04-26	13:13:19		Inserted Good Raw Data in dB.
+2024-04-26	13:13:19		Moved Bad Data files to archive.
+2024-04-26	13:13:19		Deleted Good and Bad Raw Data folders.
+2024-04-26	13:13:19		Fetched training data from dB.
+2024-04-26	13:13:19		All operations of Train_Validation are completed !!
+2024-04-26	15:59:58		Started validating training data files...
+2024-04-26	15:59:58		Fetched JSON training schema details.
+2024-04-26	15:59:58		Validated training data file name format.
+2024-04-26	15:59:58		Validated training data file columns.
+2024-04-26	15:59:58		Raw Data Validation Complete!!
+2024-04-26	15:59:58		Started dB operations...
+2024-04-26	15:59:58		Created table in dB.
+2024-04-26	15:59:58		Inserted Good Raw Data in dB.
+2024-04-26	15:59:58		Moved Bad Data files to archive.
+2024-04-26	15:59:58		Deleted Good and Bad Raw Data folders.
+2024-04-26	15:59:59		Fetched training data from dB.
+2024-04-26	15:59:59		All operations of Train_Validation are completed !!
+2024-04-26	16:12:03		Started validating training data files...
+2024-04-26	16:12:03		Fetched JSON training schema details.
+2024-04-26	16:12:03		Validated training data file name format.
+2024-04-26	16:12:03		Validated training data file columns.
+2024-04-26	16:12:03		Raw Data Validation Complete!!
+2024-04-26	16:12:03		Started dB operations...
+2024-04-26	16:12:03		Created table in dB.
+2024-04-26	16:12:03		Inserted Good Raw Data in dB.
+2024-04-26	16:12:03		Moved Bad Data files to archive.
+2024-04-26	16:12:03		Deleted Good and Bad Raw Data folders.
+2024-04-26	16:12:03		Fetched training data from dB.
+2024-04-26	16:12:03		All operations of Train_Validation are completed !!
+2024-04-26	16:14:01		Started validating training data files...
+2024-04-26	16:14:01		Fetched JSON training schema details.
+2024-04-26	16:14:01		Validated training data file name format.
+2024-04-26	16:14:01		Validated training data file columns.
+2024-04-26	16:14:01		Raw Data Validation Complete!!
+2024-04-26	16:14:01		Started dB operations...
+2024-04-26	16:14:01		Created table in dB.
+2024-04-26	16:14:01		Inserted Good Raw Data in dB.
+2024-04-26	16:14:01		Moved Bad Data files to archive.
+2024-04-26	16:14:01		Deleted Good and Bad Raw Data folders.
+2024-04-26	16:14:01		Fetched training data from dB.
+2024-04-26	16:14:01		All operations of Train_Validation are completed !!
+2024-04-26	16:44:10		Started validating training data files...
+2024-04-26	16:44:10		Fetched JSON training schema details.
+2024-04-26	16:44:10		Validated training data file name format.
+2024-04-26	16:44:10		Validated training data file columns.
+2024-04-26	16:44:10		Raw Data Validation Complete!!
+2024-04-26	16:44:10		Started dB operations...
+2024-04-26	16:44:10		Created table in dB.
+2024-04-26	16:44:10		Inserted Good Raw Data in dB.
+2024-04-26	16:44:10		Moved Bad Data files to archive.
+2024-04-26	16:44:10		Deleted Good and Bad Raw Data folders.
+2024-04-26	16:44:10		Fetched training data from dB.
+2024-04-26	16:44:10		All operations of Train_Validation are completed !!
+2024-04-26	16:50:43		Started validating training data files...
+2024-04-26	16:50:43		Fetched JSON training schema details.
+2024-04-26	16:50:43		Validated training data file name format.
+2024-04-26	16:50:43		Validated training data file columns.
+2024-04-26	16:50:43		Raw Data Validation Complete!!
+2024-04-26	16:50:43		Started dB operations...
+2024-04-26	16:50:43		Created table in dB.
+2024-04-26	16:50:43		Inserted Good Raw Data in dB.
+2024-04-26	16:50:43		Moved Bad Data files to archive.
+2024-04-26	16:50:43		Deleted Good and Bad Raw Data folders.
+2024-04-26	16:50:43		Fetched training data from dB.
+2024-04-26	16:50:43		All operations of Train_Validation are completed !!
+2024-04-26	16:59:31		Started validating training data files...
+2024-04-26	16:59:31		Fetched JSON training schema details.
+2024-04-26	16:59:31		Validated training data file name format.
+2024-04-26	16:59:31		Validated training data file columns.
+2024-04-26	16:59:31		Raw Data Validation Complete!!
+2024-04-26	16:59:31		Started dB operations...
+2024-04-26	16:59:31		Created table in dB.
+2024-04-26	16:59:31		Inserted Good Raw Data in dB.
+2024-04-26	16:59:31		Moved Bad Data files to archive.
+2024-04-26	16:59:31		Deleted Good and Bad Raw Data folders.
+2024-04-26	16:59:31		Fetched training data from dB.
+2024-04-26	16:59:31		All operations of Train_Validation are completed !!
+2024-04-26	17:06:29		Started validating training data files...
+2024-04-26	17:06:29		Fetched JSON training schema details.
+2024-04-26	17:06:29		Validated training data file name format.
+2024-04-26	17:06:29		Validated training data file columns.
+2024-04-26	17:06:29		Raw Data Validation Complete!!
+2024-04-26	17:06:29		Started dB operations...
+2024-04-26	17:06:29		Created table in dB.
+2024-04-26	17:06:29		Error occurred while validating training data: 
+2024-04-26	17:06:28		Started validating training data files...
+2024-04-26	17:06:28		Fetched JSON training schema details.
+2024-04-26	17:06:28		Validated training data file name format.
+2024-04-26	17:06:28		Validated training data file columns.
+2024-04-26	17:06:28		Raw Data Validation Complete!!
+2024-04-26	17:06:28		Started dB operations...
+2024-04-26	17:06:28		Created table in dB.
+2024-04-26	17:06:29		Inserted Good Raw Data in dB.
+2024-04-26	17:06:29		Moved Bad Data files to archive.
+2024-04-26	17:06:29		Deleted Good and Bad Raw Data folders.
+2024-04-26	17:06:29		Fetched training data from dB.
+2024-04-26	17:06:29		All operations of Train_Validation are completed !!
+2024-04-26	17:06:31		Started validating training data files...
+2024-04-26	17:06:31		Fetched JSON training schema details.
+2024-04-26	17:06:31		Validated training data file name format.
+2024-04-26	17:06:31		Validated training data file columns.
+2024-04-26	17:06:31		Raw Data Validation Complete!!
+2024-04-26	17:06:31		Started dB operations...
+2024-04-26	17:06:31		Created table in dB.
+2024-04-26	17:06:32		Inserted Good Raw Data in dB.
+2024-04-26	17:06:32		Error occurred while validating training data: 
+2024-04-26	17:06:44		Started validating training data files...
+2024-04-26	17:06:44		Fetched JSON training schema details.
+2024-04-26	17:06:44		Validated training data file name format.
+2024-04-26	17:06:44		Validated training data file columns.
+2024-04-26	17:06:44		Raw Data Validation Complete!!
+2024-04-26	17:06:44		Started dB operations...
+2024-04-26	17:06:44		Created table in dB.
+2024-04-26	17:06:45		Inserted Good Raw Data in dB.
+2024-04-26	17:06:45		Moved Bad Data files to archive.
+2024-04-26	17:06:45		Deleted Good and Bad Raw Data folders.
+2024-04-26	17:06:45		Fetched training data from dB.
+2024-04-26	17:06:45		All operations of Train_Validation are completed !!
+2024-04-26	17:10:11		Started validating training data files...
+2024-04-26	17:10:11		Fetched JSON training schema details.
+2024-04-26	17:10:11		Validated training data file name format.
+2024-04-26	17:10:11		Validated training data file columns.
+2024-04-26	17:10:11		Raw Data Validation Complete!!
+2024-04-26	17:10:11		Started dB operations...
+2024-04-26	17:10:11		Created table in dB.
+2024-04-26	17:10:11		Inserted Good Raw Data in dB.
+2024-04-26	17:10:11		Moved Bad Data files to archive.
+2024-04-26	17:10:11		Deleted Good and Bad Raw Data folders.
+2024-04-26	17:10:12		Fetched training data from dB.
+2024-04-26	17:10:12		All operations of Train_Validation are completed !!
+2024-04-26	19:24:50		Started validating training data files...
+2024-04-26	19:24:50		Fetched JSON training schema details.
+2024-04-26	19:24:50		Validated training data file name format.
+2024-04-26	19:24:50		Validated training data file columns.
+2024-04-26	19:24:50		Raw Data Validation Complete!!
+2024-04-26	19:24:50		Started dB operations...
+2024-04-26	19:24:50		Created table in dB.
+2024-04-26	19:24:50		Inserted Good Raw Data in dB.
+2024-04-26	19:24:50		Moved Bad Data files to archive.
+2024-04-26	19:24:50		Deleted Good and Bad Raw Data folders.
+2024-04-26	19:24:50		Fetched training data from dB.
+2024-04-26	19:24:50		All operations of Train_Validation are completed !!
+2024-04-26	19:40:59		Started validating training data files...
+2024-04-26	19:40:59		Fetched JSON training schema details.
+2024-04-26	19:40:59		Validated training data file name format.
+2024-04-26	19:40:59		Validated training data file columns.
+2024-04-26	19:40:59		Raw Data Validation Complete!!
+2024-04-26	19:40:59		Started dB operations...
+2024-04-26	19:40:59		Created table in dB.
+2024-04-26	19:40:59		Inserted Good Raw Data in dB.
+2024-04-26	19:40:59		Moved Bad Data files to archive.
+2024-04-26	19:40:59		Deleted Good and Bad Raw Data folders.
+2024-04-26	19:40:59		Fetched training data from dB.
+2024-04-26	19:40:59		All operations of Train_Validation are completed !!
+2024-04-26	20:11:33		Started validating training data files...
+2024-04-26	20:11:33		Fetched JSON training schema details.
+2024-04-26	20:11:33		Validated training data file name format.
+2024-04-26	20:11:33		Validated training data file columns.
+2024-04-26	20:11:33		Raw Data Validation Complete!!
+2024-04-26	20:11:33		Started dB operations...
+2024-04-26	20:11:33		Created table in dB.
+2024-04-26	20:11:34		Inserted Good Raw Data in dB.
+2024-04-26	20:11:34		Moved Bad Data files to archive.
+2024-04-26	20:11:34		Deleted Good and Bad Raw Data folders.
+2024-04-26	20:11:34		Fetched training data from dB.
+2024-04-26	20:11:34		All operations of Train_Validation are completed !!
+2024-04-26	20:13:49		Started validating training data files...
+2024-04-26	20:13:49		Fetched JSON training schema details.
+2024-04-26	20:13:49		Validated training data file name format.
+2024-04-26	20:13:49		Validated training data file columns.
+2024-04-26	20:13:49		Raw Data Validation Complete!!
+2024-04-26	20:13:49		Started dB operations...
+2024-04-26	20:13:49		Created table in dB.
+2024-04-26	20:13:50		Inserted Good Raw Data in dB.
+2024-04-26	20:13:50		Moved Bad Data files to archive.
+2024-04-26	20:13:50		Deleted Good and Bad Raw Data folders.
+2024-04-26	20:13:50		Fetched training data from dB.
+2024-04-26	20:13:50		All operations of Train_Validation are completed !!
+2024-04-26	20:17:41		Started validating training data files...
+2024-04-26	20:17:41		Fetched JSON training schema details.
+2024-04-26	20:17:41		Validated training data file name format.
+2024-04-26	20:17:41		Validated training data file columns.
+2024-04-26	20:17:41		Raw Data Validation Complete!!
+2024-04-26	20:17:41		Started dB operations...
+2024-04-26	20:17:41		Created table in dB.
+2024-04-26	20:17:42		Inserted Good Raw Data in dB.
+2024-04-26	20:17:42		Moved Bad Data files to archive.
+2024-04-26	20:17:42		Deleted Good and Bad Raw Data folders.
+2024-04-26	20:17:42		Fetched training data from dB.
+2024-04-26	20:17:42		All operations of Train_Validation are completed !!
+2024-04-26	20:18:40		Started validating training data files...
+2024-04-26	20:18:40		Fetched JSON training schema details.
+2024-04-26	20:18:40		Validated training data file name format.
+2024-04-26	20:18:40		Validated training data file columns.
+2024-04-26	20:18:40		Raw Data Validation Complete!!
+2024-04-26	20:18:40		Started dB operations...
+2024-04-26	20:18:40		Created table in dB.
+2024-04-26	20:18:40		Inserted Good Raw Data in dB.
+2024-04-26	20:18:40		Moved Bad Data files to archive.
+2024-04-26	20:18:40		Deleted Good and Bad Raw Data folders.
+2024-04-26	20:18:40		Fetched training data from dB.
+2024-04-26	20:18:40		All operations of Train_Validation are completed !!
+2024-04-26	21:58:14		Started validating training data files...
+2024-04-26	21:58:14		Fetched JSON training schema details.
+2024-04-26	21:58:14		Validated training data file name format.
+2024-04-26	21:58:14		Validated training data file columns.
+2024-04-26	21:58:14		Raw Data Validation Complete!!
+2024-04-26	21:58:14		Started dB operations...
+2024-04-26	21:58:14		Created table in dB.
+2024-04-26	21:58:14		Inserted Good Raw Data in dB.
+2024-04-26	21:58:14		Moved Bad Data files to archive.
+2024-04-26	21:58:14		Deleted Good and Bad Raw Data folders.
+2024-04-26	21:58:14		Fetched training data from dB.
+2024-04-26	21:58:14		All operations of Train_Validation are completed !!
+2024-04-26	22:02:01		Started validating training data files...
+2024-04-26	22:02:01		Fetched JSON training schema details.
+2024-04-26	22:02:01		Validated training data file name format.
+2024-04-26	22:02:01		Validated training data file columns.
+2024-04-26	22:02:01		Raw Data Validation Complete!!
+2024-04-26	22:02:01		Started dB operations...
+2024-04-26	22:02:01		Created table in dB.
+2024-04-26	22:02:01		Inserted Good Raw Data in dB.
+2024-04-26	22:02:01		Moved Bad Data files to archive.
+2024-04-26	22:02:01		Deleted Good and Bad Raw Data folders.
+2024-04-26	22:02:01		Fetched training data from dB.
+2024-04-26	22:02:01		All operations of Train_Validation are completed !!
+2024-04-26	22:05:35		Started validating training data files...
+2024-04-26	22:05:35		Fetched JSON training schema details.
+2024-04-26	22:05:35		Validated training data file name format.
+2024-04-26	22:05:35		Validated training data file columns.
+2024-04-26	22:05:35		Raw Data Validation Complete!!
+2024-04-26	22:05:35		Started dB operations...
+2024-04-26	22:05:35		Created table in dB.
+2024-04-26	22:05:36		Inserted Good Raw Data in dB.
+2024-04-26	22:05:36		Moved Bad Data files to archive.
+2024-04-26	22:05:36		Deleted Good and Bad Raw Data folders.
+2024-04-26	22:05:36		Fetched training data from dB.
+2024-04-26	22:05:36		All operations of Train_Validation are completed !!
+2024-04-26	22:29:19		Started validating training data files...
+2024-04-26	22:29:19		Fetched JSON training schema details.
+2024-04-26	22:29:19		Validated training data file name format.
+2024-04-26	22:29:19		Validated training data file columns.
+2024-04-26	22:29:19		Raw Data Validation Complete!!
+2024-04-26	22:29:19		Started dB operations...
+2024-04-26	22:29:19		Created table in dB.
+2024-04-26	22:29:20		Inserted Good Raw Data in dB.
+2024-04-26	22:29:20		Moved Bad Data files to archive.
+2024-04-26	22:29:20		Deleted Good and Bad Raw Data folders.
+2024-04-26	22:29:20		Fetched training data from dB.
+2024-04-26	22:29:20		All operations of Train_Validation are completed !!
+2024-04-26	22:46:26		Started validating training data files...
+2024-04-26	22:46:26		Fetched JSON training schema details.
+2024-04-26	22:46:26		Validated training data file name format.
+2024-04-26	22:46:26		Validated training data file columns.
+2024-04-26	22:46:26		Raw Data Validation Complete!!
+2024-04-26	22:46:26		Started dB operations...
+2024-04-26	22:46:26		Created table in dB.
+2024-04-26	22:46:27		Inserted Good Raw Data in dB.
+2024-04-26	22:46:27		Moved Bad Data files to archive.
+2024-04-26	22:46:27		Deleted Good and Bad Raw Data folders.
+2024-04-26	22:46:27		Fetched training data from dB.
+2024-04-26	22:46:27		All operations of Train_Validation are completed !!
+2024-04-26	22:55:44		Started validating training data files...
+2024-04-26	22:55:44		Fetched JSON training schema details.
+2024-04-26	22:55:44		Validated training data file name format.
+2024-04-26	22:55:44		Validated training data file columns.
+2024-04-26	22:55:44		Raw Data Validation Complete!!
+2024-04-26	22:55:44		Started dB operations...
+2024-04-26	22:55:44		Created table in dB.
+2024-04-26	22:55:44		Inserted Good Raw Data in dB.
+2024-04-26	22:55:44		Moved Bad Data files to archive.
+2024-04-26	22:55:44		Deleted Good and Bad Raw Data folders.
+2024-04-26	22:55:44		Fetched training data from dB.
+2024-04-26	22:55:44		All operations of Train_Validation are completed !!
+2024-04-26	23:09:28		Started validating training data files...
+2024-04-26	23:09:28		Fetched JSON training schema details.
+2024-04-26	23:09:28		Validated training data file name format.
+2024-04-26	23:09:28		Validated training data file columns.
+2024-04-26	23:09:28		Raw Data Validation Complete!!
+2024-04-26	23:09:28		Started dB operations...
+2024-04-26	23:09:28		Created table in dB.
+2024-04-26	23:09:28		Inserted Good Raw Data in dB.
+2024-04-26	23:09:28		Error occurred while validating training data: 
+2024-04-26	23:09:54		Started validating training data files...
+2024-04-26	23:09:54		Fetched JSON training schema details.
+2024-04-26	23:09:54		Validated training data file name format.
+2024-04-26	23:09:54		Validated training data file columns.
+2024-04-26	23:09:54		Raw Data Validation Complete!!
+2024-04-26	23:09:54		Started dB operations...
+2024-04-26	23:09:55		Created table in dB.
+2024-04-26	23:09:55		Inserted Good Raw Data in dB.
+2024-04-26	23:09:55		Moved Bad Data files to archive.
+2024-04-26	23:09:55		Deleted Good and Bad Raw Data folders.
+2024-04-26	23:09:55		Fetched training data from dB.
+2024-04-26	23:09:55		All operations of Train_Validation are completed !!
+2024-04-26	23:31:16		Started validating training data files...
+2024-04-26	23:31:16		Fetched JSON training schema details.
+2024-04-26	23:31:16		Validated training data file name format.
+2024-04-26	23:31:16		Validated training data file columns.
+2024-04-26	23:31:16		Raw Data Validation Complete!!
+2024-04-26	23:31:16		Started dB operations...
+2024-04-26	23:31:16		Created table in dB.
+2024-04-26	23:31:16		Inserted Good Raw Data in dB.
+2024-04-26	23:31:16		Moved Bad Data files to archive.
+2024-04-26	23:31:16		Deleted Good and Bad Raw Data folders.
+2024-04-26	23:31:16		Fetched training data from dB.
+2024-04-26	23:31:16		All operations of Train_Validation are completed !!
+2024-04-27	08:49:44		Started validating training data files...
+2024-04-27	08:49:44		Fetched JSON training schema details.
+2024-04-27	08:49:44		Validated training data file name format.
+2024-04-27	08:49:44		Validated training data file columns.
+2024-04-27	08:49:44		Raw Data Validation Complete!!
+2024-04-27	08:49:44		Started dB operations...
+2024-04-27	08:49:44		Created table in dB.
+2024-04-27	08:49:45		Inserted Good Raw Data in dB.
+2024-04-27	08:49:45		Moved Bad Data files to archive.
+2024-04-27	08:49:45		Deleted Good and Bad Raw Data folders.
+2024-04-27	08:49:45		Fetched training data from dB.
+2024-04-27	08:49:45		All operations of Train_Validation are completed !!
+2024-04-27	09:02:33		Started validating training data files...
+2024-04-27	09:02:33		Fetched JSON training schema details.
+2024-04-27	09:02:33		Validated training data file name format.
+2024-04-27	09:02:33		Validated training data file columns.
+2024-04-27	09:02:33		Raw Data Validation Complete!!
+2024-04-27	09:02:33		Started dB operations...
+2024-04-27	09:02:33		Created table in dB.
+2024-04-27	09:02:34		Inserted Good Raw Data in dB.
+2024-04-27	09:02:34		Moved Bad Data files to archive.
+2024-04-27	09:02:34		Deleted Good and Bad Raw Data folders.
+2024-04-27	09:02:34		Fetched training data from dB.
+2024-04-27	09:02:34		All operations of Train_Validation are completed !!
+2024-04-27	09:15:47		Started validating training data files...
+2024-04-27	09:15:47		Fetched JSON training schema details.
+2024-04-27	09:15:47		Validated training data file name format.
+2024-04-27	09:15:47		Validated training data file columns.
+2024-04-27	09:15:47		Raw Data Validation Complete!!
+2024-04-27	09:15:47		Started dB operations...
+2024-04-27	09:15:48		Created table in dB.
+2024-04-27	09:15:48		Inserted Good Raw Data in dB.
+2024-04-27	09:15:48		Moved Bad Data files to archive.
+2024-04-27	09:15:48		Deleted Good and Bad Raw Data folders.
+2024-04-27	09:15:48		Fetched training data from dB.
+2024-04-27	09:15:48		All operations of Train_Validation are completed !!
+2024-04-27	09:20:32		Started validating training data files...
+2024-04-27	09:20:32		Fetched JSON training schema details.
+2024-04-27	09:20:32		Validated training data file name format.
+2024-04-27	09:20:32		Validated training data file columns.
+2024-04-27	09:20:32		Raw Data Validation Complete!!
+2024-04-27	09:20:32		Started dB operations...
+2024-04-27	09:20:32		Created table in dB.
+2024-04-27	09:20:33		Inserted Good Raw Data in dB.
+2024-04-27	09:20:33		Moved Bad Data files to archive.
+2024-04-27	09:20:33		Deleted Good and Bad Raw Data folders.
+2024-04-27	09:20:33		Fetched training data from dB.
+2024-04-27	09:20:33		All operations of Train_Validation are completed !!
+2024-04-27	09:40:12		Started validating training data files...
+2024-04-27	09:40:12		Fetched JSON training schema details.
+2024-04-27	09:40:12		Validated training data file name format.
+2024-04-27	09:40:12		Validated training data file columns.
+2024-04-27	09:40:12		Raw Data Validation Complete!!
+2024-04-27	09:40:12		Started dB operations...
+2024-04-27	09:40:12		Created table in dB.
+2024-04-27	09:40:12		Inserted Good Raw Data in dB.
+2024-04-27	09:40:12		Moved Bad Data files to archive.
+2024-04-27	09:40:12		Deleted Good and Bad Raw Data folders.
+2024-04-27	09:40:12		Fetched training data from dB.
+2024-04-27	09:40:12		All operations of Train_Validation are completed !!
+2024-04-27	09:45:11		Started validating training data files...
+2024-04-27	09:45:11		Fetched JSON training schema details.
+2024-04-27	09:45:11		Validated training data file name format.
+2024-04-27	09:45:11		Validated training data file columns.
+2024-04-27	09:45:11		Raw Data Validation Complete!!
+2024-04-27	09:45:11		Started dB operations...
+2024-04-27	09:45:11		Created table in dB.
+2024-04-27	09:45:11		Inserted Good Raw Data in dB.
+2024-04-27	09:45:11		Moved Bad Data files to archive.
+2024-04-27	09:45:11		Deleted Good and Bad Raw Data folders.
+2024-04-27	09:45:12		Fetched training data from dB.
+2024-04-27	09:45:12		All operations of Train_Validation are completed !!
+2024-04-27	11:01:10		Started validating training data files...
+2024-04-27	11:01:10		Fetched JSON training schema details.
+2024-04-27	11:01:10		Validated training data file name format.
+2024-04-27	11:01:10		Validated training data file columns.
+2024-04-27	11:01:10		Raw Data Validation Complete!!
+2024-04-27	11:01:10		Started dB operations...
+2024-04-27	11:01:10		Created table in dB.
+2024-04-27	11:01:10		Inserted Good Raw Data in dB.
+2024-04-27	11:01:10		Moved Bad Data files to archive.
+2024-04-27	11:01:10		Deleted Good and Bad Raw Data folders.
+2024-04-27	11:01:10		Fetched training data from dB.
+2024-04-27	11:01:10		All operations of Train_Validation are completed !!
+2024-04-27	11:08:54		Started validating training data files...
+2024-04-27	11:08:54		Fetched JSON training schema details.
+2024-04-27	11:08:54		Validated training data file name format.
+2024-04-27	11:08:54		Validated training data file columns.
+2024-04-27	11:08:54		Raw Data Validation Complete!!
+2024-04-27	11:08:54		Started dB operations...
+2024-04-27	11:08:54		Created table in dB.
+2024-04-27	11:08:55		Inserted Good Raw Data in dB.
+2024-04-27	11:08:55		Moved Bad Data files to archive.
+2024-04-27	11:08:55		Deleted Good and Bad Raw Data folders.
+2024-04-27	11:08:55		Fetched training data from dB.
+2024-04-27	11:08:55		All operations of Train_Validation are completed !!
+2024-04-27	11:20:38		Started validating training data files...
+2024-04-27	11:20:38		Fetched JSON training schema details.
+2024-04-27	11:20:38		Validated training data file name format.
+2024-04-27	11:20:38		Validated training data file columns.
+2024-04-27	11:20:38		Raw Data Validation Complete!!
+2024-04-27	11:20:38		Started dB operations...
+2024-04-27	11:20:39		Created table in dB.
+2024-04-27	11:20:39		Inserted Good Raw Data in dB.
+2024-04-27	11:20:39		Moved Bad Data files to archive.
+2024-04-27	11:20:39		Deleted Good and Bad Raw Data folders.
+2024-04-27	11:20:39		Fetched training data from dB.
+2024-04-27	11:20:39		All operations of Train_Validation are completed !!
+2024-04-27	12:46:32		Started validating training data files...
+2024-04-27	12:46:32		Fetched JSON training schema details.
+2024-04-27	12:46:32		Validated training data file name format.
+2024-04-27	12:46:32		Validated training data file columns.
+2024-04-27	12:46:32		Raw Data Validation Complete!!
+2024-04-27	12:46:32		Started dB operations...
+2024-04-27	12:46:32		Created table in dB.
+2024-04-27	12:46:33		Inserted Good Raw Data in dB.
+2024-04-27	12:46:33		Moved Bad Data files to archive.
+2024-04-27	12:46:33		Deleted Good and Bad Raw Data folders.
+2024-04-27	12:46:33		Fetched training data from dB.
+2024-04-27	12:46:33		All operations of Train_Validation are completed !!
+2024-04-27	12:51:40		Started validating training data files...
+2024-04-27	12:51:40		Fetched JSON training schema details.
+2024-04-27	12:51:40		Validated training data file name format.
+2024-04-27	12:51:40		Validated training data file columns.
+2024-04-27	12:51:40		Raw Data Validation Complete!!
+2024-04-27	12:51:40		Started dB operations...
+2024-04-27	12:51:40		Created table in dB.
+2024-04-27	12:51:40		Inserted Good Raw Data in dB.
+2024-04-27	12:51:40		Moved Bad Data files to archive.
+2024-04-27	12:51:40		Deleted Good and Bad Raw Data folders.
+2024-04-27	12:51:40		Fetched training data from dB.
+2024-04-27	12:51:40		All operations of Train_Validation are completed !!
+2024-04-27	15:07:18		Started validating training data files...
+2024-04-27	15:07:18		Fetched JSON training schema details.
+2024-04-27	15:07:18		Validated training data file name format.
+2024-04-27	15:07:18		Validated training data file columns.
+2024-04-27	15:07:18		Raw Data Validation Complete!!
+2024-04-27	15:07:18		Started dB operations...
+2024-04-27	15:07:18		Created table in dB.
+2024-04-27	15:07:18		Inserted Good Raw Data in dB.
+2024-04-27	15:07:18		Moved Bad Data files to archive.
+2024-04-27	15:07:18		Deleted Good and Bad Raw Data folders.
+2024-04-27	15:07:18		Fetched training data from dB.
+2024-04-27	15:07:18		All operations of Train_Validation are completed !!
+2024-04-27	15:10:30		Started validating training data files...
+2024-04-27	15:10:30		Fetched JSON training schema details.
+2024-04-27	15:10:30		Validated training data file name format.
+2024-04-27	15:10:30		Validated training data file columns.
+2024-04-27	15:10:30		Raw Data Validation Complete!!
+2024-04-27	15:10:30		Started dB operations...
+2024-04-27	15:10:30		Created table in dB.
+2024-04-27	15:10:31		Inserted Good Raw Data in dB.
+2024-04-27	15:10:31		Moved Bad Data files to archive.
+2024-04-27	15:10:31		Deleted Good and Bad Raw Data folders.
+2024-04-27	15:10:31		Fetched training data from dB.
+2024-04-27	15:10:31		All operations of Train_Validation are completed !!
+2024-04-27	15:13:51		Started validating training data files...
+2024-04-27	15:13:51		Fetched JSON training schema details.
+2024-04-27	15:13:51		Validated training data file name format.
+2024-04-27	15:13:51		Validated training data file columns.
+2024-04-27	15:13:51		Raw Data Validation Complete!!
+2024-04-27	15:13:51		Started dB operations...
+2024-04-27	15:13:52		Created table in dB.
+2024-04-27	15:13:52		Inserted Good Raw Data in dB.
+2024-04-27	15:13:52		Moved Bad Data files to archive.
+2024-04-27	15:13:52		Deleted Good and Bad Raw Data folders.
+2024-04-27	15:13:52		Fetched training data from dB.
+2024-04-27	15:13:52		All operations of Train_Validation are completed !!
+2024-04-27	15:23:15		Started validating training data files...
+2024-04-27	15:23:15		Fetched JSON training schema details.
+2024-04-27	15:23:15		Validated training data file name format.
+2024-04-27	15:23:15		Validated training data file columns.
+2024-04-27	15:23:15		Raw Data Validation Complete!!
+2024-04-27	15:23:15		Started dB operations...
+2024-04-27	15:23:15		Created table in dB.
+2024-04-27	15:23:15		Inserted Good Raw Data in dB.
+2024-04-27	15:23:15		Moved Bad Data files to archive.
+2024-04-27	15:23:15		Deleted Good and Bad Raw Data folders.
+2024-04-27	15:23:15		Fetched training data from dB.
+2024-04-27	15:23:15		All operations of Train_Validation are completed !!
+2024-04-27	15:44:30		Started validating training data files...
+2024-04-27	15:44:30		Fetched JSON training schema details.
+2024-04-27	15:44:30		Validated training data file name format.
+2024-04-27	15:44:30		Validated training data file columns.
+2024-04-27	15:44:30		Raw Data Validation Complete!!
+2024-04-27	15:44:30		Started dB operations...
+2024-04-27	15:44:31		Created table in dB.
+2024-04-27	15:44:31		Inserted Good Raw Data in dB.
+2024-04-27	15:44:31		Moved Bad Data files to archive.
+2024-04-27	15:44:31		Deleted Good and Bad Raw Data folders.
+2024-04-27	15:44:31		Fetched training data from dB.
+2024-04-27	15:44:31		All operations of Train_Validation are completed !!
+2024-04-27	20:58:00		Started validating training data files...
+2024-04-27	20:58:00		Fetched JSON training schema details.
+2024-04-27	20:58:00		Validated training data file name format.
+2024-04-27	20:58:00		Validated training data file columns.
+2024-04-27	20:58:00		Raw Data Validation Complete!!
+2024-04-27	20:58:00		Started dB operations...
+2024-04-27	20:58:00		Created table in dB.
+2024-04-27	20:58:00		Inserted Good Raw Data in dB.
+2024-04-27	20:58:00		Moved Bad Data files to archive.
+2024-04-27	20:58:00		Deleted Good and Bad Raw Data folders.
+2024-04-27	20:58:00		Fetched training data from dB.
+2024-04-27	20:58:00		All operations of Train_Validation are completed !!

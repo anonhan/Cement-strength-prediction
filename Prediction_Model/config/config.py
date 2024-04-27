@@ -76,8 +76,6 @@ CLUSTERING_MODEL_NAME = 'Kmeans'
 """MLFlow, Optuna and MySQL Configs"""
 # URI for MLFlow tracking
 MLFLOW_URI = 'http://localhost:5000'
-# Number of trails to run for huperparameter
-N_TRIALS = 5
 # Table name for storing good raw data in the database
 GOOD_RAW_TABLE_TRAIN = "good_training_data"
 GOOD_RAW_TABLE_PREDICTION = "good_prediction_data"

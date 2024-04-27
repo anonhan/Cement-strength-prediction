@@ -25,7 +25,7 @@ class Prediction_Validation:
         self.db_operation_handler = dBOperations()
         self.logs_file = open(PREDICTION_DATA_VALIDATION_LOGS_FILE, 'a+')
 
-    def validate_prediction_data(self):
+    def validate_prediction_data(self, is_file_from_path=True, uploaded_file=None, file_name=None):
         """
         Validate the prediction data files.
         """
@@ -33,14 +33,25 @@ class Prediction_Validation:
             self.logger.add_log(self.logs_file, "Started validating prediction data files...")
             LengthOfDateStampInFile, LengthOfTimeStampInFile, NumberofColumns, ColName = self.raw_data_validator.get_values_from_schema(PREDICTION_DATA_INGESTION_LOGS_FILE)
             self.logger.add_log(self.logs_file, "Fetched JSON prediction schema details.")
-            self.raw_data_validator.validate_file_name(FILE_NAME_PATTERN, 
-                                                       LengthOfDateStampInFile, 
-                                                       LengthOfTimeStampInFile, 
-                                                       PREDICTION_DATA_INGESTION_LOGS_FILE, 
-                                                       GOOD_RAW_DIR_PRED, 
-                                                       BAD_RAW_DIR_PRED, 
-                                                       ARCHIVE_DIR_PRED,
-                                                       PREDICTION_FILES_DIR)
+            if is_file_from_path:
+                self.raw_data_validator.validate_file_name(FILE_NAME_PATTERN, 
+                                                        LengthOfDateStampInFile, 
+                                                        LengthOfTimeStampInFile, 
+                                                        PREDICTION_DATA_INGESTION_LOGS_FILE, 
+                                                        GOOD_RAW_DIR_PRED, 
+                                                        BAD_RAW_DIR_PRED, 
+                                                        ARCHIVE_DIR_PRED,
+                                                        PREDICTION_FILES_DIR)
+            else:
+                self.raw_data_validator.validate_file_name_without_path(FILE_NAME_PATTERN, 
+                                            LengthOfDateStampInFile, 
+                                            LengthOfTimeStampInFile, 
+                                            PREDICTION_DATA_INGESTION_LOGS_FILE, 
+                                            GOOD_RAW_DIR_PRED, 
+                                            BAD_RAW_DIR_PRED, 
+                                            ARCHIVE_DIR_PRED,
+                                            uploaded_file,
+                                            file_name)
             self.logger.add_log(self.logs_file, "Validated prediction data file name format.")
             self.raw_data_validator.validate_column_names(NumberofColumns, 
                                                           ColName, 

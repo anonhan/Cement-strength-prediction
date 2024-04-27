@@ -5,9 +5,18 @@ import re
 import pandas as pd
 from Prediction_Model.config.config import PACKAGE_ROOT
 from Prediction_Model.app_logging.app_logger import App_Logger
+import traceback
 
 class Raw_Data_Validation:
     def __init__(self, raw_files_path, json_schema_file):
+        """
+        Initializes Raw_Data_Validation object.
+
+        Parameters:
+        raw_files_path (str): Path to the directory containing raw data files.
+        json_schema_file (str): Name of the JSON schema file.
+
+        """
         self.raw_files_path = raw_files_path
         self.logger = App_Logger()
         # self.json_schema = "schema_training.json"
@@ -15,7 +24,14 @@ class Raw_Data_Validation:
     
     def get_values_from_schema(self, data_ingestion_logs_path):
         """
-        Description: Function to get the values from the JSON Schema to validate training data files.
+        Retrieves values from the JSON Schema to validate training data files.
+
+        Parameters:
+        data_ingestion_logs_path (str): Path to the data ingestion logs file.
+
+        Returns:
+        tuple: A tuple containing LengthOfDateStampInFile, LengthOfTimeStampInFile, NumberofColumns, ColName.
+
         """
         try:
             with open(self.json_schema, 'r') as f:
@@ -40,7 +56,14 @@ class Raw_Data_Validation:
         
     def create_good_bad_archive_data_dir(self, data_ingestion_logs_path, good_raw_dir, bad_raw_dir, archive_dir):
         """
-        Description: Method to create the Good, Bad and Archive Data folder if does not exists.
+        Creates the Good, Bad and Archive Data folders if they do not exist.
+
+        Parameters:
+        data_ingestion_logs_path (str): Path to the data ingestion logs file.
+        good_raw_dir (str): Path to the directory to store good raw data files.
+        bad_raw_dir (str): Path to the directory to store bad raw data files.
+        archive_dir (str): Path to the directory to store archived data files.
+
         """
         try:
             if not os.path.exists(good_raw_dir):
@@ -60,8 +83,13 @@ class Raw_Data_Validation:
         
     def remove_good_bad_dirs(self, data_ingestion_logs_path, good_raw_dir, bad_raw_dir):
         """
-        Description: This method deletes the Good and Bad raw directories once the data is inserted in the DB.
-        Created one for both can be created separately.
+        Deletes the Good and Bad raw directories once the data is inserted in the DB.
+
+        Parameters:
+        data_ingestion_logs_path (str): Path to the data ingestion logs file.
+        good_raw_dir (str): Path to the directory storing good raw data files.
+        bad_raw_dir (str): Path to the directory storing bad raw data files.
+
         """
         try:
             if os.path.exists(good_raw_dir):
@@ -79,7 +107,13 @@ class Raw_Data_Validation:
 
     def move_bad_files_to_archive(self, data_ingestion_logs_path, bad_raw_dir, archive_dir):
         """
-        Description: Method to move the bad raw files to archive.
+        Moves the bad raw files to archive.
+
+        Parameters:
+        data_ingestion_logs_path (str): Path to the data ingestion logs file.
+        bad_raw_dir (str): Path to the directory storing bad raw data files.
+        archive_dir (str): Path to the directory to store archived data files.
+
         """
         try:
             if os.path.exists(bad_raw_dir):
@@ -96,8 +130,19 @@ class Raw_Data_Validation:
     
     def validate_file_name(self, regex, LengthOfDateStampInFile, LengthOfTimeStampInFile, data_ingestion_logs_path, good_raw_dir, bad_raw_dir, archive_dir, files_dir):
         """
-        Description: Function to validate the name of the file, if matches then the data file
-                     will be kept in Good raw folder else copied to the Bad raw folder.
+        Validates the name of the file and moves it to the Good Raw folder if it matches the pattern,
+        otherwise copies it to the Bad Raw folder.
+
+        Parameters:
+        regex (str): Regular expression pattern for file name validation.
+        LengthOfDateStampInFile (int): Length of date stamp in file name.
+        LengthOfTimeStampInFile (int): Length of timestamp in file name.
+        data_ingestion_logs_path (str): Path to the data ingestion logs file.
+        good_raw_dir (str): Path to the directory to store good raw data files.
+        bad_raw_dir (str): Path to the directory to store bad raw data files.
+        archive_dir (str): Path to the directory to store archived data files.
+        files_dir (str): Path to the directory containing the files to be validated.
+
         """
         def match_pattern(file_name):
             pattern = regex % (LengthOfDateStampInFile, LengthOfTimeStampInFile)
@@ -119,15 +164,71 @@ class Raw_Data_Validation:
 
         except Exception as e:
             logs_file = open(f"{data_ingestion_logs_path}", 'a+')
-            self.logger.add_log(logs_file, "Error occurred while validating training files name::"+str(e))
+            self.logger.add_log(logs_file, "Error occurred while validating file name::"+str(e))
             logs_file.close()
+            raise Exception()
+        
+        
+    def validate_file_name_without_path(self, regex, LengthOfDateStampInFile, LengthOfTimeStampInFile, data_ingestion_logs_path, good_raw_dir, bad_raw_dir, archive_dir, uploaded_file, file_name):
+        """
+        Validates the name of the file and moves it to the Good Raw folder if it matches the pattern,
+        otherwise copies it to the Bad Raw folder.
+
+        Parameters:
+        regex (str): Regular expression pattern for file name validation.
+        LengthOfDateStampInFile (int): Length of date stamp in file name.
+        LengthOfTimeStampInFile (int): Length of timestamp in file name.
+        data_ingestion_logs_path (str): Path to the data ingestion logs file.
+        good_raw_dir (str): Path to the directory to store good raw data files.
+        bad_raw_dir (str): Path to the directory to store bad raw data files.
+        archive_dir (str): Path to the directory to store archived data files.
+        uploaded_file (file): File object containing the uploaded file data.
+        file_name (str): Name of the uploaded file.
+
+        """
+        def match_pattern(file_name):
+            pattern = regex % (LengthOfDateStampInFile, LengthOfTimeStampInFile)
+            return bool(re.match(pattern, file_name))
+
+        self.remove_good_bad_dirs(data_ingestion_logs_path, good_raw_dir, bad_raw_dir)
+        self.create_good_bad_archive_data_dir(data_ingestion_logs_path, good_raw_dir, bad_raw_dir, archive_dir)
+        logs_file = open(data_ingestion_logs_path, 'a+')
+        try:
+            # Read the BytesIO object as pandas DataFrame
+            df = pd.read_csv(uploaded_file)
+
+            # Get the file name from the uploaded file
+            filename = file_name
+            if match_pattern(filename):
+                # Copy the file to the good_raw_dir
+                with open(f"{good_raw_dir}/{filename}", "wb") as good_file:
+                    good_file.write(uploaded_file.getvalue())
+                self.logger.add_log(logs_file, "Valid file name! File moved to Good Raw folder::"+str(filename))
+            else:
+                # Copy the file to the bad_raw_dir
+                with open(f"{bad_raw_dir}/{filename}", "wb") as bad_file:
+                    bad_file.write(uploaded_file.getvalue())
+                self.logger.add_log(logs_file, "Invalid file name! File moved to Bad Raw folder::"+str(filename))
+
+            logs_file.close()
+
+        except Exception as e:
+            error_message = traceback.format_exc()
+            self.logger.add_log(logs_file, "Error occurred: " + error_message)
             raise Exception()
 
     def validate_column_names(self, NumberofColumns, ColName, data_ingestion_logs_path, good_raw_dir, bad_raw_dir, archive_dir):
         """
-        Description: Method to read the CSV files to validate the name of the columns and the number of columns
-                     from Good Raw folder. If the names of the columns is invalid the fole will be moved to the
-                     Bad Raw Folder.
+        Validates the column names of CSV files and moves the invalid files to the Bad Raw folder.
+
+        Parameters:
+        NumberofColumns (int): Expected number of columns in the CSV files.
+        ColName (dict): Dictionary containing column names.
+        data_ingestion_logs_path (str): Path to the data ingestion logs file.
+        good_raw_dir (str): Path to the directory storing good raw data files.
+        bad_raw_dir (str): Path to the directory storing bad raw data files.
+        archive_dir (str): Path to the directory to store archived data files.
+
         """
         schema_col_names = ColName.keys()
         logs_file = open(f"{data_ingestion_logs_path}", 'a+')
@@ -154,26 +255,3 @@ class Raw_Data_Validation:
             self.logger.add_log(logs_file, "Error occurred while validating training file columns::"+str(e))
             logs_file.close()
             raise Exception()
-
-
-    # def validate_missing_values_column(self):
-    #     """
-    #     Description: Method to validate the missing valuesi n
-    #     """
-
-
-# rw = Raw_Data_Validation('abc')
-# print(rw.create_good_bad_archive_data_dir(TRAINING_DATA_INGESTION_LOGS_FILE, GOOD_RAW_DIR_TRAIN, BAD_RAW_DIR_PRED, ARCHIVE_DIR_TRAIN))
-# # print(rw.move_bad_files_to_archive())
-# # print(rw.validate_file_name(FILE_NAME_PATTERN, 8,6))
-# # d = {
-# # 		"Cement _component_1" : "FLOAT",
-# # 		"Blast Furnace Slag _component_2" : "FLOAT",
-# # 		"Fly Ash _component_3" : "FLOAT",
-# # 		"Water_component_4" : "FLOAT",
-# # 		"Superplasticizer_component_5" : "FLOAT",
-# # 		"Coarse Aggregate_component_6" : "FLOAT",
-# # 		"Fine Aggregate_component_7" : "FLOAT",
-# # 		"Age_day" : "INTEGER",
-# # 		"Concrete_compressive _strength" : "FLOAT"}
-# # print(rw.validate_column_names(9, d))

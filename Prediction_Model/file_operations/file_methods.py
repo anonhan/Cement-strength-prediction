@@ -34,7 +34,10 @@ class FileOperations:
             elif not self.is_model_dir_empty:
                 # Remove existing files within the directory
                 for file_name in os.listdir(model_filepath):
-                    os.remove(os.path.join(model_filepath, file_name))
+                    try:
+                        os.remove(os.path.join(model_filepath, file_name))
+                    except:
+                        pass
                 self.is_model_dir_empty = True 
             # Save the model
             with open(f'{model_filepath}/{filename}.sav', 'wb') as f:
