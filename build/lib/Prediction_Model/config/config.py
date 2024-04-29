@@ -73,7 +73,7 @@ PREDICTION_MODELS_DIR = os.path.join(MODELS_DIR, "Prediction_Models")
 RANDOM_SEED = 42
 CLUSTERING_MODEL_NAME = 'Kmeans'
 
-"""MLFlow, Optuna and MySQL Configs"""
+"""MLFlow and MySQL Configs"""
 # URI for MLFlow tracking
 MLFLOW_URI = 'http://localhost:5000'
 # Table name for storing good raw data in the database
@@ -81,3 +81,8 @@ GOOD_RAW_TABLE_TRAIN = "good_training_data"
 GOOD_RAW_TABLE_PREDICTION = "good_prediction_data"
 # Chunk size for processing large datasets
 CHUNK_SIZE = 20000
+# MySQL Username and Password
+USERNAME_MYSQL = os.environ.get('MYSQL_USER')
+PASSWORD_MYSQL = os.environ.get('MYSQL_PASSWORD')
+DATABASE = 'cement_strength_prediction'
+HOST = 'localhost'

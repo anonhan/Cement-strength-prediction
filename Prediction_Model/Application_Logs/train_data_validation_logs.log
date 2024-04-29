@@ -705,3 +705,34 @@
 2024-04-28	12:28:41		Deleted Good and Bad Raw Data folders.
 2024-04-28	12:28:42		Fetched training data from dB.
 2024-04-28	12:28:42		All operations of Train_Validation are completed !!
+2024-04-29	11:44:58		Started validating training data files...
+2024-04-29	11:44:58		Fetched JSON training schema details.
+2024-04-29	11:44:58		Validated training data file name format.
+2024-04-29	11:44:58		Validated training data file columns.
+2024-04-29	11:44:58		Raw Data Validation Complete!!
+2024-04-29	11:44:58		Started dB operations...
+2024-04-29	11:44:59		Error occurred while validating training data: 'NoneType' object has no attribute 'is_connected'
+2024-04-29	11:57:32		Started validating training data files...
+2024-04-29	11:57:32		Fetched JSON training schema details.
+2024-04-29	11:57:32		Validated training data file name format.
+2024-04-29	11:57:32		Validated training data file columns.
+2024-04-29	11:57:32		Raw Data Validation Complete!!
+2024-04-29	11:57:32		Started dB operations...
+2024-04-29	11:57:32		Created table in dB.
+2024-04-29	11:57:32		Inserted Good Raw Data in dB.
+2024-04-29	11:57:32		Moved Bad Data files to archive.
+2024-04-29	11:57:32		Deleted Good and Bad Raw Data folders.
+2024-04-29	11:57:32		Fetched training data from dB.
+2024-04-29	11:57:32		All operations of Train_Validation are completed !!
+2024-04-29	12:03:30		Started validating training data files...
+2024-04-29	12:03:30		Fetched JSON training schema details.
+2024-04-29	12:03:30		Validated training data file name format.
+2024-04-29	12:03:30		Validated training data file columns.
+2024-04-29	12:03:30		Raw Data Validation Complete!!
+2024-04-29	12:03:30		Started dB operations...
+2024-04-29	12:03:30		Created table in dB.
+2024-04-29	12:03:31		Inserted Good Raw Data in dB.
+2024-04-29	12:03:31		Moved Bad Data files to archive.
+2024-04-29	12:03:31		Deleted Good and Bad Raw Data folders.
+2024-04-29	12:03:31		Fetched training data from dB.
+2024-04-29	12:03:31		All operations of Train_Validation are completed !!

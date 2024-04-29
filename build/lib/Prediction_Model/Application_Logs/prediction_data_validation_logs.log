@@ -292,3 +292,27 @@
 2024-04-27	21:40:04		Deleted Good and Bad Raw Data folders.
 2024-04-27	21:40:04		Fetched prediction data from dB.
 2024-04-27	21:40:04		All operations of Prediction_Validation are completed !!
+2024-04-29	12:11:19		Started validating prediction data files...
+2024-04-29	12:11:19		Fetched JSON prediction schema details.
+2024-04-29	12:11:19		Validated prediction data file name format.
+2024-04-29	12:11:19		Validated prediction data file columns.
+2024-04-29	12:11:19		Raw Data Validation Complete!!
+2024-04-29	12:11:19		Started dB operations...
+2024-04-29	12:11:19		Created table in dB.
+2024-04-29	12:11:19		Inserted Good Raw Data in dB.
+2024-04-29	12:11:19		Moved Bad Data files to archive.
+2024-04-29	12:11:19		Deleted Good and Bad Raw Data folders.
+2024-04-29	12:11:20		Fetched prediction data from dB.
+2024-04-29	12:11:20		All operations of Prediction_Validation are completed !!
+2024-04-29	12:11:25		Started validating prediction data files...
+2024-04-29	12:11:25		Fetched JSON prediction schema details.
+2024-04-29	12:11:25		Validated prediction data file name format.
+2024-04-29	12:11:25		Validated prediction data file columns.
+2024-04-29	12:11:25		Raw Data Validation Complete!!
+2024-04-29	12:11:25		Started dB operations...
+2024-04-29	12:11:25		Created table in dB.
+2024-04-29	12:11:25		Inserted Good Raw Data in dB.
+2024-04-29	12:11:25		Moved Bad Data files to archive.
+2024-04-29	12:11:25		Deleted Good and Bad Raw Data folders.
+2024-04-29	12:11:25		Fetched prediction data from dB.
+2024-04-29	12:11:25		All operations of Prediction_Validation are completed !!

@@ -653,3 +653,33 @@
 2024-04-28	12:28:41		Inserted good raw data into dB successfully.
 2024-04-28	12:28:41		Removed Good and Bad data folders.
 2024-04-28	12:28:42		Fetched data from good_training_data table.
+2024-04-29	11:44:58		JSON Schema loaded.
+2024-04-29	11:44:58		Removed Good and Bad data folders.
+2024-04-29	11:44:58		Created Good, Bad and Archive Data folders.
+2024-04-29	11:44:58		Invalid file name! File moved to Bad Raw folder::cement_strength_08012020_1200.csv
+2024-04-29	11:44:58		Valid file name! File moved to Good Raw folder::cement_strength_08012020_120000.csv
+2024-04-29	11:44:58		Valid file name! File moved to Good Raw folder::cement_strength_08012020_120021.csv
+2024-04-29	11:44:58		Invalid number of columns! File moved to Bad Raw folder::cement_strength_08012020_120000.csv
+2024-04-29	11:44:59		Error while table creation in dB::'NoneType' object has no attribute 'cursor'
+2024-04-29	11:57:32		JSON Schema loaded.
+2024-04-29	11:57:32		Removed Good and Bad data folders.
+2024-04-29	11:57:32		Created Good, Bad and Archive Data folders.
+2024-04-29	11:57:32		Invalid file name! File moved to Bad Raw folder::cement_strength_08012020_1200.csv
+2024-04-29	11:57:32		Valid file name! File moved to Good Raw folder::cement_strength_08012020_120000.csv
+2024-04-29	11:57:32		Valid file name! File moved to Good Raw folder::cement_strength_08012020_120021.csv
+2024-04-29	11:57:32		Invalid number of columns! File moved to Bad Raw folder::cement_strength_08012020_120000.csv
+2024-04-29	11:57:32		Created Table successfully.
+2024-04-29	11:57:32		Inserted good raw data into dB successfully.
+2024-04-29	11:57:32		Removed Good and Bad data folders.
+2024-04-29	11:57:32		Fetched data from good_training_data table.
+2024-04-29	12:03:30		JSON Schema loaded.
+2024-04-29	12:03:30		Removed Good and Bad data folders.
+2024-04-29	12:03:30		Created Good, Bad and Archive Data folders.
+2024-04-29	12:03:30		Invalid file name! File moved to Bad Raw folder::cement_strength_08012020_1200.csv
+2024-04-29	12:03:30		Valid file name! File moved to Good Raw folder::cement_strength_08012020_120000.csv
+2024-04-29	12:03:30		Valid file name! File moved to Good Raw folder::cement_strength_08012020_120021.csv
+2024-04-29	12:03:30		Invalid number of columns! File moved to Bad Raw folder::cement_strength_08012020_120000.csv
+2024-04-29	12:03:30		Created Table successfully.
+2024-04-29	12:03:31		Inserted good raw data into dB successfully.
+2024-04-29	12:03:31		Removed Good and Bad data folders.
+2024-04-29	12:03:31		Fetched data from good_training_data table.

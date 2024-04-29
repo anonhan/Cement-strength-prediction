@@ -1,7 +1,9 @@
 .gitignore
 LICENSE
+requirements.txt
 setup.py
 Prediction_Model/.gitignore
+Prediction_Model/MANIFEST.in
 Prediction_Model/VERSION
 Prediction_Model/__init__.py
 Prediction_Model/main.py
@@ -18,6 +20,16 @@ Prediction_Model/Application_Logs/prediction_logs.log
 Prediction_Model/Application_Logs/train_data_ingestion_logs.log
 Prediction_Model/Application_Logs/train_data_validation_logs.log
 Prediction_Model/Application_Logs/training_logs.log
+Prediction_Model/DATA/cement_strength_08012020_120021.csv
+Prediction_Model/DATA/Prediction_Batch_Files/cement_strength_08012020_1200.csv
+Prediction_Model/DATA/Prediction_Batch_Files/cement_strength_08012020_120000.csv
+Prediction_Model/DATA/Prediction_Batch_Files/cement_strength_08012020_120021.csv
+Prediction_Model/DATA/Raw_Training_Validated/Archive/cement_strength_08012020_1200.csv
+Prediction_Model/DATA/Raw_Training_Validated/Archive/cement_strength_08012020_120000.csv
+Prediction_Model/DATA/Training_Batch_Files/cement_strength_08012020_1200.csv
+Prediction_Model/DATA/Training_Batch_Files/cement_strength_08012020_120000.csv
+Prediction_Model/DATA/Training_Batch_Files/cement_strength_08012020_120021.csv
+Prediction_Model/DATA/Training_File_From_Db/input_file.csv
 Prediction_Model/Models/Kmeans.sav
 Prediction_Model/Models/Prediction_Models/GradientBoostingRegressor0.sav
 Prediction_Model/Models/Prediction_Models/GradientBoostingRegressor1.sav
@@ -48,3 +60,5 @@ Prediction_Model/predict/__init__.py
 Prediction_Model/predict/predict.py
 Prediction_Model/train_model/__init__.py
 Prediction_Model/train_model/train.py
+dist/Prediction_Model-1.0.0-py3-none-any.whl
+dist/Prediction_Model-1.0.0.tar.gz

@@ -691,3 +691,207 @@ Exception: Error occurred during model optimization: name 'xgb' is not defined
 2024-04-27	21:00:31		Entered the save_model method of the FileOperations class.
 2024-04-27	21:00:31		Model saved successfully.
 2024-04-27	21:00:31		Successful End of Training
+2024-04-28	12:28:42		Started training the model...
+2024-04-28	12:28:42		Entered into get_data function of Data_Loader class for training data.
+2024-04-28	12:28:42		Training data read successfully.
+2024-04-28	12:28:42		Entered into the is_null_present function of Preprocessor class.
+2024-04-28	12:28:42		Entered into the separate_features_label function of Preprocessor class.
+2024-04-28	12:28:42		Separated label column: Concrete_compressive _strength from the dataframe into X and y.
+2024-04-28	12:28:42		Entered into the log_transform function of Preprocessor class.
+2024-04-28	12:28:42		Log transformed the data.
+2024-04-28	12:28:42		Entered the elbow_plot method of the KMeansClustering class
+2024-04-28	12:28:42		Created Elbow plot and saved it.
+2024-04-28	12:28:42		Found optimal number of clusters which is 4
+2024-04-28	12:28:42		Entered the create_clusters method of the KMeansClustering class
+2024-04-28	12:28:42		Entered the save_model method of the FileOperations class.
+2024-04-28	12:28:42		Model saved successfully.
+2024-04-28	12:28:42		Trained clustering model and saved it.
+2024-04-28	12:28:42		Training on the cluster number 0
+2024-04-28	12:28:42		Entered into the standardize_data function of Preprocessor class.
+2024-04-28	12:28:42		Standardized the data.
+2024-04-28	12:28:42		Entered into the standardize_data function of Preprocessor class.
+2024-04-28	12:28:42		Standardized the data.
+2024-04-28	12:28:42		Starting optimization process.
+2024-04-28	12:29:09		Optimization process completed successfully.
+2024-04-28	12:29:09		Best model is RandomForest
+2024-04-28	12:29:19		Optimization process completed successfully.
+2024-04-28	12:29:19		Best model is GradientBoostingRegressor
+2024-04-28	12:29:21		Entered the save_model method of the FileOperations class.
+2024-04-28	12:29:21		Model saved successfully.
+2024-04-28	12:29:21		Training on the cluster number 1
+2024-04-28	12:29:21		Entered into the standardize_data function of Preprocessor class.
+2024-04-28	12:29:21		Standardized the data.
+2024-04-28	12:29:21		Entered into the standardize_data function of Preprocessor class.
+2024-04-28	12:29:21		Standardized the data.
+2024-04-28	12:29:21		Starting optimization process.
+2024-04-28	12:29:49		Optimization process completed successfully.
+2024-04-28	12:29:49		Best model is RandomForest
+2024-04-28	12:29:50		Optimization process completed successfully.
+2024-04-28	12:29:50		Best model is SVR
+2024-04-28	12:30:00		Optimization process completed successfully.
+2024-04-28	12:30:00		Best model is GradientBoostingRegressor
+2024-04-28	12:30:02		Entered the save_model method of the FileOperations class.
+2024-04-28	12:30:02		Model saved successfully.
+2024-04-28	12:30:02		Training on the cluster number 3
+2024-04-28	12:30:02		Entered into the standardize_data function of Preprocessor class.
+2024-04-28	12:30:02		Standardized the data.
+2024-04-28	12:30:02		Entered into the standardize_data function of Preprocessor class.
+2024-04-28	12:30:02		Standardized the data.
+2024-04-28	12:30:02		Starting optimization process.
+2024-04-28	12:30:29		Optimization process completed successfully.
+2024-04-28	12:30:29		Best model is RandomForest
+2024-04-28	12:30:30		Optimization process completed successfully.
+2024-04-28	12:30:30		Best model is SVR
+2024-04-28	12:30:30		Optimization process completed successfully.
+2024-04-28	12:30:30		Best model is LinearRegression
+2024-04-28	12:30:40		Optimization process completed successfully.
+2024-04-28	12:30:40		Best model is GradientBoostingRegressor
+2024-04-28	12:30:41		Entered the save_model method of the FileOperations class.
+2024-04-28	12:30:41		Model saved successfully.
+2024-04-28	12:30:41		Training on the cluster number 2
+2024-04-28	12:30:41		Entered into the standardize_data function of Preprocessor class.
+2024-04-28	12:30:41		Standardized the data.
+2024-04-28	12:30:41		Entered into the standardize_data function of Preprocessor class.
+2024-04-28	12:30:41		Standardized the data.
+2024-04-28	12:30:41		Starting optimization process.
+2024-04-28	12:31:09		Optimization process completed successfully.
+2024-04-28	12:31:09		Best model is RandomForest
+2024-04-28	12:31:09		Optimization process completed successfully.
+2024-04-28	12:31:09		Best model is SVR
+2024-04-28	12:31:23		Entered the save_model method of the FileOperations class.
+2024-04-28	12:31:23		Model saved successfully.
+2024-04-28	12:31:23		Successful End of Training
+2024-04-29	11:57:32		Started training the model...
+2024-04-29	11:57:32		Entered into get_data function of Data_Loader class for training data.
+2024-04-29	11:57:32		Training data read successfully.
+2024-04-29	11:57:32		Entered into the is_null_present function of Preprocessor class.
+2024-04-29	11:57:32		Entered into the separate_features_label function of Preprocessor class.
+2024-04-29	11:57:32		Separated label column: Concrete_compressive _strength from the dataframe into X and y.
+2024-04-29	11:57:32		Entered into the log_transform function of Preprocessor class.
+2024-04-29	11:57:32		Log transformed the data.
+2024-04-29	11:57:32		Entered the elbow_plot method of the KMeansClustering class
+2024-04-29	11:57:33		Created Elbow plot and saved it.
+2024-04-29	11:57:33		Found optimal number of clusters which is 4
+2024-04-29	11:57:33		Entered the create_clusters method of the KMeansClustering class
+2024-04-29	11:57:33		Entered the save_model method of the FileOperations class.
+2024-04-29	11:57:33		Model saved successfully.
+2024-04-29	11:57:33		Trained clustering model and saved it.
+2024-04-29	11:57:33		Training on the cluster number 0
+2024-04-29	11:57:33		Entered into the standardize_data function of Preprocessor class.
+2024-04-29	11:57:33		Standardized the data.
+2024-04-29	11:57:33		Entered into the standardize_data function of Preprocessor class.
+2024-04-29	11:57:33		Standardized the data.
+2024-04-29	11:57:33		Starting optimization process.
+2024-04-29	11:57:59		Optimization process completed successfully.
+2024-04-29	11:57:59		Best model is RandomForest
+2024-04-29	11:58:11		Optimization process completed successfully.
+2024-04-29	11:58:11		Best model is GradientBoostingRegressor
+2024-04-29	11:58:13		Entered the save_model method of the FileOperations class.
+2024-04-29	11:58:13		Model saved successfully.
+2024-04-29	11:58:13		Training on the cluster number 3
+2024-04-29	11:58:13		Entered into the standardize_data function of Preprocessor class.
+2024-04-29	11:58:13		Standardized the data.
+2024-04-29	11:58:13		Entered into the standardize_data function of Preprocessor class.
+2024-04-29	11:58:13		Standardized the data.
+2024-04-29	11:58:13		Starting optimization process.
+2024-04-29	11:58:40		Optimization process completed successfully.
+2024-04-29	11:58:40		Best model is RandomForest
+2024-04-29	11:58:57		Optimization process completed successfully.
+2024-04-29	11:58:57		Best model is GradientBoostingRegressor
+2024-04-29	11:58:58		Entered the save_model method of the FileOperations class.
+2024-04-29	11:58:58		Model saved successfully.
+2024-04-29	11:58:58		Training on the cluster number 2
+2024-04-29	11:58:58		Entered into the standardize_data function of Preprocessor class.
+2024-04-29	11:58:58		Standardized the data.
+2024-04-29	11:58:58		Entered into the standardize_data function of Preprocessor class.
+2024-04-29	11:58:58		Standardized the data.
+2024-04-29	11:58:58		Starting optimization process.
+2024-04-29	11:59:25		Optimization process completed successfully.
+2024-04-29	11:59:25		Best model is RandomForest
+2024-04-29	11:59:39		Optimization process completed successfully.
+2024-04-29	11:59:39		Best model is GradientBoostingRegressor
+2024-04-29	11:59:41		Entered the save_model method of the FileOperations class.
+2024-04-29	11:59:41		Model saved successfully.
+2024-04-29	11:59:41		Training on the cluster number 1
+2024-04-29	11:59:41		Entered into the standardize_data function of Preprocessor class.
+2024-04-29	11:59:41		Standardized the data.
+2024-04-29	11:59:41		Entered into the standardize_data function of Preprocessor class.
+2024-04-29	11:59:41		Standardized the data.
+2024-04-29	11:59:41		Starting optimization process.
+2024-04-29	12:00:07		Optimization process completed successfully.
+2024-04-29	12:00:07		Best model is RandomForest
+2024-04-29	12:00:21		Optimization process completed successfully.
+2024-04-29	12:00:21		Best model is GradientBoostingRegressor
+2024-04-29	12:00:22		Entered the save_model method of the FileOperations class.
+2024-04-29	12:00:22		Model saved successfully.
+2024-04-29	12:00:22		Successful End of Training
+2024-04-29	12:03:31		Started training the model...
+2024-04-29	12:03:31		Entered into get_data function of Data_Loader class for training data.
+2024-04-29	12:03:31		Training data read successfully.
+2024-04-29	12:03:31		Entered into the is_null_present function of Preprocessor class.
+2024-04-29	12:03:31		Entered into the separate_features_label function of Preprocessor class.
+2024-04-29	12:03:31		Separated label column: Concrete_compressive _strength from the dataframe into X and y.
+2024-04-29	12:03:31		Entered into the log_transform function of Preprocessor class.
+2024-04-29	12:03:31		Log transformed the data.
+2024-04-29	12:03:31		Entered the elbow_plot method of the KMeansClustering class
+2024-04-29	12:03:31		Created Elbow plot and saved it.
+2024-04-29	12:03:31		Found optimal number of clusters which is 4
+2024-04-29	12:03:31		Entered the create_clusters method of the KMeansClustering class
+2024-04-29	12:03:31		Entered the save_model method of the FileOperations class.
+2024-04-29	12:03:31		Model saved successfully.
+2024-04-29	12:03:31		Trained clustering model and saved it.
+2024-04-29	12:03:31		Training on the cluster number 0
+2024-04-29	12:03:31		Entered into the standardize_data function of Preprocessor class.
+2024-04-29	12:03:31		Standardized the data.
+2024-04-29	12:03:31		Entered into the standardize_data function of Preprocessor class.
+2024-04-29	12:03:31		Standardized the data.
+2024-04-29	12:03:31		Starting optimization process.
+2024-04-29	12:03:59		Optimization process completed successfully.
+2024-04-29	12:03:59		Best model is RandomForest
+2024-04-29	12:04:10		Optimization process completed successfully.
+2024-04-29	12:04:10		Best model is GradientBoostingRegressor
+2024-04-29	12:04:12		Entered the save_model method of the FileOperations class.
+2024-04-29	12:04:12		Model saved successfully.
+2024-04-29	12:04:12		Training on the cluster number 1
+2024-04-29	12:04:12		Entered into the standardize_data function of Preprocessor class.
+2024-04-29	12:04:12		Standardized the data.
+2024-04-29	12:04:12		Entered into the standardize_data function of Preprocessor class.
+2024-04-29	12:04:12		Standardized the data.
+2024-04-29	12:04:12		Starting optimization process.
+2024-04-29	12:04:39		Optimization process completed successfully.
+2024-04-29	12:04:39		Best model is RandomForest
+2024-04-29	12:04:41		Optimization process completed successfully.
+2024-04-29	12:04:41		Best model is SVR
+2024-04-29	12:04:51		Optimization process completed successfully.
+2024-04-29	12:04:51		Best model is GradientBoostingRegressor
+2024-04-29	12:04:53		Entered the save_model method of the FileOperations class.
+2024-04-29	12:04:53		Model saved successfully.
+2024-04-29	12:04:53		Training on the cluster number 3
+2024-04-29	12:04:53		Entered into the standardize_data function of Preprocessor class.
+2024-04-29	12:04:53		Standardized the data.
+2024-04-29	12:04:53		Entered into the standardize_data function of Preprocessor class.
+2024-04-29	12:04:53		Standardized the data.
+2024-04-29	12:04:53		Starting optimization process.
+2024-04-29	12:05:21		Optimization process completed successfully.
+2024-04-29	12:05:21		Best model is RandomForest
+2024-04-29	12:05:22		Optimization process completed successfully.
+2024-04-29	12:05:22		Best model is SVR
+2024-04-29	12:05:22		Optimization process completed successfully.
+2024-04-29	12:05:22		Best model is LinearRegression
+2024-04-29	12:05:32		Optimization process completed successfully.
+2024-04-29	12:05:32		Best model is GradientBoostingRegressor
+2024-04-29	12:05:34		Entered the save_model method of the FileOperations class.
+2024-04-29	12:05:34		Model saved successfully.
+2024-04-29	12:05:34		Training on the cluster number 2
+2024-04-29	12:05:34		Entered into the standardize_data function of Preprocessor class.
+2024-04-29	12:05:34		Standardized the data.
+2024-04-29	12:05:34		Entered into the standardize_data function of Preprocessor class.
+2024-04-29	12:05:34		Standardized the data.
+2024-04-29	12:05:34		Starting optimization process.
+2024-04-29	12:06:02		Optimization process completed successfully.
+2024-04-29	12:06:02		Best model is RandomForest
+2024-04-29	12:06:02		Optimization process completed successfully.
+2024-04-29	12:06:02		Best model is SVR
+2024-04-29	12:06:15		Entered the save_model method of the FileOperations class.
+2024-04-29	12:06:15		Model saved successfully.
+2024-04-29	12:06:15		Successful End of Training

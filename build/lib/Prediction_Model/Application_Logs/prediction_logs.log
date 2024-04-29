@@ -496,3 +496,61 @@ ValueError: Found array with 0 sample(s) (shape=(0, 8)) while a minimum of 1 is 
 2024-04-27	21:40:06		Entered the load_model method of the FileOperations class.
 2024-04-27	21:40:06		Loaded model SVR2
 2024-04-27	21:40:06		Successful End of Prediction
+2024-04-29	12:11:20		Received prediction request.
+2024-04-29	12:11:20		Entered into get_data function of Data_Loader class for Prediction data.
+2024-04-29	12:11:20		Prediction data read successfully.
+2024-04-29	12:11:20		Entered into the is_null_present function of Preprocessor class.
+2024-04-29	12:11:20		Entered into the log_transform function of Preprocessor class.
+2024-04-29	12:11:20		Log transformed the data.
+2024-04-29	12:11:20		Entered the load_model method of the FileOperations class.
+2024-04-29	12:11:20		Loaded model Kmeans
+2024-04-29	12:11:20		Entered into the standardize_data function of Preprocessor class.
+2024-04-29	12:11:20		Standardized the data.
+2024-04-29	12:11:20		Entered the find_correct_model method of the FileOperations class.
+2024-04-29	12:11:20		Entered the load_model method of the FileOperations class.
+2024-04-29	12:11:20		Loaded model GradientBoostingRegressor0
+2024-04-29	12:11:20		Entered into the standardize_data function of Preprocessor class.
+2024-04-29	12:11:20		Standardized the data.
+2024-04-29	12:11:20		Entered the find_correct_model method of the FileOperations class.
+2024-04-29	12:11:20		Entered the load_model method of the FileOperations class.
+2024-04-29	12:11:20		Loaded model GradientBoostingRegressor1
+2024-04-29	12:11:20		Entered into the standardize_data function of Preprocessor class.
+2024-04-29	12:11:20		Standardized the data.
+2024-04-29	12:11:20		Entered the find_correct_model method of the FileOperations class.
+2024-04-29	12:11:20		Entered the load_model method of the FileOperations class.
+2024-04-29	12:11:20		Loaded model GradientBoostingRegressor3
+2024-04-29	12:11:20		Entered into the standardize_data function of Preprocessor class.
+2024-04-29	12:11:20		Standardized the data.
+2024-04-29	12:11:20		Entered the find_correct_model method of the FileOperations class.
+2024-04-29	12:11:20		Entered the load_model method of the FileOperations class.
+2024-04-29	12:11:20		Loaded model SVR2
+2024-04-29	12:11:20		Successful End of Prediction
+2024-04-29	12:11:25		Received prediction request.
+2024-04-29	12:11:25		Entered into get_data function of Data_Loader class for Prediction data.
+2024-04-29	12:11:25		Prediction data read successfully.
+2024-04-29	12:11:25		Entered into the is_null_present function of Preprocessor class.
+2024-04-29	12:11:25		Entered into the log_transform function of Preprocessor class.
+2024-04-29	12:11:25		Log transformed the data.
+2024-04-29	12:11:25		Entered the load_model method of the FileOperations class.
+2024-04-29	12:11:25		Loaded model Kmeans
+2024-04-29	12:11:25		Entered into the standardize_data function of Preprocessor class.
+2024-04-29	12:11:25		Standardized the data.
+2024-04-29	12:11:25		Entered the find_correct_model method of the FileOperations class.
+2024-04-29	12:11:25		Entered the load_model method of the FileOperations class.
+2024-04-29	12:11:25		Loaded model GradientBoostingRegressor0
+2024-04-29	12:11:25		Entered into the standardize_data function of Preprocessor class.
+2024-04-29	12:11:25		Standardized the data.
+2024-04-29	12:11:25		Entered the find_correct_model method of the FileOperations class.
+2024-04-29	12:11:25		Entered the load_model method of the FileOperations class.
+2024-04-29	12:11:25		Loaded model GradientBoostingRegressor1
+2024-04-29	12:11:25		Entered into the standardize_data function of Preprocessor class.
+2024-04-29	12:11:25		Standardized the data.
+2024-04-29	12:11:25		Entered the find_correct_model method of the FileOperations class.
+2024-04-29	12:11:25		Entered the load_model method of the FileOperations class.
+2024-04-29	12:11:25		Loaded model GradientBoostingRegressor3
+2024-04-29	12:11:26		Entered into the standardize_data function of Preprocessor class.
+2024-04-29	12:11:26		Standardized the data.
+2024-04-29	12:11:26		Entered the find_correct_model method of the FileOperations class.
+2024-04-29	12:11:26		Entered the load_model method of the FileOperations class.
+2024-04-29	12:11:26		Loaded model SVR2
+2024-04-29	12:11:26		Successful End of Prediction

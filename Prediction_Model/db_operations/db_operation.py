@@ -4,19 +4,19 @@ import mysql
 import mysql.connector
 import configparser
 from Prediction_Model.app_logging.app_logger import App_Logger
-from Prediction_Model.config.config import (PACKAGE_ROOT, 
+from Prediction_Model.config.config import ( 
                                             CHUNK_SIZE,
+                                            USERNAME_MYSQL,
+                                            PASSWORD_MYSQL,
+                                            HOST,
+                                            DATABASE
                                             )
 
-# Create the conig object
-config = configparser.ConfigParser()
-config.read(f"{PACKAGE_ROOT}/user_password.ini")
-
 # Access configuration data
-host = config['Database']['Host']
-username = config['Database']['Username']
-password = config['Database']['Password']
-database = config['Database']['Database']
+host = HOST
+username = USERNAME_MYSQL
+password = PASSWORD_MYSQL
+database = DATABASE
 
 class dBOperations:
     def __init__(self):
@@ -148,21 +148,3 @@ class dBOperations:
             if conn.is_connected():
                 conn.close()
                 cursor.close()
-
-
-
-# db = dBOperations()
-# d = {
-# 		"Cement _component_1" : "FLOAT",
-# 		"Blast Furnace Slag _component_2" : "FLOAT",
-# 		"Fly Ash _component_3" : "FLOAT",
-# 		"Water_component_4" : "FLOAT",
-# 		"Superplasticizer_component_5" : "FLOAT",
-# 		"Coarse Aggregate_component_6" : "FLOAT",
-# 		"Fine Aggregate_component_7" : "FLOAT",
-# 		"Age_day" : "INTEGER",
-# 		"Concrete_compressive _strength" : "FLOAT"}
-# # print(db.connect_to_db())
-# # print(db.create_table(d))
-# # print(db.insert_good_data_into_db())
-# print(db.select_data_from_table())

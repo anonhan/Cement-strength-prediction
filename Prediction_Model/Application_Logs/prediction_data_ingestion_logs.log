@@ -385,3 +385,22 @@ AttributeError: '_io.BytesIO' object has no attribute 'name'
 2024-04-27	21:40:04		Inserted good raw data into dB successfully.
 2024-04-27	21:40:04		Removed Good and Bad data folders.
 2024-04-27	21:40:04		Fetched data from good_prediction_data table.
+2024-04-29	12:11:19		JSON Schema loaded.
+2024-04-29	12:11:19		Removed Good and Bad data folders.
+2024-04-29	12:11:19		Created Good, Bad and Archive Data folders.
+2024-04-29	12:11:19		Valid file name! File moved to Good Raw folder::cement_strength_08012020_120021.csv
+2024-04-29	12:11:19		Created Table successfully.
+2024-04-29	12:11:19		Inserted good raw data into dB successfully.
+2024-04-29	12:11:19		Removed Good and Bad data folders.
+2024-04-29	12:11:20		Fetched data from good_prediction_data table.
+2024-04-29	12:11:25		JSON Schema loaded.
+2024-04-29	12:11:25		Removed Good and Bad data folders.
+2024-04-29	12:11:25		Created Good, Bad and Archive Data folders.
+2024-04-29	12:11:25		Invalid file name! File moved to Bad Raw folder::cement_strength_08012020_1200.csv
+2024-04-29	12:11:25		Valid file name! File moved to Good Raw folder::cement_strength_08012020_120000.csv
+2024-04-29	12:11:25		Valid file name! File moved to Good Raw folder::cement_strength_08012020_120021.csv
+2024-04-29	12:11:25		Invalid number of columns! File moved to Bad Raw folder::cement_strength_08012020_120000.csv
+2024-04-29	12:11:25		Created Table successfully.
+2024-04-29	12:11:25		Inserted good raw data into dB successfully.
+2024-04-29	12:11:25		Removed Good and Bad data folders.
+2024-04-29	12:11:25		Fetched data from good_prediction_data table.
