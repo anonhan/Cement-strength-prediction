@@ -1,0 +1,406 @@
+2024-04-26	10:53:58		JSON Schema loaded.
+2024-04-26	10:53:58		Removed Good and Bad data folders.
+2024-04-26	10:53:58		Created Good, Bad and Archive Data folders.
+2024-04-26	10:53:58		Invalid file name! File moved to Bad Raw folder::cement_strength_08012020_1200.csv
+2024-04-26	10:53:58		Valid file name! File moved to Good Raw folder::cement_strength_08012020_120000.csv
+2024-04-26	10:53:58		Valid file name! File moved to Good Raw folder::cement_strength_08012020_120021.csv
+2024-04-26	10:53:58		Invalid number of columns! File moved to Bad Raw folder::cement_strength_08012020_120000.csv
+2024-04-26	10:53:58		Created Table successfully.
+2024-04-26	10:53:58		Inserted good raw data into dB successfully.
+2024-04-26	10:53:58		Removed Good and Bad data folders.
+2024-04-26	10:53:58		Fetched data from good_prediction_data table.
+2024-04-26	11:07:48		JSON Schema loaded.
+2024-04-26	11:07:48		Removed Good and Bad data folders.
+2024-04-26	11:07:48		Created Good, Bad and Archive Data folders.
+2024-04-26	11:07:48		Invalid file name! File moved to Bad Raw folder::cement_strength_08012020_1200.csv
+2024-04-26	11:07:48		Valid file name! File moved to Good Raw folder::cement_strength_08012020_120000.csv
+2024-04-26	11:07:48		Valid file name! File moved to Good Raw folder::cement_strength_08012020_120021.csv
+2024-04-26	11:07:48		Invalid number of columns! File moved to Bad Raw folder::cement_strength_08012020_120000.csv
+2024-04-26	11:07:48		Created Table successfully.
+2024-04-26	11:07:49		Inserted good raw data into dB successfully.
+2024-04-26	11:07:49		Removed Good and Bad data folders.
+2024-04-26	11:07:49		Fetched data from good_prediction_data table.
+2024-04-26	11:09:43		JSON Schema loaded.
+2024-04-26	11:09:43		Removed Good and Bad data folders.
+2024-04-26	11:09:43		Created Good, Bad and Archive Data folders.
+2024-04-26	11:09:43		Invalid file name! File moved to Bad Raw folder::cement_strength_08012020_1200.csv
+2024-04-26	11:09:43		Valid file name! File moved to Good Raw folder::cement_strength_08012020_120000.csv
+2024-04-26	11:09:43		Valid file name! File moved to Good Raw folder::cement_strength_08012020_120021.csv
+2024-04-26	11:09:43		Invalid number of columns! File moved to Bad Raw folder::cement_strength_08012020_120000.csv
+2024-04-26	11:09:43		Created Table successfully.
+2024-04-26	11:09:43		Inserted good raw data into dB successfully.
+2024-04-26	11:09:43		Removed Good and Bad data folders.
+2024-04-26	11:09:44		Fetched data from good_prediction_data table.
+2024-04-26	11:10:21		JSON Schema loaded.
+2024-04-26	11:10:21		Removed Good and Bad data folders.
+2024-04-26	11:10:21		Created Good, Bad and Archive Data folders.
+2024-04-26	11:10:21		Invalid file name! File moved to Bad Raw folder::cement_strength_08012020_1200.csv
+2024-04-26	11:10:21		Valid file name! File moved to Good Raw folder::cement_strength_08012020_120000.csv
+2024-04-26	11:10:21		Valid file name! File moved to Good Raw folder::cement_strength_08012020_120021.csv
+2024-04-26	11:10:21		Invalid number of columns! File moved to Bad Raw folder::cement_strength_08012020_120000.csv
+2024-04-26	11:10:21		Created Table successfully.
+2024-04-26	11:10:21		Inserted good raw data into dB successfully.
+2024-04-26	11:10:21		Removed Good and Bad data folders.
+2024-04-26	11:10:22		Fetched data from good_prediction_data table.
+2024-04-26	11:17:03		JSON Schema loaded.
+2024-04-26	11:17:03		Removed Good and Bad data folders.
+2024-04-26	11:17:03		Created Good, Bad and Archive Data folders.
+2024-04-26	11:17:03		Invalid file name! File moved to Bad Raw folder::cement_strength_08012020_1200.csv
+2024-04-26	11:17:03		Valid file name! File moved to Good Raw folder::cement_strength_08012020_120000.csv
+2024-04-26	11:17:03		Valid file name! File moved to Good Raw folder::cement_strength_08012020_120021.csv
+2024-04-26	11:17:03		Invalid number of columns! File moved to Bad Raw folder::cement_strength_08012020_120000.csv
+2024-04-26	11:17:03		Created Table successfully.
+2024-04-26	11:17:03		Inserted good raw data into dB successfully.
+2024-04-26	11:17:03		Removed Good and Bad data folders.
+2024-04-26	11:17:03		Fetched data from good_prediction_data table.
+2024-04-26	22:35:37		JSON Schema loaded.
+2024-04-26	22:35:37		Removed Good and Bad data folders.
+2024-04-26	22:35:37		Created Good, Bad and Archive Data folders.
+2024-04-26	22:35:37		Invalid file name! File moved to Bad Raw folder::cement_strength_08012020_1200.csv
+2024-04-26	22:35:37		Valid file name! File moved to Good Raw folder::cement_strength_08012020_120000.csv
+2024-04-26	22:35:37		Valid file name! File moved to Good Raw folder::cement_strength_08012020_120021.csv
+2024-04-26	22:35:37		Invalid number of columns! File moved to Bad Raw folder::cement_strength_08012020_120000.csv
+2024-04-26	22:35:37		Created Table successfully.
+2024-04-26	22:35:38		Inserted good raw data into dB successfully.
+2024-04-26	22:35:38		Removed Good and Bad data folders.
+2024-04-26	22:35:38		Fetched data from good_prediction_data table.
+2024-04-26	23:29:14		JSON Schema loaded.
+2024-04-26	23:29:14		Removed Good and Bad data folders.
+2024-04-26	23:29:14		Created Good, Bad and Archive Data folders.
+2024-04-26	23:29:14		Invalid file name! File moved to Bad Raw folder::cement_strength_08012020_1200.csv
+2024-04-26	23:29:14		Valid file name! File moved to Good Raw folder::cement_strength_08012020_120000.csv
+2024-04-26	23:29:14		Valid file name! File moved to Good Raw folder::cement_strength_08012020_120021.csv
+2024-04-26	23:29:14		Invalid number of columns! File moved to Bad Raw folder::cement_strength_08012020_120000.csv
+2024-04-26	23:29:15		Created Table successfully.
+2024-04-26	23:29:15		Inserted good raw data into dB successfully.
+2024-04-26	23:29:15		Removed Good and Bad data folders.
+2024-04-26	23:29:15		Fetched data from good_prediction_data table.
+2024-04-26	23:34:11		JSON Schema loaded.
+2024-04-26	23:34:11		Removed Good and Bad data folders.
+2024-04-26	23:34:11		Created Good, Bad and Archive Data folders.
+2024-04-26	23:34:11		Invalid file name! File moved to Bad Raw folder::cement_strength_08012020_1200.csv
+2024-04-26	23:34:11		Valid file name! File moved to Good Raw folder::cement_strength_08012020_120000.csv
+2024-04-26	23:34:11		Valid file name! File moved to Good Raw folder::cement_strength_08012020_120021.csv
+2024-04-26	23:34:11		Invalid number of columns! File moved to Bad Raw folder::cement_strength_08012020_120000.csv
+2024-04-26	23:34:11		Created Table successfully.
+2024-04-26	23:34:11		Inserted good raw data into dB successfully.
+2024-04-26	23:34:11		Removed Good and Bad data folders.
+2024-04-26	23:34:11		Fetched data from good_prediction_data table.
+2024-04-27	15:38:22		JSON Schema loaded.
+2024-04-27	15:38:22		Removed Good and Bad data folders.
+2024-04-27	15:38:22		Created Good, Bad and Archive Data folders.
+2024-04-27	15:38:22		Invalid file name! File moved to Bad Raw folder::cement_strength_08012020_1200.csv
+2024-04-27	15:38:22		Valid file name! File moved to Good Raw folder::cement_strength_08012020_120000.csv
+2024-04-27	15:38:22		Valid file name! File moved to Good Raw folder::cement_strength_08012020_120021.csv
+2024-04-27	15:38:22		Invalid number of columns! File moved to Bad Raw folder::cement_strength_08012020_120000.csv
+2024-04-27	15:38:22		Created Table successfully.
+2024-04-27	15:38:22		Inserted good raw data into dB successfully.
+2024-04-27	15:38:22		Removed Good and Bad data folders.
+2024-04-27	15:38:22		Fetched data from good_prediction_data table.
+2024-04-27	15:47:58		JSON Schema loaded.
+2024-04-27	15:47:58		Removed Good and Bad data folders.
+2024-04-27	15:47:58		Created Good, Bad and Archive Data folders.
+2024-04-27	15:47:58		Invalid file name! File moved to Bad Raw folder::cement_strength_08012020_1200.csv
+2024-04-27	15:47:58		Valid file name! File moved to Good Raw folder::cement_strength_08012020_120000.csv
+2024-04-27	15:47:58		Valid file name! File moved to Good Raw folder::cement_strength_08012020_120021.csv
+2024-04-27	15:47:58		Invalid number of columns! File moved to Bad Raw folder::cement_strength_08012020_120000.csv
+2024-04-27	15:47:59		Created Table successfully.
+2024-04-27	15:47:59		Inserted good raw data into dB successfully.
+2024-04-27	15:47:59		Removed Good and Bad data folders.
+2024-04-27	15:47:59		Fetched data from good_prediction_data table.
+2024-04-27	19:22:01		JSON Schema loaded.
+2024-04-27	19:22:01		Removed Good and Bad data folders.
+2024-04-27	19:22:01		Created Good, Bad and Archive Data folders.
+2024-04-27	19:22:01		Invalid file name! File moved to Bad Raw folder::cement_strength_08012020_1200.csv
+2024-04-27	19:22:01		Valid file name! File moved to Good Raw folder::cement_strength_08012020_120000.csv
+2024-04-27	19:22:01		Valid file name! File moved to Good Raw folder::cement_strength_08012020_120021.csv
+2024-04-27	19:22:01		Invalid number of columns! File moved to Bad Raw folder::cement_strength_08012020_120000.csv
+2024-04-27	19:22:01		Created Table successfully.
+2024-04-27	19:22:02		Inserted good raw data into dB successfully.
+2024-04-27	19:22:02		Removed Good and Bad data folders.
+2024-04-27	19:22:02		Fetched data from good_prediction_data table.
+2024-04-27	19:24:46		JSON Schema loaded.
+2024-04-27	19:24:46		Removed Good and Bad data folders.
+2024-04-27	19:24:46		Created Good, Bad and Archive Data folders.
+2024-04-27	19:24:46		Invalid file name! File moved to Bad Raw folder::cement_strength_08012020_1200.csv
+2024-04-27	19:24:46		Valid file name! File moved to Good Raw folder::cement_strength_08012020_120000.csv
+2024-04-27	19:24:46		Valid file name! File moved to Good Raw folder::cement_strength_08012020_120021.csv
+2024-04-27	19:24:46		Invalid number of columns! File moved to Bad Raw folder::cement_strength_08012020_120000.csv
+2024-04-27	19:24:46		Created Table successfully.
+2024-04-27	19:24:46		Inserted good raw data into dB successfully.
+2024-04-27	19:24:46		Removed Good and Bad data folders.
+2024-04-27	19:24:47		Fetched data from good_prediction_data table.
+2024-04-27	19:30:29		JSON Schema loaded.
+2024-04-27	19:30:29		Removed Good and Bad data folders.
+2024-04-27	19:30:29		Created Good, Bad and Archive Data folders.
+2024-04-27	19:30:29		Error occurred while validating training files name::[Errno 2] No such file or directory: '/home/sahil/WorkSpace/WorkBooks/Projects/CemenetStrength/Prediction_Model/DATA/Prediction_Batch_Files'
+2024-04-27	19:32:33		JSON Schema loaded.
+2024-04-27	19:32:33		Removed Good and Bad data folders.
+2024-04-27	19:32:33		Created Good, Bad and Archive Data folders.
+2024-04-27	19:32:33		Error occurred while validating training files name::[Errno 2] No such file or directory: '/home/sahil/WorkSpace/WorkBooks/Projects/CemenetStrength/Prediction_Model/DATA/Prediction_Batch_Files'
+2024-04-27	19:58:08		JSON Schema loaded.
+2024-04-27	19:58:08		Removed Good and Bad data folders.
+2024-04-27	19:58:08		Created Good, Bad and Archive Data folders.
+2024-04-27	19:58:08		Error occurred while validating file name::listdir: path should be string, bytes, os.PathLike, integer or None, not DataFrame
+2024-04-27	19:59:42		JSON Schema loaded.
+2024-04-27	19:59:42		Removed Good and Bad data folders.
+2024-04-27	19:59:42		Created Good, Bad and Archive Data folders.
+2024-04-27	19:59:42		Error occurred while validating file name::listdir: path should be string, bytes, os.PathLike, integer or None, not DataFrame
+2024-04-27	20:01:55		JSON Schema loaded.
+2024-04-27	20:01:55		Removed Good and Bad data folders.
+2024-04-27	20:01:55		Created Good, Bad and Archive Data folders.
+2024-04-27	20:01:55		Error occurred while validating uploaded file::argument of type 'method' is not iterable
+2024-04-27	20:03:11		JSON Schema loaded.
+2024-04-27	20:03:11		Removed Good and Bad data folders.
+2024-04-27	20:03:11		Created Good, Bad and Archive Data folders.
+2024-04-27	20:03:11		Error occurred while validating uploaded file::No columns to parse from file
+2024-04-27	20:05:35		JSON Schema loaded.
+2024-04-27	20:05:35		Removed Good and Bad data folders.
+2024-04-27	20:05:35		Created Good, Bad and Archive Data folders.
+2024-04-27	20:05:35		Error occurred while validating uploaded file::No columns to parse from file
+2024-04-27	20:07:26		JSON Schema loaded.
+2024-04-27	20:07:26		Removed Good and Bad data folders.
+2024-04-27	20:07:26		Created Good, Bad and Archive Data folders.
+2024-04-27	20:09:33		JSON Schema loaded.
+2024-04-27	20:09:33		Removed Good and Bad data folders.
+2024-04-27	20:09:33		Created Good, Bad and Archive Data folders.
+2024-04-27	20:09:33		Error occurred: Traceback (most recent call last):
+  File "/home/sahil/WorkSpace/WorkBooks/Projects/CemenetStrength/Prediction_Model/data_ingestion/raw_data_validation.py", line 142, in validate_file_name_without_path
+    df = pd.read_csv(uploaded_file)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sahil/anaconda3/envs/cement-strenght-venv/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sahil/anaconda3/envs/cement-strenght-venv/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sahil/anaconda3/envs/cement-strenght-venv/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sahil/anaconda3/envs/cement-strenght-venv/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1898, in _make_engine
+    return mapping[engine](f, **self.options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sahil/anaconda3/envs/cement-strenght-venv/lib/python3.12/site-packages/pandas/io/parsers/c_parser_wrapper.py", line 93, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "parsers.pyx", line 581, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+
+2024-04-27	20:09:33		Created Table successfully.
+2024-04-27	20:09:33		Inserted good raw data into dB successfully.
+2024-04-27	20:09:33		Removed Good and Bad data folders.
+2024-04-27	20:09:33		Fetched data from good_prediction_data table.
+2024-04-27	20:10:36		JSON Schema loaded.
+2024-04-27	20:10:36		Removed Good and Bad data folders.
+2024-04-27	20:10:36		Created Good, Bad and Archive Data folders.
+2024-04-27	20:10:36		Error occurred: Traceback (most recent call last):
+  File "/home/sahil/WorkSpace/WorkBooks/Projects/CemenetStrength/Prediction_Model/data_ingestion/raw_data_validation.py", line 142, in validate_file_name_without_path
+    df = pd.read_csv(uploaded_file)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sahil/anaconda3/envs/cement-strenght-venv/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sahil/anaconda3/envs/cement-strenght-venv/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sahil/anaconda3/envs/cement-strenght-venv/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sahil/anaconda3/envs/cement-strenght-venv/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1898, in _make_engine
+    return mapping[engine](f, **self.options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sahil/anaconda3/envs/cement-strenght-venv/lib/python3.12/site-packages/pandas/io/parsers/c_parser_wrapper.py", line 93, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "parsers.pyx", line 581, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+
+2024-04-27	20:10:36		Created Table successfully.
+2024-04-27	20:10:36		Inserted good raw data into dB successfully.
+2024-04-27	20:10:36		Removed Good and Bad data folders.
+2024-04-27	20:10:36		Fetched data from good_prediction_data table.
+2024-04-27	20:13:01		JSON Schema loaded.
+2024-04-27	20:13:01		Removed Good and Bad data folders.
+2024-04-27	20:13:01		Created Good, Bad and Archive Data folders.
+2024-04-27	20:13:01		Error occurred: Traceback (most recent call last):
+  File "/home/sahil/WorkSpace/WorkBooks/Projects/CemenetStrength/Prediction_Model/data_ingestion/raw_data_validation.py", line 142, in validate_file_name_without_path
+    df = pd.read_csv(uploaded_file)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sahil/anaconda3/envs/cement-strenght-venv/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sahil/anaconda3/envs/cement-strenght-venv/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sahil/anaconda3/envs/cement-strenght-venv/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sahil/anaconda3/envs/cement-strenght-venv/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1898, in _make_engine
+    return mapping[engine](f, **self.options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sahil/anaconda3/envs/cement-strenght-venv/lib/python3.12/site-packages/pandas/io/parsers/c_parser_wrapper.py", line 93, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "parsers.pyx", line 581, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+
+2024-04-27	20:13:01		Created Table successfully.
+2024-04-27	20:13:01		Inserted good raw data into dB successfully.
+2024-04-27	20:13:01		Removed Good and Bad data folders.
+2024-04-27	20:13:01		Fetched data from good_prediction_data table.
+2024-04-27	20:19:00		JSON Schema loaded.
+2024-04-27	20:19:00		Removed Good and Bad data folders.
+2024-04-27	20:19:00		Created Good, Bad and Archive Data folders.
+2024-04-27	20:19:00		Error occurred: Traceback (most recent call last):
+  File "/home/sahil/WorkSpace/WorkBooks/Projects/CemenetStrength/Prediction_Model/data_ingestion/raw_data_validation.py", line 142, in validate_file_name_without_path
+    df = pd.read_csv(uploaded_file)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sahil/anaconda3/envs/cement-strenght-venv/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sahil/anaconda3/envs/cement-strenght-venv/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sahil/anaconda3/envs/cement-strenght-venv/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sahil/anaconda3/envs/cement-strenght-venv/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1898, in _make_engine
+    return mapping[engine](f, **self.options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sahil/anaconda3/envs/cement-strenght-venv/lib/python3.12/site-packages/pandas/io/parsers/c_parser_wrapper.py", line 93, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "parsers.pyx", line 581, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+
+2024-04-27	20:19:01		Created Table successfully.
+2024-04-27	20:19:01		Inserted good raw data into dB successfully.
+2024-04-27	20:19:01		Removed Good and Bad data folders.
+2024-04-27	20:19:01		Fetched data from good_prediction_data table.
+2024-04-27	20:21:59		JSON Schema loaded.
+2024-04-27	20:21:59		Removed Good and Bad data folders.
+2024-04-27	20:21:59		Created Good, Bad and Archive Data folders.
+2024-04-27	20:21:59		Error occurred: Traceback (most recent call last):
+  File "/home/sahil/WorkSpace/WorkBooks/Projects/CemenetStrength/Prediction_Model/data_ingestion/raw_data_validation.py", line 145, in validate_file_name_without_path
+    filename = uploaded_file.name
+               ^^^^^^^^^^^^^^^^^^
+AttributeError: '_io.BytesIO' object has no attribute 'name'
+
+2024-04-27	20:40:29		JSON Schema loaded.
+2024-04-27	20:40:29		Removed Good and Bad data folders.
+2024-04-27	20:40:29		Created Good, Bad and Archive Data folders.
+2024-04-27	20:40:29		Error occurred: Traceback (most recent call last):
+  File "/home/sahil/WorkSpace/WorkBooks/Projects/CemenetStrength/Prediction_Model/data_ingestion/raw_data_validation.py", line 142, in validate_file_name_without_path
+    df = pd.read_csv(uploaded_file)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sahil/anaconda3/envs/cement-strenght-venv/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sahil/anaconda3/envs/cement-strenght-venv/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sahil/anaconda3/envs/cement-strenght-venv/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sahil/anaconda3/envs/cement-strenght-venv/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1898, in _make_engine
+    return mapping[engine](f, **self.options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sahil/anaconda3/envs/cement-strenght-venv/lib/python3.12/site-packages/pandas/io/parsers/c_parser_wrapper.py", line 93, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "parsers.pyx", line 581, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+
+2024-04-27	20:41:39		JSON Schema loaded.
+2024-04-27	20:41:39		Removed Good and Bad data folders.
+2024-04-27	20:41:39		Created Good, Bad and Archive Data folders.
+2024-04-27	20:41:39		Error occurred: Traceback (most recent call last):
+  File "/home/sahil/WorkSpace/WorkBooks/Projects/CemenetStrength/Prediction_Model/data_ingestion/raw_data_validation.py", line 145, in validate_file_name_without_path
+    content_type, content_string = uploaded_file.content_type, uploaded_file.read()
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: '_io.BytesIO' object has no attribute 'content_type'
+
+2024-04-27	20:44:07		JSON Schema loaded.
+2024-04-27	20:44:07		Removed Good and Bad data folders.
+2024-04-27	20:44:07		Created Good, Bad and Archive Data folders.
+2024-04-27	20:44:07		Error occurred: Traceback (most recent call last):
+  File "/home/sahil/WorkSpace/WorkBooks/Projects/CemenetStrength/Prediction_Model/data_ingestion/raw_data_validation.py", line 145, in validate_file_name_without_path
+    filename = uploaded_file_name = uploaded_file.name
+                                    ^^^^^^^^^^^^^^^^^^
+AttributeError: '_io.BytesIO' object has no attribute 'name'
+
+2024-04-27	20:52:12		JSON Schema loaded.
+2024-04-27	20:52:12		Removed Good and Bad data folders.
+2024-04-27	20:52:12		Created Good, Bad and Archive Data folders.
+2024-04-27	20:52:12		Error occurred: Traceback (most recent call last):
+  File "/home/sahil/WorkSpace/WorkBooks/Projects/CemenetStrength/Prediction_Model/data_ingestion/raw_data_validation.py", line 145, in validate_file_name_without_path
+    filename = uploaded_file_name = uploaded_file.name
+                                    ^^^^^^^^^^^^^^^^^^
+AttributeError: '_io.BytesIO' object has no attribute 'name'
+
+2024-04-27	20:54:08		JSON Schema loaded.
+2024-04-27	20:54:08		Removed Good and Bad data folders.
+2024-04-27	20:54:08		Created Good, Bad and Archive Data folders.
+2024-04-27	20:54:08		Valid file name! File moved to Good Raw folder::cement_strength_08012020_120021.csv
+2024-04-27	20:54:08		Created Table successfully.
+2024-04-27	20:54:08		Inserted good raw data into dB successfully.
+2024-04-27	20:54:08		Removed Good and Bad data folders.
+2024-04-27	20:54:08		Fetched data from good_prediction_data table.
+2024-04-27	20:54:58		JSON Schema loaded.
+2024-04-27	20:54:58		Removed Good and Bad data folders.
+2024-04-27	20:54:58		Created Good, Bad and Archive Data folders.
+2024-04-27	20:54:58		Valid file name! File moved to Good Raw folder::cement_strength_08012020_120021.csv
+2024-04-27	20:54:58		Created Table successfully.
+2024-04-27	20:54:58		Inserted good raw data into dB successfully.
+2024-04-27	20:54:58		Removed Good and Bad data folders.
+2024-04-27	20:54:58		Fetched data from good_prediction_data table.
+2024-04-27	21:01:12		JSON Schema loaded.
+2024-04-27	21:01:12		Removed Good and Bad data folders.
+2024-04-27	21:01:12		Created Good, Bad and Archive Data folders.
+2024-04-27	21:01:12		Error occurred while validating file name::[Errno 2] No such file or directory: '/home/sahil/WorkSpace/WorkBooks/Projects/CemenetStrength/Prediction_Model/DATA/Prediction_Batch_Files'
+2024-04-27	21:02:02		JSON Schema loaded.
+2024-04-27	21:02:02		Removed Good and Bad data folders.
+2024-04-27	21:02:02		Created Good, Bad and Archive Data folders.
+2024-04-27	21:02:02		Invalid file name! File moved to Bad Raw folder::cement_strength_08012020_1200.csv
+2024-04-27	21:02:02		Valid file name! File moved to Good Raw folder::cement_strength_08012020_120000.csv
+2024-04-27	21:02:02		Valid file name! File moved to Good Raw folder::cement_strength_08012020_120021.csv
+2024-04-27	21:02:02		Invalid number of columns! File moved to Bad Raw folder::cement_strength_08012020_120000.csv
+2024-04-27	21:02:02		Created Table successfully.
+2024-04-27	21:02:02		Inserted good raw data into dB successfully.
+2024-04-27	21:02:02		Removed Good and Bad data folders.
+2024-04-27	21:02:02		Fetched data from good_prediction_data table.
+2024-04-27	21:03:10		JSON Schema loaded.
+2024-04-27	21:03:10		Removed Good and Bad data folders.
+2024-04-27	21:03:10		Created Good, Bad and Archive Data folders.
+2024-04-27	21:03:10		Valid file name! File moved to Good Raw folder::cement_strength_08012020_120021.csv
+2024-04-27	21:03:10		Created Table successfully.
+2024-04-27	21:03:11		Inserted good raw data into dB successfully.
+2024-04-27	21:03:11		Removed Good and Bad data folders.
+2024-04-27	21:03:11		Fetched data from good_prediction_data table.
+2024-04-27	21:03:46		JSON Schema loaded.
+2024-04-27	21:03:46		Removed Good and Bad data folders.
+2024-04-27	21:03:46		Created Good, Bad and Archive Data folders.
+2024-04-27	21:03:46		Valid file name! File moved to Good Raw folder::cement_strength_08012020_120021.csv
+2024-04-27	21:40:04		Created Table successfully.
+2024-04-27	21:40:04		Inserted good raw data into dB successfully.
+2024-04-27	21:40:04		Removed Good and Bad data folders.
+2024-04-27	21:40:04		Fetched data from good_prediction_data table.
+2024-04-29	12:11:19		JSON Schema loaded.
+2024-04-29	12:11:19		Removed Good and Bad data folders.
+2024-04-29	12:11:19		Created Good, Bad and Archive Data folders.
+2024-04-29	12:11:19		Valid file name! File moved to Good Raw folder::cement_strength_08012020_120021.csv
+2024-04-29	12:11:19		Created Table successfully.
+2024-04-29	12:11:19		Inserted good raw data into dB successfully.
+2024-04-29	12:11:19		Removed Good and Bad data folders.
+2024-04-29	12:11:20		Fetched data from good_prediction_data table.
+2024-04-29	12:11:25		JSON Schema loaded.
+2024-04-29	12:11:25		Removed Good and Bad data folders.
+2024-04-29	12:11:25		Created Good, Bad and Archive Data folders.
+2024-04-29	12:11:25		Invalid file name! File moved to Bad Raw folder::cement_strength_08012020_1200.csv
+2024-04-29	12:11:25		Valid file name! File moved to Good Raw folder::cement_strength_08012020_120000.csv
+2024-04-29	12:11:25		Valid file name! File moved to Good Raw folder::cement_strength_08012020_120021.csv
+2024-04-29	12:11:25		Invalid number of columns! File moved to Bad Raw folder::cement_strength_08012020_120000.csv
+2024-04-29	12:11:25		Created Table successfully.
+2024-04-29	12:11:25		Inserted good raw data into dB successfully.
+2024-04-29	12:11:25		Removed Good and Bad data folders.
+2024-04-29	12:11:25		Fetched data from good_prediction_data table.

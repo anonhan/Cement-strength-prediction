@@ -104,5 +104,6 @@ Requires-Dist: Werkzeug==3.0.2
 Requires-Dist: wheel==0.41.2
 Requires-Dist: xgboost==2.0.3
 Requires-Dist: zipp==3.18.1
+Requires-Dist: pymysql==1.0.2
 
 Cemenet Strenght Prediction Model
