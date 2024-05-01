@@ -87,3 +87,4 @@ Werkzeug==3.0.2
 wheel==0.41.2
 xgboost==2.0.3
 zipp==3.18.1
+pymysql==1.0.2
