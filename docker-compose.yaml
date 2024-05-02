@@ -4,6 +4,8 @@ services:
   mysql:
     image: mysql:latest
     restart: always
+    volumes:
+      - mysql_data:/var/lib/mysql
     environment:
       MYSQL_ROOT_PASSWORD: 'abcd@123'
       MYSQL_DATABASE: 'cement_strength_prediction'  # Specify the database name here
@@ -18,7 +20,7 @@ services:
       context: .
       dockerfile: Dockerfile
     volumes:
-      - .:/app
+      - python_data:/app
     depends_on:
       - mysql
     environment:
@@ -28,3 +30,6 @@ services:
       MYSQL_HOST: 'mysql'
 
 
+volumes:
+  mysql_data:
+  python_data:

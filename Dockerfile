@@ -18,7 +18,7 @@ WORKDIR /app
 COPY . /app
 
 # Make the source script executable
-RUN chmod +x /app/src
+RUN chmod +x /app
 
 # Install dependencies
 RUN pip install --no-cache-dir --upgrade -r /app/src/requirements.txt
