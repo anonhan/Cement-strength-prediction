@@ -84,5 +84,5 @@ CHUNK_SIZE = 20000
 # MySQL Username and Password
 USERNAME_MYSQL = os.environ.get('MYSQL_USER')
 PASSWORD_MYSQL = os.environ.get('MYSQL_PASSWORD')
-DATABASE = 'cement_strength_prediction'
-HOST = 'localhost'
+DATABASE = os.environ.get('MYSQL_DATABASE')
+HOST = os.environ.get('MYSQL_HOST')

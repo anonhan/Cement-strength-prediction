@@ -1,0 +1,30 @@
+version: '3'
+
+services:
+  mysql:
+    image: mysql:latest
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: 'abcd@123'
+      MYSQL_DATABASE: 'cement_strength_prediction'  # Specify the database name here
+      MYSQL_USER: 'mlapp'
+      MYSQL_PASSWORD: 'abcd@123'
+    ports:
+      - "3307:3306"
+
+
+  python:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/app
+    depends_on:
+      - mysql
+    environment:
+      MYSQL_USER: 'mlapp'
+      MYSQL_PASSWORD: 'abcd@123'
+      MYSQL_DATABASE: 'cement_strength_prediction'
+      MYSQL_HOST: 'mysql'
+
+
