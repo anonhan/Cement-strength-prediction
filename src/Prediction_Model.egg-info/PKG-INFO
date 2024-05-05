@@ -24,5 +24,9 @@ Requires-Dist: pandas==2.2.2
 Requires-Dist: scikit_learn==1.4.2
 Requires-Dist: setuptools==68.2.2
 Requires-Dist: streamlit==1.33.0
+Requires-Dist: mysql==0.0.3
+Requires-Dist: mysql-connector-python==8.3.0
+Requires-Dist: mysqlclient==2.2.4
+Requires-Dist: pymysql==1.0.2
 
 Cemenet Strenght Prediction Model
