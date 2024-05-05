@@ -75,7 +75,7 @@ CLUSTERING_MODEL_NAME = 'Kmeans'
 
 """MLFlow and MySQL Configs"""
 # URI for MLFlow tracking
-MLFLOW_URI = 'http://localhost:5000'
+MLFLOW_URI = os.environ.get('MLFLOW_URI')
 # Table name for storing good raw data in the database
 GOOD_RAW_TABLE_TRAIN = "good_training_data"
 GOOD_RAW_TABLE_PREDICTION = "good_prediction_data"
@@ -84,5 +84,5 @@ CHUNK_SIZE = 20000
 # MySQL Username and Password
 USERNAME_MYSQL = os.environ.get('MYSQL_USER')
 PASSWORD_MYSQL = os.environ.get('MYSQL_PASSWORD')
-DATABASE = 'cement_strength_prediction'
-HOST = 'localhost'
+DATABASE = os.environ.get('MYSQL_DATABASE')
+HOST = os.environ.get('MYSQL_HOST')

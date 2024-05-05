@@ -75,7 +75,7 @@ CLUSTERING_MODEL_NAME = 'Kmeans'
 
 """MLFlow and MySQL Configs"""
 # URI for MLFlow tracking
-MLFLOW_URI = 'http://localhost:5000'
+MLFLOW_URI = os.environ.get('MLFLOW_URI')
 # Table name for storing good raw data in the database
 GOOD_RAW_TABLE_TRAIN = "good_training_data"
 GOOD_RAW_TABLE_PREDICTION = "good_prediction_data"

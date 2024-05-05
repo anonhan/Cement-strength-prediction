@@ -1,5 +1,3 @@
-version: '3'
-
 services:
   mysql:
     image: mysql:latest
@@ -8,27 +6,34 @@ services:
       - mysql_data:/var/lib/mysql
     environment:
       MYSQL_ROOT_PASSWORD: 'abcd@123'
-      MYSQL_DATABASE: 'cement_strength_prediction'  # Specify the database name here
+      MYSQL_DATABASE: 'cement_strength_prediction' 
       MYSQL_USER: 'mlapp'
       MYSQL_PASSWORD: 'abcd@123'
     ports:
       - "3307:3306"
 
+  mlflow:
+    image: ghcr.io/mlflow/mlflow:latest
+    restart: always
+    volumes:
+      - python_data:/app
+    command: ["mlflow", "server", "--host", "0.0.0.0"]
+    ports:
+      - "5000:5000"
 
   python:
     build: 
       context: .
       dockerfile: Dockerfile
-    volumes:
-      - python_data:/app
     depends_on:
       - mysql
+      - mlflow
     environment:
       MYSQL_USER: 'mlapp'
       MYSQL_PASSWORD: 'abcd@123'
       MYSQL_DATABASE: 'cement_strength_prediction'
       MYSQL_HOST: 'mysql'
-
+      MLFLOW_URI: 'http://mlflow:5000'
 
 volumes:
   mysql_data:
