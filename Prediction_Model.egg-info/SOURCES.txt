@@ -1,5 +1,0 @@
-Prediction_Model.egg-info/PKG-INFO
-Prediction_Model.egg-info/SOURCES.txt
-Prediction_Model.egg-info/dependency_links.txt
-Prediction_Model.egg-info/requires.txt
-Prediction_Model.egg-info/top_level.txt
