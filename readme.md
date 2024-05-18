@@ -72,11 +72,13 @@ The project structure is organized as follows:
     ```
 
 ### Training Pipeline Overview
-![alt text](Cement-Strength-Prediction.png)
+![alt text](flowcharts/Cement-Strength-Training.png)
 
 ### Prediction Pipeline Overview
-![alt text](<Cement-Strength-Prediction (2).png>)
+![alt text](flowcharts/Cement-Strength-Prediction.png)
 
+### Training Algorithm
+![alt text](flowcharts/Training-Algorithm.png)
 
 
 ## License

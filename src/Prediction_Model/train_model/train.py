@@ -65,7 +65,9 @@ class TrainModel:
                                                y_test=y_test,
                                                cluster_number=i
                                                )
-                best_model_name, best_model = model_finder.optimize(cluster_number=i)
+                best_model_name, best_model = model_finder.find_best_model()
+                best_model_name, best_model = model_finder.optimize_best_model(best_model_name, best_model)
+
 
                 # Saving the best model
                 file_op.save_model(best_model, best_model_name+str(i), PREDICTION_MODELS_DIR)

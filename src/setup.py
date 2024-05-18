@@ -1,7 +1,7 @@
 import io
 import os
 from pathlib import Path
-
+from typing import List
 from setuptools import find_packages, setup
 
 
@@ -16,9 +16,12 @@ REQUIRES_PYTHON = '>=3.10.0'
 pwd = os.path.abspath(os.path.dirname(__file__))
 
 # Get the list of packages to be installed
-def list_reqs(fname='requirements.txt'):
-    with io.open(os.path.join(pwd, fname), encoding='utf-8') as f:
-        return f.read().splitlines()
+def get_requirements()->List[str]:
+    """
+    This function will return list of requirements
+    """
+    requirement_list:List[str] = []
+    return requirement_list
 
 try:
     with io.open(os.path.join(pwd, 'README.md'), encoding='utf-8') as f:
@@ -47,7 +50,7 @@ setup(
     url=URL,
     packages=find_packages(exclude=('tests',)),
     package_data={'Prediction_Model': ['VERSION']},
-    install_requires=list_reqs(),
+    install_requires=get_requirements(),
     extras_require={},
     include_package_data=True,
     license='MIT',
