@@ -62,7 +62,8 @@ class TrainModel:
                                                X_train=x_train_scaled,
                                                y_train=y_train,
                                                X_test=x_test_scaled,
-                                               y_test=y_test
+                                               y_test=y_test,
+                                               cluster_number=i
                                                )
                 best_model_name, best_model = model_finder.optimize(cluster_number=i)
 
@@ -77,3 +78,4 @@ class TrainModel:
             error_message = 'Error while making predictions::' + str(e)
             error_message_with_line = error_message + "\n" + traceback.format_exc()
             self.logger.add_log(self.log_file, error_message_with_line)
+            raise e

@@ -11,10 +11,14 @@ from Prediction_Model.config.config import (PREDICTION_LOGS,
                                             PREDICTION_OUTPUT_DIR,
                                             PREDICTION_OUTPUT_FILE,
                                             MODELS_DIR,
-                                            PREDICTION_MODELS_DIR)
+                                            PREDICTION_MODELS_DIR,
+                                            MLFLOW_EXPERIMENT_NAME)
 import os
 import pandas as pd
 import traceback
+
+import mlflow
+import mlflow.pyfunc
 
 class MakePredictions:
     """
@@ -24,13 +28,31 @@ class MakePredictions:
     log_file (file): Log file to store prediction logs.
     logger (App_Logger): Logger instance for logging prediction process.
     """
-
     def __init__(self):
         """
         Initialize MakePredictions object with log file and logger.
         """
         self.log_file = open(PREDICTION_LOGS, 'a+')
         self.logger = App_Logger()
+
+    def _get_experiment_id_by_name(self, experiment_name):
+        experiment = mlflow.get_experiment_by_name(experiment_name)
+        if experiment is None:
+            raise ValueError(f"Experiment '{experiment_name}' does not exist.")
+        return experiment.experiment_id
+
+
+    def _load_model_by_prefix_number(self, experiment_id, cluster_number):
+        runs = mlflow.search_runs(experiment_id)
+        for run_id in runs['run_id']:
+            # Check for the tag 
+            run = mlflow.get_run(run_id)
+            custom_model_name = "prediction_model"+"_"+str(cluster_number)
+            if run.data.tags.get("model_name") == custom_model_name:
+                model_uri = f"runs:/{run_id}/{custom_model_name}"
+                model = mlflow.pyfunc.load_model(model_uri)
+                return model
+        raise ValueError(f"No model found with prefix number '{cluster_number}'")
 
     def start_prediction(self):
         """
@@ -70,9 +92,11 @@ class MakePredictions:
                 cluster_data = X[X['cluster'] == i]
                 cluster_data.drop('cluster', axis=1, inplace=True)
                 scaled_data = preprocessor.standardize_data(cluster_data, NUMERIC_COLS_PRED)
-                model = file_op.find_correct_model(i, PREDICTION_MODELS_DIR)
+                # model = file_op.find_correct_model(i, PREDICTION_MODELS_DIR)
+                experiment_id = self._get_experiment_id_by_name(experiment_name=MLFLOW_EXPERIMENT_NAME)
+                model = self._load_model_by_prefix_number(experiment_id=experiment_id, cluster_number=i)
 
-                for val in cluster_data.values:
+                for val in scaled_data.values:
                     val_reshaped = val.reshape(1, -1)
                     result.append(model.predict(val_reshaped))
 
@@ -83,7 +107,7 @@ class MakePredictions:
             # Saving predictions to file
             if not os.path.exists(PREDICTION_OUTPUT_DIR):
                 os.makedirs(PREDICTION_OUTPUT_DIR)
-            merged_df.to_csv(PREDICTION_OUTPUT_FILE)
+            merged_df.to_csv(PREDICTION_OUTPUT_FILE, index=False)
             is_prediction_successful = True
             self.logger.add_log(self.log_file, 'Successful End of Prediction')
 

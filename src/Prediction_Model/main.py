@@ -4,6 +4,7 @@ from io import BytesIO
 from Prediction_Model.data_validation_insertion.train_validate_insert import Train_Validation
 from Prediction_Model.data_validation_insertion.predict_validate_insert import Prediction_Validation
 from Prediction_Model.train_model.train import TrainModel
+from Prediction_Model.utils.utils import empty_dirs
 from Prediction_Model.predict.predict import MakePredictions
 from Prediction_Model.config.config import TRAINING_FILES_DIR, PREDICTION_FILES_DIR, PREDICTION_OUTPUT_FILE
 
@@ -14,7 +15,8 @@ def main():
 
     st.sidebar.title("Navigation")
     selected_tab = st.sidebar.radio("Select Tab", ["Train Model", "Predict Cement Strength", "Create Bulk Predictions"])
-
+    
+    empty_dirs()
     if selected_tab == "Train Model":
         st.header("Train Model")
         st.write("Click below to start model training.")

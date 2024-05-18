@@ -5,10 +5,10 @@ from sklearn.model_selection import GridSearchCV
 from sklearn.linear_model import LinearRegression
 from sklearn.ensemble import GradientBoostingRegressor
 from sklearn.svm import SVR
-from Prediction_Model.config.config import MLFLOW_URI
+from Prediction_Model.config.config import MLFLOW_URI, MLFLOW_EXPERIMENT_NAME
 
 class BestModelFinder:
-    def __init__(self, log_file, logger, X_train, y_train, X_test, y_test):
+    def __init__(self, log_file, logger, X_train, y_train, X_test, y_test, cluster_number):
         """
         Initialize the BestModelFinder object.
 
@@ -26,6 +26,7 @@ class BestModelFinder:
         self.X_test = X_test
         self.y_train = y_train
         self.y_test = y_test
+        self.cluster_number = cluster_number
         mlflow.set_tracking_uri(uri=MLFLOW_URI)
     
     def optimize(self, cluster_number):
@@ -53,16 +54,16 @@ class BestModelFinder:
                 'LinearRegression': (LinearRegression(),
                                     {}),
                 'GradientBoostingRegressor': (GradientBoostingRegressor(),
-                                            {'n_estimators': [50, 100, 150],
-                                                'learning_rate': [0.05, 0.1, 0.2],
-                                                'max_depth': [3, 4, 5]
+                                            {'n_estimators': [50, 100],
+                                                'learning_rate': [0.05, 0.01, 0.001],
+                                                'max_depth': [3, 5, 10]
                                                 })
             }
 
             best_model_name = None
             best_score = float('-inf')
             best_model_instance = None
-            mlflow.set_experiment('Cement-strength-best-models')
+            mlflow.set_experiment(MLFLOW_EXPERIMENT_NAME)
 
             for model_name, (model, param_grid) in models.items():
                 grid_search = GridSearchCV(model, param_grid, cv=5, scoring='neg_mean_squared_error')
@@ -83,7 +84,9 @@ class BestModelFinder:
                 mlflow.log_metrics({'neg_mean_squared_error': best_score})
 
                 # Log the best model
-                mlflow.sklearn.log_model(best_model_instance, best_model_name)
+                custom_model_name = "prediction_model"+"_"+str(self.cluster_number)
+                mlflow.sklearn.log_model(sk_model=best_model_instance, artifact_path=custom_model_name)
+                mlflow.set_tag("model_name", custom_model_name)
 
                 # Evaluate on test data
                 y_pred = best_model_instance.predict(self.X_test)

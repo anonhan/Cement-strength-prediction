@@ -6,7 +6,7 @@ from datetime import datetime
 """General Paths"""
 PACKAGE_ROOT = pathlib.Path(Prediction_Model.__file__).parent
 APP_LOGS_DIR = os.path.join(PACKAGE_ROOT, "Application_Logs")
-DATA_DIR = "DATA"
+DATA_DIR = os.path.join(PACKAGE_ROOT, "DATA")
 # Regex pattern for validating file names
 FILE_NAME_PATTERN = r'^cement_strength_\d{%d}_\d{%d}\.csv$'
 
@@ -14,9 +14,9 @@ FILE_NAME_PATTERN = r'^cement_strength_\d{%d}_\d{%d}\.csv$'
 # Directories for storing validated training data
 TRAINING_VALIDATED = "DATA/Raw_Training_Validated"
 # Directory containing training batch files
-TRAINING_FILES_DIR = os.path.join(PACKAGE_ROOT, DATA_DIR, "Training_Batch_Files")
+TRAINING_FILES_DIR = os.path.join(DATA_DIR, "Training_Batch_Files")
 # Directory for storing training data from the database
-TRAINING_DATA_DIR = os.path.join(PACKAGE_ROOT, DATA_DIR, "Training_File_From_Db")
+TRAINING_DATA_DIR = os.path.join(DATA_DIR, "Training_File_From_Db")
 # Training data file name
 TRAINING_DATA_FILE = "input_file.csv"
 # Logs for training data ingestion
@@ -75,7 +75,10 @@ CLUSTERING_MODEL_NAME = 'Kmeans'
 
 """MLFlow and MySQL Configs"""
 # URI for MLFlow tracking
+now = datetime.now()
+date_time = now.strftime("%Y%m%d_%H%M%S") 
 MLFLOW_URI = os.environ.get('MLFLOW_URI')
+MLFLOW_EXPERIMENT_NAME = f"cement_st_pred_{date_time}"
 # Table name for storing good raw data in the database
 GOOD_RAW_TABLE_TRAIN = "good_training_data"
 GOOD_RAW_TABLE_PREDICTION = "good_prediction_data"
