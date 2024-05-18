@@ -1,7 +1,13 @@
 # Cement Strength Prediction Model
 
 ## Overview
-This repository contains code for a machine learning project aimed at building a cement strength prediction model. The project structure is organized as follows:
+This repository contains code for a machine learning project aimed at building a cement strength prediction model. 
+
+### Problem Statement
+Cement strength is a critical factor in construction and engineering projects. Predicting the strength accurately can lead to better quality control and resource management. This project aims to build a reliable model that can predict cement strength using historical data.
+
+### Project Structure
+The project structure is organized as follows:
 
 - **`Prediction_Model/`**: Main directory for project code.
   - **`clustering/`**: Contains clustering algorithms.
@@ -25,9 +31,11 @@ This repository contains code for a machine learning project aimed at building a
 
 ## Installation 
 
-1. **Install the package:**
+1. **Cloning the package:**
     ```bash
-    pip install git+https://github.com/anonhan/Cement-strength-prediction.git
+    git clone https://github.com/anonhan/Cement-strength-prediction.git
+    cd Cement-strength-prediction
+
     ```
 
 ## Running Locally
@@ -60,17 +68,17 @@ This repository contains code for a machine learning project aimed at building a
 
 1. **Run the application script:**
     ```bash
-    streamlit run app_run.py
+    streamlit run main.py
     ```
 
-    The content of `app_run.py` should be as follows:
+### Training Pipeline Overview
+![alt text](Cement-Strength-Prediction.png)
 
-    ```python
-    from Prediction_Model.main import main
+### Prediction Pipeline Overview
+![alt text](<Cement-Strength-Prediction (2).png>)
 
-    if __name__ =='__main__':
-        main()
-    ```
+
+
 ## License
 
 This project is licensed under the MIT License.
