@@ -78,7 +78,7 @@ The project structure is organized as follows:
 ![alt text](flowcharts/Cement-Strength-Prediction.png)
 
 ### Training Algorithm
-![alt text](flowcharts/Training-Algorithm.png)
+![alt text](flowcharts/Training-Algorithm1.png)
 
 
 ## License
