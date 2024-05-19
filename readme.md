@@ -6,6 +6,14 @@ This repository contains code for a machine learning project aimed at building a
 ### Problem Statement
 Cement strength is a critical factor in construction and engineering projects. Predicting the strength accurately can lead to better quality control and resource management. This project aims to build a reliable model that can predict cement strength using historical data.
 
+### Tech Stack Used
+1. Python
+2. MySQL
+3. MLFlow
+4. Docker
+5. Streamlit
+6. Machine Learning Algorithms
+
 ### Project Structure
 The project structure is organized as follows:
 
@@ -71,10 +79,17 @@ The project structure is organized as follows:
     streamlit run main.py
     ```
 
-### Training Pipeline Overview
+1. **Run the application script:**
+    ```bash
+    docker compose up --build
+    ```
+
+
+## Pipeline Overview
+### Training Pipeline 
 ![alt text](flowcharts/Cement-Strength-Training.png)
 
-### Prediction Pipeline Overview
+### Prediction Pipeline
 ![alt text](flowcharts/Cement-Strength-Prediction.png)
 
 ### Training Algorithm
