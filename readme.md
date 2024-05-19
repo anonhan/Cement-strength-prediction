@@ -79,11 +79,11 @@ The project structure is organized as follows:
     streamlit run main.py
     ```
 
-1. **Run the application script:**
+### Building Docker Images and running the services
+1. **Run the following command**:
     ```bash
     docker compose up --build
     ```
-
 
 ## Pipeline Overview
 ### Training Pipeline 
