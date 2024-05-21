@@ -32,7 +32,7 @@ except FileNotFoundError:
 
 # Load the package's __version__.py module as a dictionary.
 ROOT_DIR = Path(__file__).resolve().parent
-PACKAGE_DIR = ROOT_DIR / NAME
+PACKAGE_DIR = ROOT_DIR / 'src' /NAME
 about = {}
 with open(PACKAGE_DIR / 'VERSION') as f:
     _version = f.read().strip()
@@ -48,7 +48,8 @@ setup(
     author_email=EMAIL,
     python_requires=REQUIRES_PYTHON,
     url=URL,
-    packages=find_packages(exclude=('tests',)),
+    packages=find_packages(where='src'),
+    package_dir={'': 'src'},
     package_data={'Prediction_Model': ['VERSION']},
     install_requires=get_requirements(),
     extras_require={},
@@ -62,4 +63,8 @@ setup(
         'Programming Language :: Python :: Implementation :: CPython',
         'Programming Language :: Python :: Implementation :: PyPy'
     ],
+    entry_points={
+    'console_scripts': [
+        'main=Prediction_Model.main:main',
+    ]}
 )

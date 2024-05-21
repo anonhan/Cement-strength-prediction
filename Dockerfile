@@ -21,7 +21,7 @@ COPY . /app
 RUN chmod +x /app
 
 # Install dependencies
-RUN pip install --no-cache-dir --upgrade -r /app/src/requirements.txt
+RUN pip install --no-cache-dir --upgrade -r /app/requirements.txt
 
 # Set environment variables
 ENV PYTHONPATH "${PYTHONPATH}:/app/src"
@@ -29,7 +29,7 @@ ENV MYSQL_USER=$MYSQL_USER
 ENV MYSQL_PASSWORD=$PASSWORD_MYSQL
 
 # Install the project in editable mode
-RUN pip install -e ./src
+RUN pip install -e .
 
 # Expose the port your Streamlit app runs on
 EXPOSE 8081
